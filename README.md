@@ -160,10 +160,8 @@ git push -u origin <your_branch_name>
 ## Project Admin👨‍:
 
 <p align="center">
-<img width=20% src="https://i.postimg.cc/qBmW9QyM/profile.gif">
-</p>
-
 <a href="https://www.linkedin.com/in/qazi-maaz-arshad/">
+<img width=20% src="https://i.postimg.cc/qBmW9QyM/profile.gif"></p>
 <h5 align="center"><b>Qazi Maaz Arshad</b></a>
 
 ## Open Source Programs we have been associated with: 
@@ -175,7 +173,7 @@ git push -u origin <your_branch_name>
 ## Code of Conduct
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
-<img width=35% src="https://media.giphy.com/media/qHRwTyhWIj4UU/200w_d.gif"></p>
+<img width=35% src="https://i.cdn.talentegg.ca/incubator/wp-content/uploads/2018/07/tenor-1.gif"></p>
 <h5 align="center"><b>Click to read</b></a>
   
 ## License 
