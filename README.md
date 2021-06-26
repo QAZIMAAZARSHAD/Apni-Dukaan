@@ -9,13 +9,13 @@ Going to shopping with your friends always sounds like fun at first. You get to 
 But shopping can be a headache many times due to the crowded bazaars, can't find what are looking for, cash, and heavy shopping bags.
 <p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
-Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) is here for the rescue. Now go online shopping day and night.
+Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here for the rescue. Now go online shopping day and night.
 <p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 40%></p>
 
-Now everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) at very cheap prices than the market. Everything will be at your doorsteps without much wait.
+Now everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) at very cheap prices than the market. Everything will be at your doorsteps without much wait.
 <p align="center"><img src="https://lh3.googleusercontent.com/proxy/7j3cXuHcUpU0-WVCviZLXAsDPEMyOQSw7YjSVaNCKwk79w4PDio93M0t11EFOpRoGxIZ14xAayBYMGEiV5pS9R7j-jxflqsIBx3UYNh1zo3pEiYzZGM-mEg24pA" width = 40%></p>
 
-So! Take a chill pill. Now you are free from all those headaches of traditional shopping and [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) is waiting for you.
+So! Take a chill pill. Now you are free from all those headaches of traditional shopping and [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is waiting for you.
 <p align="center"><img src="https://media1.tenor.com/images/84870528cb9933ad568d5a042a0cd03f/tenor.gif" width = 40%></p>
 
 ## A sneak peek into what we have here🙈 :
@@ -41,16 +41,20 @@ So! Take a chill pill. Now you are free from all those headaches of traditional 
 
 
 ## About
-<div>
-<div>
-<img src="Images\Logo/logo1.png" height = "120" align = "left"/>
-<div>
-ApnaTheatre.com is a place for all movieocohlic's to enjoy. This movie streaming website allows users to watch their favorite movies, tv shows, and web series from multiple genres like crime, comedy, drama, kids etc.</div>
-</div>
-<br>
 
-## Link to the website
-https://qazimaazarshad.github.io/Movie-Streaming-Website/
+<p>
+<div>
+<div>
+<img src="Images\ApniDukaanLogo.jpg" height = "95" align = "left" padding-bottom = "10px"/>
+<div>
+ApniDukaa.com is a place for all the Shopaholics to get everything they need. This website allows all the users to buy items of their choice from a long range of products such as clothes, electronic gadgets, toys, electrip appliances, cosmetics, household products, stationary, books, and many more. 
+</div>
+</div>
+</p>
+
+## Link to the Website
+
+https://qazimaazarshad.github.io/Apni-Dukaan/
 
 ## Tech Stack
 
