@@ -21,24 +21,17 @@ So! Take a chill pill. Now you are free from all those headaches of traditional 
 ## A sneak peek into what we have here🙈 :
 
 
-### Home page full view
-<p align="center"><img src="readme_assets/homep.gif"></p>
+### Home Page 
+<p align="center"><img src="https://i.postimg.cc/RFxN8c1s/Whats-App-Image-2021-06-26-at-3-51-10-PM-1.jpg"></p>
 
-### Contact us page
-<p align="center"><img src="readme_assets/contactus_p.gif"></p>
+### Category Page
+<p align="center"><img src="https://i.postimg.cc/mD3tGt8b/Whats-App-Image-2021-06-26-at-3-51-10-PM-2.jpg"></p>
 
-### Sign up page
-<p align="center"><img src="readme_assets/signup_p.png"></p>
+### Product Page
+<p align="center"><img src="https://i.postimg.cc/C5FdMSQb/Whats-App-Image-2021-06-26-at-3-51-10-PM.jpg"></p>
 
-### Kids page
-<p align="center"><img src="readme_assets/kids_p.png"></p>
-
-### Animated fliping functions
-<p align="center"><img src="readme_assets/flipping_p.gif"></p>
-
-### Animated footer funtions
-<p align="center"><img src="readme_assets/footer_p.gif"></p>
-
+### Sign-up Page
+<p align="center"><img src="https://i.postimg.cc/tJ2JYwKw/Whats-App-Image-2021-06-26-at-3-57-19-PM.jpg"></p>
 
 ## About
 
