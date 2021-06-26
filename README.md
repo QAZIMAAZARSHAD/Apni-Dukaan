@@ -12,11 +12,11 @@ But shopping can be a headache many times due to the crowded bazaars, can't find
 Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) is here for the rescue. Now go online shopping day and night.
 <p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 40%></p>
 
-Now everything you are looking for is just a click away at Apni Dukaan at very cheap prices than the market. Everything will be at your doorsteps without much wait.
+Now everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) at very cheap prices than the market. Everything will be at your doorsteps without much wait.
 <p align="center"><img src="https://lh3.googleusercontent.com/proxy/7j3cXuHcUpU0-WVCviZLXAsDPEMyOQSw7YjSVaNCKwk79w4PDio93M0t11EFOpRoGxIZ14xAayBYMGEiV5pS9R7j-jxflqsIBx3UYNh1zo3pEiYzZGM-mEg24pA" width = 40%></p>
 
-Well! Take a chill pill. Don't be intimidated by those thoughts. __Apna Theatre Website__ is here for the rescue!
-<p align="center"><img src="https://i.pinimg.com/originals/eb/39/9a/eb399a729c812376ca23c06df2d1e380.gif" width = 40%></p>
+So! Take a chill pill. Now you are free from all those headaches of traditional shopping and [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) is waiting for you.
+<p align="center"><img src="https://media1.tenor.com/images/84870528cb9933ad568d5a042a0cd03f/tenor.gif" width = 40%></p>
 
 ## A sneak peek into what we have here🙈 :
 
