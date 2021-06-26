@@ -1,19 +1,19 @@
-# Movie Streaming Website  🎬
+# Apni Dukaan <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/shopping-trolley_1f6d2.png" width="50" height="50" />
 
-Are you a movie maniac, who loves to binge-watch awesome series? If Yes, then you have come to the right place.
-<p align="center"><img src="https://noelalanaleon.files.wordpress.com/2015/06/tyrion-29.gif" width = 40%></p>
+Shopping! Who doesn't love shopping? Everyone wants to get their hands on latest fashion trends and cool new gadgets.
+<p align="center"><img src="https://im.idiva.com/content/2015/Dec/shopping_10.gif" width = 40%></p>
 
-Everyone loves to watch their favorite shows with friends and some snacks. But there is something that you might be missing out on!
-<p align="center"><img src="https://i.pinimg.com/originals/43/c8/7e/43c87e08d3858256c4493e64b2c4c501.gif"></p>
+Going to shopping with your friends always sounds like fun at first. You get to spend some quality time, and bond over new trends. 
+<p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif"></p>
 
-So, what else do you need?🤔.
-<p align="center"><img src="https://media.tenor.com/images/1498a68342ec3e96a8773995f59dfc39/tenor.gif" width = 40%></p>
+But shopping can be a headache many times due to the crowded bazaars, can't find what are looking for, cash, and heavy shopping bags.
+<p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
-Here is the answer: An awesome movie streaming website of yours that has all your favorites at one place! 
-<p align="center"><img src="https://www.system-concepts.com/wp-content/uploads/2020/02/excited-minions-gif.gif" width = 40%></p>
+Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/E-Commerce-Website/) is here for the rescue. Now go online shopping day and night.
+<p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 40%></p>
 
-We already have Netflix, Prime, and Hotstar but they might be expensive sometimes. So what should we do? You must be wondering that making our own movie website might take time, require some web development knowledge, and still you might get something really cool. 
-<p align="center"><img src="https://i.pinimg.com/originals/a1/55/93/a1559307185334cb66fb0ccf5e787bd0.gif" width = 40%></p>
+Now everything you are looking for is just a click away at Apni Dukaan at very cheap prices than the market. Everything will be at your doorsteps without much wait.
+<p align="center"><img src="https://lh3.googleusercontent.com/proxy/7j3cXuHcUpU0-WVCviZLXAsDPEMyOQSw7YjSVaNCKwk79w4PDio93M0t11EFOpRoGxIZ14xAayBYMGEiV5pS9R7j-jxflqsIBx3UYNh1zo3pEiYzZGM-mEg24pA" width = 40%></p>
 
 Well! Take a chill pill. Don't be intimidated by those thoughts. __Apna Theatre Website__ is here for the rescue!
 <p align="center"><img src="https://i.pinimg.com/originals/eb/39/9a/eb399a729c812376ca23c06df2d1e380.gif" width = 40%></p>
