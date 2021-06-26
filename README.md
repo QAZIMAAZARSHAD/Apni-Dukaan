@@ -22,16 +22,28 @@ So! Take a chill pill. Now you are free from all those headaches of traditional 
 
 
 ### Home Page 
-<p align="center"><img src="https://i.postimg.cc/RFxN8c1s/Whats-App-Image-2021-06-26-at-3-51-10-PM-1.jpg"></p>
+
+<p>
+<img width=80% src="https://i.postimg.cc/RFxN8c1s/Whats-App-Image-2021-06-26-at-3-51-10-PM-1.jpg">
+</p>
 
 ### Category Page
-<p align="center"><img src="https://i.postimg.cc/mD3tGt8b/Whats-App-Image-2021-06-26-at-3-51-10-PM-2.jpg"></p>
+
+<p>
+<img width=80% src="https://i.postimg.cc/mD3tGt8b/Whats-App-Image-2021-06-26-at-3-51-10-PM-2.jpg">
+</p>
 
 ### Product Page
-<p align="center"><img src="https://i.postimg.cc/C5FdMSQb/Whats-App-Image-2021-06-26-at-3-51-10-PM.jpg"></p>
+
+<p>
+<img width=80% src="https://i.postimg.cc/C5FdMSQb/Whats-App-Image-2021-06-26-at-3-51-10-PM.jpg">
+</p>
 
 ### Sign-up Page
-<p align="center"><img src="https://i.postimg.cc/tJ2JYwKw/Whats-App-Image-2021-06-26-at-3-57-19-PM.jpg"></p>
+
+<p>
+<img width=80% src="https://i.postimg.cc/tJ2JYwKw/Whats-App-Image-2021-06-26-at-3-57-19-PM.jpg">
+</p>
 
 ## About
 
