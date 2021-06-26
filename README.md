@@ -164,7 +164,7 @@ git push -u origin <your_branch_name>
 ## Open Source Programs we have been associated with: 
   
 <p align="center">
-<a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
+<a href="https://devincept.tech/">
 <img width=30% src="https://media-exp1.licdn.com/dms/image/C4D0BAQHma-25ltrOxg/company-logo_200_200/0/1623091184505?e=2159024400&v=beta&t=OVBmPDeXq-bUZ37D10XSZPnKsDqOLLEoQtydCDhTmB8"></p>
 
 ## Code of Conduct
