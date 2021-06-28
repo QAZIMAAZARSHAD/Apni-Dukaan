@@ -1,19 +1,19 @@
 # Apni Dukaan <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/shopping-trolley_1f6d2.png" width="50" height="50" />
 
 Shopping! Who doesn't love shopping? Everyone wants to get their hands on latest fashion trends and cool new gadgets.
-<p align="center"><img src="https://im.idiva.com/content/2015/Dec/shopping_10.gif" width = 40%></p>
+<p align="center"><img src="https://im.idiva.com/content/2015/Dec/shopping_10.gif" width = 50%></p>
 
 Going to shopping with your friends always sounds like fun at first. You get to spend some quality time, and bond over new trends. 
-<p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif"></p>
+<p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif" width = 40%>></p>
 
 But shopping can be a headache many times due to the crowded bazaars, can't find what are looking for, cash, and heavy shopping bags.
 <p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
 Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here for the rescue. Now go online shopping day and night.
-<p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 40%></p>
+<p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 35%></p>
 
 Now everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) at very cheap prices than the market. Everything will be at your doorsteps without much wait.
-<p align="center"><img src="https://lh3.googleusercontent.com/proxy/7j3cXuHcUpU0-WVCviZLXAsDPEMyOQSw7YjSVaNCKwk79w4PDio93M0t11EFOpRoGxIZ14xAayBYMGEiV5pS9R7j-jxflqsIBx3UYNh1zo3pEiYzZGM-mEg24pA" width = 40%></p>
+<p align="center"><img src="https://media.tenor.com/images/4f49a0b0e1f4dc01b809a9886bdcc372/tenor.gif" width = 40%></p>
 
 So! Take a chill pill. Now you are free from all those headaches of traditional shopping and [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is waiting for you.
 <p align="center"><img src="https://media1.tenor.com/images/84870528cb9933ad568d5a042a0cd03f/tenor.gif" width = 40%></p>
