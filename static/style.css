@@ -448,3 +448,17 @@ text-align: center;
   font-size: 30px;
 }
   }
+
+  /* Custom Contact us css */
+  @media (min-width: 0px) and (max-width:1920px) {
+    .footerMargin {
+      margin-top: 200px;
+    }
+  }
+
+  @media (min-width:1920px) and (max-width:2440px) {
+    .footerMargin {
+      margin-top: 400px;
+    }
+  }
+ 
