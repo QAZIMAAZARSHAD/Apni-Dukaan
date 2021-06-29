@@ -3,14 +3,19 @@ body{
   margin: 0;
   overflow-x: hidden;
 }
+header{
+ 
+}
 .menu{
   width: 100%;
-  background: skyblue;
+  background-color: black;
   overflow: auto;
 }
 .menu ul{
   margin: 0;
   padding: 0;
+  background-color: black;
+
   list-style: none;
   line-height: 60px;
 }
@@ -18,7 +23,7 @@ body{
   float: left;
 }
 .menu ul li a{
-  background:skyblue;
+  background:black;
   text-decoration: none;
   width: 150px;
   display:block;
@@ -102,7 +107,8 @@ marquee{
 .menu2{
   width: 100%;
   background: skyblue;
-  overflow: auto;
+  overflow:auto;
+  position: relative;
 }
 .menu2 ul{
   margin: 0;
@@ -111,10 +117,11 @@ marquee{
   line-height: 60px;
 }
 .menu2 li{
-  float: left;
+  float:right;
+
 }
 .menu2 ul li a{
-  background:rgb(67, 67, 163);
+  background:rgb(114, 114, 121);
   text-decoration: none;
   width: 150px;
   display:block;
@@ -130,8 +137,8 @@ marquee{
 }
 .slider-holder
         {
-            width: 800px;
-            height: 400px;
+            width: 100%;
+            height: 100%;
             margin-left: auto;
             margin-right: auto;
             margin-top: 0px;
