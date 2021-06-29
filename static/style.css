@@ -20,7 +20,7 @@ body{
   float: left;
 }
 .menu ul li a{
-  background:black;
+  background: #000066;
   text-decoration: none;
   width: 150px;
   display:block;
