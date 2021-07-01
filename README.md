@@ -168,7 +168,7 @@ git push -u origin <your_branch_name>
   
 <p align="center">
 <a href="https://devincept.tech/">
-<img width=30% src="https://media-exp1.licdn.com/dms/image/C4D0BAQHma-25ltrOxg/company-logo_200_200/0/1623091184505?e=2159024400&v=beta&t=OVBmPDeXq-bUZ37D10XSZPnKsDqOLLEoQtydCDhTmB8"></p>
+<img width=30% src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif"></p>
 
 ## Code of Conduct
 <p align="center">
