@@ -167,7 +167,7 @@ git push -u origin <your_branch_name>
 ## Open Source Programs we have been associated with: 
   
 <p align="center">
-<a href="https://devincept.tech/">
+<a href="https://devincept.codes/projects.html" target="_black">
 <img width=30% src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif"></p>
 
 ## Code of Conduct
