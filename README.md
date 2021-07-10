@@ -1,6 +1,6 @@
 # Apni Dukaan <img src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/160/microsoft/209/shopping-trolley_1f6d2.png" width="50" height="50" />
 
-Shopping! Who doesn't love shopping? Everyone wants to get their hands on latest fashion trends and cool new gadgets.
+Shopping! Who hate shopping? Everyone wants to get their hands on latest fashion trends and cool new gadgets.
 <p align="center"><img src="https://im.idiva.com/content/2015/Dec/shopping_10.gif" width = 50%></p>
 
 Going to shopping with your friends always sounds like fun at first. You get to spend some quality time, and bond over new trends. 
