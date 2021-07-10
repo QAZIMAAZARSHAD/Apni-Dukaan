@@ -9,10 +9,10 @@ Shopping with your best friends can be a fun experience! You get to spend some q
 But shopping with friends too can be a nightmare! Especially if your friends insist on taking a long walk in crowded bazaars, with stacks of cash, and heavy shopping bags.
 <p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
-Now say goodbye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here to the rescue.
+Now say goodbye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here.
 <p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 35%></p>
 
-Everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/). So stop shopping around to compare prices, and grab a bargain at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) where everything is cheaper than the market, and your purchases will be at your doorsteps without much wait.
+Everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/). Stop wandering around packed malls to compare prices, as you can grab a bargain at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) where everything is cheaper than the market, and your purchases will be at your doorsteps without much wait.
 <p align="center"><img src="https://media.tenor.com/images/4f49a0b0e1f4dc01b809a9886bdcc372/tenor.gif" width = 40%></p>
 
 Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here to save you from headaches of traditional shopping.
@@ -52,7 +52,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 <div>
 <img src="Images\ApniDukaanLogo.jpg" height = "95" align = "left" padding-bottom = "10px"/>
 <div>
-ApniDukaan.com is a site everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more. 
+ApniDukaan.com is a site where everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more. 
 </div>
 </div>
 </p>
