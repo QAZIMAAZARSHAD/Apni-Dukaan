@@ -6,7 +6,7 @@ Shopping! Who doesn't love shopping? Everyone wants to get their hands on latest
 Going to shopping with your friends always sounds like fun at first. You get to spend some quality time, and bond over new trends. 
 <p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif" width = 40%>></p>
 
-But shopping can be a headache many times due to the crowded bazaars, not being able to find what are looking for, cash, and heavy shopping bags.
+But shopping can be a headache many times due to the crowded bazaars, not being able to find what we are looking for, cash, and heavy shopping bags.
 <p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
 Now say goodbye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here to the rescue. Now you can go shopping online day and night.
@@ -157,32 +157,32 @@ git push -u origin <your_branch_name>
 
 <p align="center"><img src="https://media.tenor.com/images/b562ddcfb131e962f9dfa01bd32a30d1/tenor.gif" width=30%></p>
 
-## Project Admin👨‍:
+## Project Admin👨‍
 
 <p align="center">
 <a href="https://www.linkedin.com/in/qazi-maaz-arshad/">
 <img width=20% src="https://i.postimg.cc/qBmW9QyM/profile.gif"></p>
 <h5 align="center"><b>Qazi Maaz Arshad</b></a>
 
-## Open Source Programs we have been associated with: 
+## Open Source Programs we have been associated with
   
 <p align="center">
 <a href="https://devincept.codes/projects.html" target="_black">
 <img width=30% src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif"></p>
 
-## Code of Conduct:
+## Code of Conduct
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
 <img width=35% src="https://i.cdn.talentegg.ca/incubator/wp-content/uploads/2018/07/tenor-1.gif"></p>
 <h5 align="center"><b>Click to read</b></a>
   
-## License: 
+## License
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/LICENSE">
 <img width=35% src="https://media0.giphy.com/media/3ornjXbo3cjqh2BIyY/200.gif"></p>
 <h5 align="center"><b>MIT License</b></a>  
   
-## Contributors:
+## Contributors
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=QAZIMAAZARSHAD/Apni-Dukaan" />
 </a>
