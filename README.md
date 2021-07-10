@@ -6,10 +6,10 @@ Shopping! Who doesn't love shopping? Everyone wants to get their hands on latest
 Going to shopping with your friends always sounds like fun at first. You get to spend some quality time, and bond over new trends. 
 <p align="center"><img src="https://www.upbeatsoles.com/wp-content/uploads/2014/07/1-going-shopping.gif" width = 40%>></p>
 
-But shopping can be a headache many times due to the crowded bazaars, can't find what are looking for, cash, and heavy shopping bags.
+But shopping can be a headache many times due to the crowded bazaars, not being able to find what are looking for, cash, and heavy shopping bags.
 <p align="center"><img src="https://media1.tenor.com/images/c5ddf9fb5699cd1f4d9d7268adb11f99/tenor.gif" width = 40%></p>
 
-Now say good bye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here for the rescue. Now go online shopping day and night.
+Now say goodbye to those tensions because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) is here to the rescue. Now you can go shopping online day and night.
 <p align="center"><img src="https://media.tenor.com/images/9ab245324a95fdb46ba5a06f8e20143e/tenor.gif" width = 35%></p>
 
 Now everything you are looking for is just a click away at [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Dukaan/) at very cheap prices than the market. Everything will be at your doorsteps without much wait.
@@ -52,7 +52,7 @@ So! Take a chill pill. Now you are free from all those headaches of traditional 
 <div>
 <img src="Images\ApniDukaanLogo.jpg" height = "95" align = "left" padding-bottom = "10px"/>
 <div>
-ApniDukaa.com is a place for all the Shopaholics to get everything they need. This website allows all the users to buy items of their choice from a long range of products such as clothes, electronic gadgets, toys, electrip appliances, cosmetics, household products, stationary, books, and many more. 
+ApniDukaan.com is a place for all the Shopaholics to get everything they need. This website allows all the users to buy items of their choice from a long range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationary, books, and many more. 
 </div>
 </div>
 </p>
@@ -170,19 +170,19 @@ git push -u origin <your_branch_name>
 <a href="https://devincept.codes/projects.html" target="_black">
 <img width=30% src="https://raw.githubusercontent.com/smv1999/CompetitiveProgrammingQuestionBank/master/images/devincept.gif"></p>
 
-## Code of Conduct
+## Code of Conduct:
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
 <img width=35% src="https://i.cdn.talentegg.ca/incubator/wp-content/uploads/2018/07/tenor-1.gif"></p>
 <h5 align="center"><b>Click to read</b></a>
   
-## License 
+## License: 
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/LICENSE">
 <img width=35% src="https://media0.giphy.com/media/3ornjXbo3cjqh2BIyY/200.gif"></p>
 <h5 align="center"><b>MIT License</b></a>  
   
-## Contributors
+## Contributors:
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=QAZIMAAZARSHAD/Apni-Dukaan" />
 </a>
