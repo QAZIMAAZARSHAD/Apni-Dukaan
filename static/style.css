@@ -609,3 +609,22 @@ text-align: center;
     margin-left: 20px;
   }
 }
+
+
+/* scroll to the top */
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(0, 17, 20);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0, 0.25);
+  color: rgb(240, 234, 234);
+  outline: none;
+}
+
+#btnScrollToTop:active {
+  background:rgba(51, 51, 59, .2)
+}
