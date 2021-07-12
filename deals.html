@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apni Dukaan</title>
+    <meta charset="utf-8">
+    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="menu">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./deals.html">Deals of the Day</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+        <form class="search-form">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+    </nav>
+    <section class="deals" id="deals">
+        <h2>Deals Of The Day</h2>
+        <div class="inner">
+            <div>
+                <img src="./Images/offer4.jpg">
+                <h3>Get Upto 50% Off</h3>
+                <h3>On Shopping Of Rs5000 And Above</h3>
+                <h3>Get Rs200 Off On Your Next Visit</h3>
+                <h4 id="timer1"></h4>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer3.jpg">
+                <h3>Super Saver Offer</h3>
+                <h3>Mega Discount On All Electric Appliances</h3>
+                <h3>Ranging From 10% to 75%</h3>
+                <h4 id="timer2"></h4>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer5.jpg">
+                <h3>Win A Trip To Disney Land HongKong</h3>
+                <h3>On Shopping of Rs10000 </h3>
+                <h3>Full Family Holiday Package</h3>
+                <h4 id="timer3"></h4>
+                <a href="">View Deal</a>
+            </div>
+        </div>
+    </section>
+    <table align="center">
+        <footer align="center" class="foot">
+            <img src="./Images/ApniDukaanLogo.jpg" class="logo1">
+
+            <div class="inner">
+                <div class="about">
+                    <h3>Get To Know Us</h3>
+                    <ul>
+                        <li> <a href="./about.html">About us</a></li>
+                        <li> <a href="dummy.html">Careers</a></li>
+                        <li> <a href="dummy.html">Press Releases</a></li>
+                        <li> <a href="dummy.html">ApniDukaan Cares</a></li>
+                    </ul>
+                </div>
+                <div class="help">
+                    <h3>Let Us Help You</h3>
+                    <ul>
+                        <li> <a href="dummy.html">Payments</a></li>
+                        <li> <a href="dummy.html">Shipping</a></li>
+                        <li> <a href="dummy.html">Cancellation and Returns</a></li>
+                        <li> <a href="dummy.html">Report an Issue</a></li>
+                    </ul>
+                </div>
+                <div class="policy">
+                    <h3>Policy</h3>
+                    <ul>
+                        <li> <a href="dummy.html">Return Policy</a></li>
+                        <li> <a href="dummy.html">Time Of Use</a></li>
+                        <li> <a href="dummy.html">Carrers</a></li>
+                        <li> <a href="dummy.html">Privacy</a></li>
+                    </ul>
+                </div>
+                <div class="about">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li> <a href=#contact> Contact Us</a></li>
+                        <li> <a href="dummy.html">Facebook</a></li>
+                        <li> <a href="dummy.html">Twitter</a></li>
+                        <li> <a href="dummy.html">Instagram</a></li>
+
+                    </ul>
+                </div>
+                <div class="about">
+                    <h3>Make Money With Us</h3>
+                    <ul>
+                        <li> <a href="dummy.html">Sell On ApniDukaan</a></li>
+                        <li> <a href="dummy.html">Advertise Your Products</a></li>
+                        <li> <a href="dummy.html">Become Our Partner</a></li>
+                        <li> <a href="dummy.html">Join Our Mission</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">Copyright &copy; and &reg; Since 2020
+                Under ApniDukaan.com | Qazi Maaz Arshad</p>
+        </footer>
+    </table>
+
+    <script>
+        var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
+        var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();
+        var countDownDate3 = new Date("August 12, 2021 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the time left between now and the count down date
+            var timeleft1 = countDownDate1 - now;
+            var timeleft2 = countDownDate2 - now;
+            var timeleft3 = countDownDate3 - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days1 = Math.floor(timeleft1 / (1000 * 60 * 60 * 24));
+            var hours1 = Math.floor((timeleft1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes1 = Math.floor((timeleft1 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds1 = Math.floor((timeleft1 % (1000 * 60)) / 1000);
+
+            var days2 = Math.floor(timeleft2 / (1000 * 60 * 60 * 24));
+            var hours2 = Math.floor((timeleft2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes2 = Math.floor((timeleft2 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds2 = Math.floor((timeleft2 % (1000 * 60)) / 1000);
+
+            var days3 = Math.floor(timeleft3 / (1000 * 60 * 60 * 24));
+            var hours3 = Math.floor((timeleft3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes3 = Math.floor((timeleft3 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds3 = Math.floor((timeleft3 % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "
+                + minutes1 + "m " + seconds1 + "s ";
+            document.getElementById("timer2").innerHTML = days2 + "d " + hours2 + "h "
+                + minutes2 + "m " + seconds2 + "s ";
+            document.getElementById("timer3").innerHTML = days3 + "d " + hours3 + "h "
+                + minutes3 + "m " + seconds3 + "s ";
+
+            // If the count down is finished, write some text
+            if (timeleft1 < 0) {
+                clearInterval(x);
+                document.getElementById("timer1").innerHTML = "EXPIRED";
+            }
+            if (timeleft2 < 0) {
+                clearInterval(x);
+                document.getElementById("timer2").innerHTML = "EXPIRED";
+            }
+            if (timeleft3 < 0) {
+                clearInterval(x);
+                document.getElementById("timer3").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+</body>
+
+</html>
