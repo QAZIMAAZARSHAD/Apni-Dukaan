@@ -6,8 +6,12 @@
         <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
         <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
+        <!-- SCROLL TOP BUTTON -->
+        <a class="scrollToTop" href="#"></a>
+        <!-- END SCROLL TOP BUTTON -->
     <nav class="menu">
         <ul>
         <li><a href="./index.html">Home</a></li>
@@ -88,5 +92,18 @@
         Under ApniDukaan.com | Qazi Maaz Arshad</p>
     </footer>
     </table>
-     <script src="./static/script.js"></script>
+    <script src="./static/script.js"></script>
+
+
+    <!-- scroll to top button -->
+    <button id = "btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+  </button>
+  
+  <script>
+      const btnScrollToTop = document.querySelector("#btnScrollToTop");
+       btnScrollToTop.addEventListener("click", function () {
+          window.scrollTo(0,0); }
+      );
+  </script>
 </html>
