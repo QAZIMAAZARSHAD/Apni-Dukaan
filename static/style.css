@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 body {
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #000066;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+body{
   background: skyblue;
   margin: 0;
   overflow-x: hidden;
@@ -107,6 +122,26 @@ marquee {
   float: center;
 }
 .menu2 {
+	transform:scale(1);
+	transition-property:width;
+	transform:translateY(0px);
+	transition-duration:5s,5s;
+	transition:transform 4s,4s;
+}
+.logo1:hover{
+	width:300px;
+	transform:translateY(-30px);
+}
+.deals .inner h2{
+  color:rgb(67, 67, 163);
+}
+.online{
+	color:rgb(67, 67, 163);
+	font-size: 50px;
+	padding: 50px;
+	float:center;
+}
+.menu2{
   width: 100%;
   background: skyblue;
   overflow: auto;
@@ -441,3 +476,151 @@ ul {
     width: 100%;
   }
 }
+
+
+/* FAQ PAGE  */
+
+.container {
+  margin: 0 auto;
+  padding: 64px;
+  width: 768px;
+}
+.container h2 {
+  color: rgb(67, 67, 163);
+  text-decoration: underline;
+  font-size: 28px;
+}
+.accordion a {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 48px 16px 16px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid grey;
+}
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #000066;
+}
+.accordion a:hover::after {
+  transform: scale(1.1);
+}
+.accordion a.active {
+  color: #000066;
+  border-bottom: 1px solid #fff;
+}
+.accordion a::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f063";
+  font-weight: 900;
+  position: absolute;
+  float: right;
+  right: 16px;
+  font-size: 16px;
+  color: grey;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+.accordion a.active::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f062";
+  color: #000066;
+}
+.accordion .content {
+  opacity: 0;
+  padding: 0 16px;
+  max-height: 0;
+  border-bottom: 1px solid #000066;
+  overflow: hidden;
+  clear: both;
+  transition: all 0.2s;
+}
+.accordion .content p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.accordion .content.active {
+  opacity: 1;
+  padding: 16px;
+  max-height: 100%;
+  transition: all 0.3s;
+}
+.contact {
+  text-align: center;
+}
+.contact h3{
+  color: rgb(67, 67, 163);
+}
+.contact a {
+  border: 2px solid #000066;
+  text-decoration: none;
+  padding: 7px;
+  margin-left: 30px;
+  background-color: #000066;
+  color: white;
+  transition: all 0.5s;
+}
+.contact a:hover {
+  background: none;
+  color: #000066;
+}
+
+@media (max-width: 991px) {
+  .container {
+    width: 500px;
+    padding: 32px;
+  }
+}
+@media (max-width: 674px) {
+  .container {
+    width: 350px;
+  }
+}
+@media (max-width: 524px) {
+  .container {
+    width: 250px;
+    margin-left: 60px;
+  }
+}
+@media (max-width: 442px) {
+  .container {
+    width: 200px;
+    margin-left: 40px;
+  }
+}
+@media (max-width: 360px) {
+  .container {
+    width: 180px;
+    margin-left: 20px;
+  }
+}
+
+
+/* scroll to the top */
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(0, 17, 20);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0, 0.25);
+  color: rgb(240, 234, 234);
+  outline: none;
+}
+
+#btnScrollToTop:active {
+  background:rgba(51, 51, 59, .2)
+}
+

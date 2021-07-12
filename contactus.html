@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ApniDukaan.com</title>
+    <title>Apni Dukaan</title>
     <meta charset="utf-8">
         <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
+
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
+
   <body>
+
+   <!-- SCROLL TOP BUTTON -->
+   <a class="scrollToTop" href="#"></a>
+   <!-- END SCROLL TOP BUTTON -->
+
     <nav class="menu">
         <ul>
         <li><a href="./index.html">Home</a></li>
@@ -17,6 +27,7 @@
             <li><a href="./about.html">About Us</a></li>
             <li><a href="./contactus.html">Contact Us</a></li>
             <li><a href="login.html">Login</a></li>
+            <li><a href="faq.html">FAQ</a></li>
         </ul>
         <form class="search-form">
         <input type="text" placeholder="Search">
@@ -31,63 +42,7 @@
         Our Office: Bandariya Bagh,Sufipura ,Bahraich(271801),U.P
     </h3>
 </section>
-</body>
-<table align="center">
-    <!-- <footer align="center" class="foot footerMargin">
-       <img src="./Images/ApniDukaanLogo.jpg" class="logo1">
-      
-      <div class="inner">
-              <div class="about">
-              <h3>Get To Know Us</h3>
-              <ul>
-                <li> <a href=#about>About us</a></li>
-                <li> <a href="dummy.html">Careers</a></li>
-                <li> <a href="dummy.html">Press Releases</a></li>
-                <li> <a href="dummy.html">ApniDukaan Cares</a></li>
-              </ul>
-            </div>
-            <div class="help">
-              <h3>Let Us Help You</h3>
-              <ul>
-                <li> <a href="dummy.html">Payments</a></li>
-                <li> <a href="dummy.html">Shipping</a></li>
-                <li> <a href="dummy.html">Cancellation and Returns</a></li>
-                <li> <a href="dummy.html">Report an Issue</a></li>
-              </ul>
-            </div>
-            <div class="policy">
-              <h3>Policy</h3>
-              <ul>
-                <li> <a href="dummy.html">Return Policy</a></li>
-                <li> <a href="dummy.html">Time Of Use</a></li>
-                <li> <a href="dummy.html">Carrers</a></li>
-                <li> <a href="dummy.html">Privacy</a></li>
-              </ul>
-            </div>
-            <div class="about">
-              <h3>Connect With Us</h3>
-              <ul>
-                <li> <a href=#contact> Contact Us</a></li>
-                <li> <a href="dummy.html">Facebook</a></li>
-                <li> <a href="dummy.html">Twitter</a></li>
-                <li> <a href="dummy.html">Instagram</a></li>
-               
-              </ul>
-            </div>
-            <div class="about">
-              <h3>Make Money With Us</h3>
-              <ul>
-                <li> <a href="dummy.html">Sell On ApniDukaan</a></li>
-                <li> <a href="dummy.html">Advertise Your Products</a></li>
-                <li> <a href="dummy.html">Become Our Partner</a></li>
-                <li> <a href="dummy.html">Join Our Mission</a></li>
-              </ul>
-            </div>
-       </div>
-       <p class="copyright">Copyright &copy; and &reg; Since 2020
-        Under ApniDukaan.com | Qazi Maaz Arshad</p>
-    </footer> -->
-    <!--  FOOTER  -->
+      <!--  FOOTER  -->
     <footer class="footer">
       <div class="container">
         <div class="row">
@@ -145,5 +100,20 @@
     </div>
    </footer>
     </table>
+      <!-- scroll to top button -->
+      <button id = "btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+         btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0,0); }
+        );
+    </script>
+    
+</body>
+
+    
      <script src="./static/script.js"></script>
 </html>

@@ -8,9 +8,19 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <title>Document</title>
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Apni Dukaan</title>
 </head>
+
+
 <body>
+
+   <!-- SCROLL TOP BUTTON -->
+   <a class="scrollToTop" href="#"></a>
+   <!-- END SCROLL TOP BUTTON -->
+
+
   <nav class="menu">
     <ul>
     <li><a href="./index.html">Home</a></li>
@@ -143,6 +153,19 @@
      </footer>
       </table>
      <script src="./static/script.js"></script>
+
+      <!-- scroll to top button -->
+    <button id = "btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+  </button>
+  
+  <script>
+      const btnScrollToTop = document.querySelector("#btnScrollToTop");
+       btnScrollToTop.addEventListener("click", function () {
+          window.scrollTo(0,0); }
+      );
+  </script>
+  
 </body>
 
 </html>
