@@ -108,6 +108,23 @@ marquee{
 .deals .inner h2{
   color:rgb(67, 67, 163);
 }
+#offer .box{
+  border: 2px solid whitesmoke;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: whitesmoke;
+    margin-bottom: 20px;
+}
+#offer, .box a{
+  padding: 1em;
+  margin: 2%;
+  background-color: brown;
+  color: whitesmoke;
+}
+#offer, .box p , h3{
+  color: darkmagenta
+}
 .online{
 	color:rgb(67, 67, 163);
 	font-size: 50px;
@@ -394,7 +411,7 @@ footer .inner .about li,.inner .help li, .inner  .policy li{
 
 footer .inner div li a{
 text-decoration: none;
-color: black;
+color: lightpink;
 }
 footer .inner div h3{
   color:whitesmoke;
