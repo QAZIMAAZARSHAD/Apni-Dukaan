@@ -25,7 +25,7 @@ body{
 .menu ul{
   margin: 0;
   padding: 0;
-  background-color: blue;
+ /* background-color: blue;*/
   list-style: none;
   line-height: 60px;
 }
