@@ -5,8 +5,12 @@
     <meta charset="utf-8">
         <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
+      
   </head>
-  <body>
+  <body onload="myFunction()">
+  <div id ="loading">
+ 
+  </div> 
     <nav class="menu">
       <ul>
         <li><a href="#Home">Home</a></li>
@@ -131,5 +135,11 @@
 </footer>
 </table>
  <script src="./static/script.js"></script>
+  <script>
+  var preloader = document.getElementById('loading');
+  function myFunction(){
+        preloader.style.display = 'none';
+      };
+      </script> 
   </body>
 </html>
