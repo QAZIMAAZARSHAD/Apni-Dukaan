@@ -35,7 +35,7 @@ body{
 .menu ul li a{
   background: #000066;
   text-decoration: none;
-  width: 125px;
+  width: 180px;
   display:block;
   text-align: center;
   color: whitesmoke;
@@ -233,6 +233,7 @@ marquee{
   padding-bottom: 20px;
   border: 3px solid #000066;
   box-shadow: #000066 0px 5px 15px;
+  width: 350px;
 }
 .deals h2 {
   font-size: 50px;
@@ -269,6 +270,18 @@ marquee{
   margin-top: 0;
 }
 #timer3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+#timer4 {
+  font-size: 24px;
+  margin-top: 0;
+}
+#timer5 {
+  font-size: 24px;
+  margin-top: 0;
+}
+#timer6 {
   font-size: 24px;
   margin-top: 0;
 }

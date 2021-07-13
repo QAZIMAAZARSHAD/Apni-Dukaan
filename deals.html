@@ -18,6 +18,7 @@
             <li><a href="./contactus.html">Contact Us</a></li>
             <li><a href="login.html">Login</a></li>
             <li><a href="faq.html">FAQ</a></li>
+            <li><a href="Partner Stores.html">Partner Stores</a></li>
         </ul>
         <form class="search-form">
             <input type="text" placeholder="Search">
@@ -48,6 +49,30 @@
                 <h3>On Shopping of Rs10000 </h3>
                 <h3>Full Family Holiday Package</h3>
                 <h4 id="timer3"></h4>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer1.jpg">
+                <h3>Get Upto 75% Off</h3>
+                <h3>On Shopping Of Select Brand Products.</h3>
+                <h3>Limited Time Offer</h3>
+                <h4 id="timer4"></h4>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer2.jpg">
+                <h3>Get Flat 30% Cashback Upto Rs200 </h3>
+                <h3>On All Purchases Above Rs699</h3>
+                <h3>When You Pay Using Paytm</h3>
+                <h4 id="timer5"></h4>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer6.jpg">
+                <h3>Get Flat 30% Off</h3>
+                <h3>On Shopping of Rs500 </h3>
+                <h3>Offer Valid On All Dairy Products</h3>
+                <h4 id="timer6"></h4>
                 <a href="">View Deal</a>
             </div>
         </div>
@@ -113,6 +138,9 @@
         var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
         var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();
         var countDownDate3 = new Date("August 12, 2021 00:00:00").getTime();
+        var countDownDate4 = new Date("August 2, 2021 00:00:00").getTime();
+        var countDownDate5 = new Date("September 12, 2021 00:00:00").getTime();
+        var countDownDate6 = new Date("October 12, 2021 00:00:00").getTime();
 
         // Update the count down every 1 second
         var x = setInterval(function () {
@@ -124,6 +152,9 @@
             var timeleft1 = countDownDate1 - now;
             var timeleft2 = countDownDate2 - now;
             var timeleft3 = countDownDate3 - now;
+            var timeleft4 = countDownDate4 - now;
+            var timeleft5 = countDownDate5 - now;
+            var timeleft6 = countDownDate6 - now;
 
             // Time calculations for days, hours, minutes and seconds
             var days1 = Math.floor(timeleft1 / (1000 * 60 * 60 * 24));
@@ -141,6 +172,21 @@
             var minutes3 = Math.floor((timeleft3 % (1000 * 60 * 60)) / (1000 * 60));
             var seconds3 = Math.floor((timeleft3 % (1000 * 60)) / 1000);
 
+            var days4 = Math.floor(timeleft4 / (1000 * 60 * 60 * 24));
+            var hours4 = Math.floor((timeleft4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes4 = Math.floor((timeleft4 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds4 = Math.floor((timeleft4 % (1000 * 60)) / 1000);
+            
+            var days5 = Math.floor(timeleft5 / (1000 * 60 * 60 * 24));
+            var hours5 = Math.floor((timeleft5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes5 = Math.floor((timeleft5 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds5 = Math.floor((timeleft5 % (1000 * 60)) / 1000);
+
+            var days6 = Math.floor(timeleft6 / (1000 * 60 * 60 * 24));
+            var hours6 = Math.floor((timeleft6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes6 = Math.floor((timeleft6 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds6 = Math.floor((timeleft6 % (1000 * 60)) / 1000);
+
             // Display the result in the element with id="demo"
             document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "
                 + minutes1 + "m " + seconds1 + "s ";
@@ -148,6 +194,12 @@
                 + minutes2 + "m " + seconds2 + "s ";
             document.getElementById("timer3").innerHTML = days3 + "d " + hours3 + "h "
                 + minutes3 + "m " + seconds3 + "s ";
+            document.getElementById("timer4").innerHTML = days4 + "d " + hours4 + "h "
+                + minutes4 + "m " + seconds4 + "s ";
+            document.getElementById("timer5").innerHTML = days5 + "d " + hours5 + "h "
+                + minutes5 + "m " + seconds5 + "s ";
+            document.getElementById("timer6").innerHTML = days6 + "d " + hours6 + "h "
+                + minutes6 + "m " + seconds6 + "s ";
 
             // If the count down is finished, write some text
             if (timeleft1 < 0) {
@@ -161,6 +213,18 @@
             if (timeleft3 < 0) {
                 clearInterval(x);
                 document.getElementById("timer3").innerHTML = "EXPIRED";
+            }
+            if (timeleft4 < 0) {
+                clearInterval(x);
+                document.getElementById("timer4").innerHTML = "EXPIRED";
+            }
+            if (timeleft5 < 0) {
+                clearInterval(x);
+                document.getElementById("timer5").innerHTML = "EXPIRED";
+            }
+            if (timeleft6 < 0) {
+                clearInterval(x);
+                document.getElementById("timer6").innerHTML = "EXPIRED";
             }
         }, 1000);
     </script>
