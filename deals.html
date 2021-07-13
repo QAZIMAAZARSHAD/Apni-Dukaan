@@ -7,6 +7,7 @@
     <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
     <link rel="stylesheet" type="text/css" href="./static/style.css">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -134,6 +135,10 @@
         </footer>
     </table>
 
+    <button id = "btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
     <script>
         var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
         var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();
@@ -176,7 +181,7 @@
             var hours4 = Math.floor((timeleft4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes4 = Math.floor((timeleft4 % (1000 * 60 * 60)) / (1000 * 60));
             var seconds4 = Math.floor((timeleft4 % (1000 * 60)) / 1000);
-            
+
             var days5 = Math.floor(timeleft5 / (1000 * 60 * 60 * 24));
             var hours5 = Math.floor((timeleft5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
             var minutes5 = Math.floor((timeleft5 % (1000 * 60 * 60)) / (1000 * 60));
@@ -227,6 +232,12 @@
                 document.getElementById("timer6").innerHTML = "EXPIRED";
             }
         }, 1000);
+
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        }
+        );
     </script>
 </body>
 
