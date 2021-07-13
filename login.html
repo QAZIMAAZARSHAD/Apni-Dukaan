@@ -67,10 +67,30 @@ input[type=submit], input[type=reset]
 	transform: translateY(250px);
 	margin-left:50px;
 	}
+.fp{
+	border-radius: 100px;
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	color:red;
+	margin-left: 20%;
+	background-color: black;
+	margin-top: 10px;
+	font-size: large;
+	font-weight: bold;
+}
+.a{
+	color: red;
+	font-family: Arial;
+	position: relative;
+}
+.fp :hover{
+	cursor: hand;
+}	
 form{
 	height: 100px;
 }
-	</style>
+</style>
 </head>
 <body>
 		<div id="signup">SIGN UP</div>
@@ -95,6 +115,9 @@ form{
 onclick="displayMessageSuccessfully()" required>
 <input class="btn" type="reset" value="Reset" 
 onclick="displayMessageReset()" required>
+<div class="fp">
+<a class="a" href="login.html">Forget Password</a>
+</div>
 </div>
 </form>
 </body>
