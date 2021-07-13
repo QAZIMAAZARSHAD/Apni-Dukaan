@@ -286,7 +286,7 @@ marquee{
   margin-top: 0;
 }
 
-
+/* about us page starts */
 .about1 h1{
   text-align: center;
 	color:rgb(67, 67, 163);
@@ -298,7 +298,7 @@ marquee{
   padding: 0;
   box-sizing: border-box;
 }
-.container {
+.container-1 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -327,6 +327,8 @@ marquee{
 .box h2{
   text-shadow: 1px 1px;
 }
+/* about us page ends*/
+
 .contact h1{
   font-size:50px;
 color:rgb(67, 67, 163);
