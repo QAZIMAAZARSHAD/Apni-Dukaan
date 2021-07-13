@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+html{
+    background-image:url("https://source.unsplash.com/weekly?receipt");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:100%;
+}
+body{
+    background-image:url("https://source.unsplash.com/weekly?apple phone");
+    background-size:cover;
+    text-align:center;
+}
+body{
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    
+    border-radius:30px;
+    border: 1px solid rgba( 254, 254, 254, 0.18 );
+    width:55%;
+    position:absolute;
+    margin-top:180px;
+    margin-left:370px;
+    align-items:center;
+}
+.heading{
+    text-align:center;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    color: white;
+    
+}
+.heading h2{
+    color: black;
+}
+text{
+    font-family: sans-serif;
+}
+#btn{
+    text-decoration: none;
+   
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color:#2b1055;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+.mssg{
+    margin-left: 100px;
+    margin-bottom:30px;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 20px;
+    color: white;
+}
+input{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px 100px;
+}
+button{
+    border-radius: 50px;
+}
+.btn{
+    position:relative;
+    left:28%;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+button:hover{
+    background-color:rgb(23, 205, 231);
+}
+#smart-button-container input:hover{
+    background-color: white;
+}
+#smart-button-container p{
+    color: white;
+}
