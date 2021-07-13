@@ -10,10 +10,6 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
         crossorigin="anonymous"
       />
-      <link
-        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        rel="stylesheet"
-      />
         <link rel="stylesheet" href="./static/style.css">
         <script src="https://use.fontawesome.com/7ade57373d.js"></script>
         <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
@@ -23,22 +19,21 @@
         <!-- SCROLL TOP BUTTON -->
         <a class="scrollToTop" href="#"></a>
         <!-- END SCROLL TOP BUTTON -->
-    <nav class="menu">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./deals.html">Offers</a></li>
-          <li><a href="./about.html">About Us</a></li>
-          <li><a href="./contactus.html">Contact Us</a></li>
-          <li><a href="login.html">Login</a></li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li><a href="Partner Stores.html">Partner Stores</a></li>
-        </ul>
-        <form class="search-form">
-        <input type="text" placeholder="Search">
-      
-        <button>Search</button>
-        </form>
-    </nav>
+        <nav class="menu">
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./deals.html">Offers</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./contactus.html">Contact Us</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="Partner Stores.html">Partner Stores</a></li>
+          </ul>
+          <form class="search-form">
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+            </form>
+        </nav>
   <section id="contactus">
       <p id="contact-head">Contact us</p>
       <p id="contact-message">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
@@ -64,13 +59,18 @@
                     <button class="btn btn-md" type="submit">SUBMIT</button>
                   </div>
                 </form>
-                <div id="status"></div>
               </div>
+              
             </div>
+            <div style="margin-top: 20px;" id="status"></div>
           </div>
           <div id="social-section" class="col-md-4">
             <div style="padding:0px 20px;padding-bottom: 15px;border-bottom:3.5px solid grey">
-              <p class="footer-details"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i><span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span></p>
+              <div style="display: flex;justify-content: center;margin-bottom: 10px;">
+                <span class="footer-details"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i></span>
+                <span class="footer-details"><span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span></span>
+              </div>
+              
               <p class="footer-details"><i class="fa fa-envelope mr-5" aria-hidden="true"></i><span>info@apnidukaan.com</span></p>
               <p class="footer-details"><i class="fa fa-phone mr-5" aria-hidden="true"></i><span>892-207-5023</span></p>
               <p class="footer-details"><i class="fa fa-fax mr-5" aria-hidden="true"></i><span>963-642-8478</span></p>
@@ -143,11 +143,10 @@
               </ul>
             </div>
        </div>
-       <p class="copyright">Copyright &copy; and &reg; Since 2020
+       <p style="padding-bottom: 10px;" class="copyright">Copyright &copy; and &reg; Since 2020
         Under ApniDukaan.com | Qazi Maaz Arshad</p>
     </footer>
     </table>
-    <script src="./static/script.js"></script>
 
 
     <!-- scroll to top button -->
@@ -180,4 +179,3 @@
     ></script>
 </body>
 </html>
-              
