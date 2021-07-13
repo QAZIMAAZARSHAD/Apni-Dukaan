@@ -311,7 +311,7 @@ marquee{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.container .box {
+.container-1 .box {
   position: relative;
   width: 350px;
   height: 450px;
