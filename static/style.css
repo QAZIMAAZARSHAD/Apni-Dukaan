@@ -35,7 +35,7 @@ body{
 .menu ul{
   margin: 0;
   padding: 0;
-  background-color: blue;
+ /* background-color: blue;*/
   list-style: none;
   line-height: 60px;
 }
@@ -292,22 +292,49 @@ button{
   margin-top: 0;
 }
 
-
+/* about us page starts */
 .about1 h1{
-  margin-left: 30px;
+  text-align: center;
 	color:rgb(67, 67, 163);
-	min-height:20px;
+	min-height:30px;
 	width:100%;
-  font-size: 50px;
+  font-size: 40px;
 }
-.about2{
-  width: auto;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  margin-right: 20px;
-  padding: auto;
-	font-size: 25px;
+* {
+  padding: 0;
+  box-sizing: border-box;
 }
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+}
+.container1 {
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.container-1 .box {
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: #5c5cd6;
+  padding: 20px 20px;
+  box-shadow: 0 15px 45px rgba(0,0,0,.2);
+  border-radius: 5px;
+}
+.box p{
+  font-size: 21px;
+  color: #0f0f0f;
+}
+.box h2{
+  text-shadow: 1px 1px;
+}
+/* about us page ends*/
+
 .contact h1{
   font-size:50px;
 color:rgb(67, 67, 163);
