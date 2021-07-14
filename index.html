@@ -1,135 +1,51 @@
-﻿<!DOCTYPE html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apni Dukaan</title>
-    <meta charset="utf-8">
-        <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
-        <link rel="stylesheet" type="text/css" href="./static/style.css">
-        <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
-  </head>
-  <body>
+    <link rel="stylesheet" href="index.css">
+    
+
+</head> 
+<body>
     <nav class="menu">
-      <ul>
-        <li><a href="#Home">Home</a></li>
-         <li><a href="#deals">Offers</a></li>
+    <ul>
+       
+        <li><a href="home.html">Home</a></li>
           <li><a href="./about.html">About Us</a></li>
            <li><a href="./contactus.html">Contact Us</a></li>
-            <li><a href="login.html">Login</a></li>
+           
+            <li><a href="signup.html">SignUp</a></li>
             <li><a href="faq.html">FAQ</a></li>
       </ul>
-      <form class="search-form">
-        <input type="text" placeholder="Search">
-        <button>Search</button>
-    </nav>
-    <marquee>Welcome To <i>ApniDukaan</i>.com<sup>&reg;</sup></marquee>
-    <img src="./Images/ApniDukaanLogo.jpg" class="logo">
-    <label class="online">Find Your Best Deal</label>
-    <nav class="menu2">
-     <ul>
-	         <li><a href="mobile.html">Mobile</a> </li>
-          <li><a href="dummy.html">TV and Appliances</a></li>
-          <li><a href="dummy.html">Clothes</a></li>
-          <li><a href="dummy.html">Baby and Kids</a></li>
-          <li><a href="dummy.html">Furniture</a></li>
-      </ul>
-    </nav>
-    <div class="slider-holder">
-        <span id="slider-image-offer1"></span>
-        <span id="slider-image-offer2"></span>
-        <span id="slider-image-offer3"></span>
-<!--         <span id="slider-image-offer4"></span>
-        <span id="slider-image-offer5"></span> -->
-        <div class="image-holder">
-            <img src="./Images/offer1.jpg" class="slider-image" />
-            <img src="./Images/offer2.jpg" class="slider-image" />
-            <img src="./Images/offer3.jpg" class="slider-image" />
-<!--             <img src="./Images/offer4.jpg" class="slider-image" />
-            <img src="./Images/offer5.jpg" class="slider-image" /> -->
-        </div>
-      
-    </div>
-     <section class="deals1" id="deals">
-           <div class="inner">
-        <h2>Deals Of The Day</h2>
-        <div>
-             <img src="./Images/offer4.jpg">
-            <h3><p>Get Upto 50% Off</p>On Shopping Of Rs5000 And Above</h3>
-        <h3>Win a Lucky Draw Voucher</h3>
-        <h3>Get Rs200 Off On Your Next Visit</h3>
-        <h3>Hurry</h3>
-        </div>
-            <div>
-                 <img src="./Images/offer3.jpg">
-            <h3><p>Super Saver Offer</p>Superr Se Bhi Upar</h3>
-            <h3>Get Mega Discount On All Electric Appliances</h3>
-            <h3>Ranging From 10% to 75%</h3>
-            <h3> Hurry!! Offer Valid Till This Friday</h3>
+      </nav>
+      <img src="./Images/ApniDukaanLogo.jpg" class="logo">
+    <div class="center">
+        <h1>Login</h1>
+        <form method="POST" action="home.html">
+            <div class="text_field">
+                <input id="username" type="text"  required>
+                
+                <label for="username">Email</label>
             </div>
-            <div>
-                 <img src="./Images/offer5.jpg">
-            <h3><p>This Offer Is Specially For You</p>Get A Chance To Win A Trip To Disney Land HongKong</h3>
-            <h3>Full Family Holiday Package</h3>
-            <h3>For More Details Click Here!!!</h3>
+            <div class="text_field">
+                <input id="password" type="password"  required>
+               <span></span>
+                <label for="password">Password</label>
+                
             </div>
-               </div>
-        </section>
-        <table align="center">
-          <footer align="center" class="foot">
-             <img src="./Images/ApniDukaanLogo.jpg" class="logo1">
-            
-            <div class="inner">
-                    <div class="about">
-                    <h3>Get To Know Us</h3>
-                    <ul>
-                      <li> <a href="./about.html">About us</a></li>
-                      <li> <a href="dummy.html">Careers</a></li>
-                      <li> <a href="dummy.html">Press Releases</a></li>
-                      <li> <a href="dummy.html">ApniDukaan Cares</a></li>
-                    </ul>
-                  </div>
-                  <div class="help">
-                    <h3>Let Us Help You</h3>
-                    <ul>
-                      <li> <a href="dummy.html">Payments</a></li>
-                      <li> <a href="dummy.html">Shipping</a></li>
-                      <li> <a href="dummy.html">Cancellation and Returns</a></li>
-                      <li> <a href="dummy.html">Report an Issue</a></li>
-                    </ul>
-                  </div>
-                  <div class="policy">
-                    <h3>Policy</h3>
-                    <ul>
-                      <li> <a href="dummy.html">Return Policy</a></li>
-                      <li> <a href="dummy.html">Time Of Use</a></li>
-                      <li> <a href="dummy.html">Carrers</a></li>
-                      <li> <a href="dummy.html">Privacy</a></li>
-                    </ul>
-                  </div>
-                  <div class="about">
-                    <h3>Connect With Us</h3>
-                    <ul>
-                      <li> <a href=#contact> Contact Us</a></li>
-                      <li> <a href="dummy.html">Facebook</a></li>
-                      <li> <a href="dummy.html">Twitter</a></li>
-                      <li> <a href="dummy.html">Instagram</a></li>
-                     
-                    </ul>
-                  </div>
-                  <div class="about">
-                    <h3>Make Money With Us</h3>
-                    <ul>
-                      <li> <a href="dummy.html">Sell On ApniDukaan</a></li>
-                      <li> <a href="dummy.html">Advertise Your Products</a></li>
-                      <li> <a href="dummy.html">Become Our Partner</a></li>
-                      <li> <a href="dummy.html">Join Our Mission</a></li>
-                    </ul>
-                  </div>
-             </div>
-             <p class="copyright">Copyright &copy; and &reg; Since 2020
-              Under ApniDukaan.com | Qazi Maaz Arshad</p>
-          </footer>
-          </table>
+            <div class="forgot"> Forgot Password? </div>
+            <input id="Login" type= "submit" value="Login" onclick= "validate()">
+           <span></span>
+            <div class="sign">
+                Not a member? <a href="signup.html">Signup</a>
+            </div>
+
+        </form>
         
- <script src="./static/script.js"></script>
-  </body>
+    </div>
+    
+</body>
 </html>
