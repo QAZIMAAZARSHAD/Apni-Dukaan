@@ -407,15 +407,16 @@ p{
   padding: 20px 50px 20px 50px;
 }
 #products{
-  padding: 10px 40px 30px 40px;
-  margin: 0 30px 0 30px;
+  padding: 20px 40px 30px 40px;
+  /* margin: 0 40px 0 40px; */
+  
   
 }
 
 .image{
   padding: 30px 30px 50px 30px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 13px;
+  margin-right: 13px;
   position: relative;
   display: inline-block;
   box-shadow: 1rem 1rem 1rem -0.9rem rgb(81, 3, 145);
