@@ -332,3 +332,22 @@
           window.scrollTo(0,0); }
       );
   </script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+  <script>
+    $('.select-ui').change(function(){
+      var value=parseInt($(this).parent('div').parent('div').parent('div').children('.col-md-2').children('h5').children('span').text());
+      var total= parseInt($(this).val()) * value;
+      console.log($(this).parent('div').parent('div').parent('div').children('.col-md-2').children('h5').children('span').text());
+      $(this).parent('div').parent('div').parent('div').children('.col-md-2').children('h5').children('span').text(total.toString());
+      var totalvalue=0;
+      $('.select-ui').each(function(){
+        totalvalue+=parseInt($(this).parent('div').parent('div').parent('div').children('.col-md-2').children('h5').children('span').text());
+      });
+      $('#total').text(totalvalue.toString());
+      totalvalue+=100;
+      $('#totaltopay').text(totalvalue.toString());
+    });
+  </script>
+  </body>
+</html>
