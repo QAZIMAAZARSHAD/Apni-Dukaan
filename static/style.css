@@ -420,9 +420,35 @@ footer .inner div{
 footer  {
   padding-top: 1px;
   background-color:rgb(67, 67, 163);
-  text-align: center;
+  text-align: left;
   width: 100%;
+  display:block;
+  float: left;
+  font-size: 20px;
 }
+
+footer a:hover .fa-instagram-square{
+  color: #8a3ab9;
+}
+
+footer a:hover .fa-twitter-square{
+  color: #00acee;
+}
+
+footer a:hover .fa-facebook-square{
+  color: 	#4267B2;
+}
+
+footer a:hover{
+  font-weight: bold;
+}
+footer h5::before{
+  content:'';
+  background-color: #e91e63;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
 footer .foot .copyright{
   line-height: 40px;
   text-align: center;
@@ -430,7 +456,6 @@ footer .foot .copyright{
 }
 
 footer .inner .about li,.inner .help li, .inner  .policy li{
-
   list-style-type: none;
   padding-top: 5px;
 }
@@ -483,15 +508,7 @@ footer .inner  .about h3, .help h3,  h3{
   color:red;
   text-transform: uppercase;
 }
-footer {
-    background-color: rgb(67, 67, 163);
-    height: 550px;
-    text-align: left;
-    width: 220%;
-    display:block;
-    float: left;
-    font-size: 22px;
-}
+
 footer .inner {
   display:table-cell;
   float: left;
