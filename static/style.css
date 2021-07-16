@@ -313,22 +313,192 @@ marquee{
   margin-top: 0;
 }
 
+/*About Us Page*/
 
-.about1 h1{
-  margin-left: 30px;
-	color:rgb(67, 67, 163);
-	min-height:20px;
-	width:100%;
-  font-size: 50px;
+.header{
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
-.about2{
+.fadeIn {
+  animation: fadeIn 3s;
+  opacity: 1;
+}
+
+.fadeInLeft {
+  animation: fadeIn 5s;
+  opacity: 1;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+   opacity: 1;
+  }
+}
+
+.hide{
+  opacity: 0;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background:  rgb(67, 67, 163,0.5) ;
+  width: 0%;
+}
+
+.aboutUsContentContainer{
+  width: 80%;
+  margin: auto;
+}
+.aboutUsBanner img{
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+}
+.aboutDesc{
   width: auto;
+  text-align: center;
   margin-left: 30px;
   margin-bottom: 30px;
   margin-right: 20px;
   padding: auto;
-	font-size: 25px;
+  color: rgb(128, 128, 128);
+	font-size: 20px;
 }
+
+.DescContainerLeft:hover, .DescContainerRight:hover {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px 0 rgb(67, 67, 163);
+}
+
+.DescBoxLeft{
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-right: 5px solid rgb(67, 67, 163);
+  padding-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(86, 101, 115);
+}
+.DescBoxRight{
+  width: 200px;
+  height: 200px;
+  float: right;
+  border-left: 5px solid rgb(67, 67, 163);
+  padding-top: 60px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(86, 101, 115);
+}
+
+.flip-card-Container{
+  margin: auto;
+  max-width: 100%;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 280px;
+  height: 280px;
+  perspective: 1000px;
+  margin: 20px 20px 50px 20px;
+  float: left;
+}
+
+.flip-card img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  height: 100px;
+  width: 50%;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front{
+  border: 5px solid rgb(67, 67, 163); 
+}
+
+.flip-card-front p{
+  text-align: center; 
+  margin-top:20px;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
+.flip-card-back {
+  margin: auto;
+  padding: auto;
+  width: fit-content;
+  background-color: rgb(67, 67, 163, 0.2);
+  color: rgb(86, 101, 115);
+  transform: rotateY(180deg);
+  font-size: 18px;
+}
+
+/* scroll to the top */
+#btnScrollToTop {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: rgb(67, 67, 163,0.5);
+  box-shadow: 0 0 10px rgb(0, 0, 0, 0, 0.25);
+  color: rgb(240, 234, 234);
+  outline: none;
+}
+
+#btnScrollToTop:active {
+  background:rgba(51, 51, 59, .2)
+}
+
+#btnScrollToTop:hover{
+  background-color: #000066;
+}
+
+
 .contact h1{
   font-size:50px;
 color:rgb(67, 67, 163);
@@ -778,20 +948,4 @@ outline: none!important;
 }
 
 
-/* scroll to the top */
-#btnScrollToTop {
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: rgb(0, 17, 20);
-  box-shadow: 0 0 10px rgb(0, 0, 0, 0, 0.25);
-  color: rgb(240, 234, 234);
-  outline: none;
-}
 
-#btnScrollToTop:active {
-  background:rgba(51, 51, 59, .2)
-}
