@@ -47,18 +47,20 @@
                 <form action="https://formspree.io/f/mgerlvrl" method="POST" id="my-form">
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom01">Your Name :</label>
-                    <input type="text" class="form-control contact-inputs-tags" id="validationCustom01" placeholder="Enter your name" name="name">
+                    <input type="text" class="form-control contact-inputs-tags" required id="validationCustom01" placeholder="Enter your name" name="name" onchange="validateFormInput()">
+                    <p class="invalid-feedback">Invalid name entered. Digits and symbols are not allowed.</p>
                   </div>
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom02">Your Email :</label>
-                    <input type="email" class="form-control contact-input-tags" id="validationCustom02" placeholder="Enter your email address" name="email">
+                    <input type="email" class="form-control contact-input-tags" required id="validationCustom02" placeholder="Enter your email address" name="email" onchange="validateFormInput()">
+                    <p class="invalid-feedback">Invalid email entered.</p>
                   </div>
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom03">Message :</label>
-                    <textarea type="text" class="form-control contact-input-tags" id="validationCustom03" placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
+                    <textarea type="text" class="form-control contact-input-tags" required id="validationCustom03" placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
                   </div>
                   <div>
-                    <button class="btn btn-md" type="submit">SUBMIT</button>
+                    <button id="submit-btn" class="btn btn-md btn-outline-primary" type="submit">SUBMIT</button>
                   </div>
                 </form>
               </div>
@@ -72,18 +74,18 @@
                 <span class="footer-details"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i></span>
                 <span class="footer-details"><span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span></span>
               </div>
-              
-              <p class="footer-details"><i class="fa fa-envelope mr-5" aria-hidden="true"></i><span>info@apnidukaan.com</span></p>
+              <a href="mailto:info@apnidukaan.com" style="text-decoration: none;">
+                <p class="footer-details"><i class="fa fa-envelope mr-5" aria-hidden="true"></i><span>info@apnidukaan.com</span></p>
+              </a>
               <p class="footer-details"><i class="fa fa-phone mr-5" aria-hidden="true"></i><span>892-207-5023</span></p>
               <p class="footer-details"><i class="fa fa-fax mr-5" aria-hidden="true"></i><span>963-642-8478</span></p>
             </div>
             <div id="social-media-icons">
-              <i class="fa fa-facebook-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-linkedin-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-twitter social-media" aria-hidden="true"></i>
-              <i class="fa fa-github social-media" aria-hidden="true"></i>
-              <i class="fa fa-instagram social-media" aria-hidden="true"></i>
+              <a href="https://www.facebook.com"><i class="fa fa-facebook-square social-media" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square social-media" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter social-media" aria-hidden="true"></i></a>
+              <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan"><i class="fa fa-github social-media" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com"><i class="fa fa-instagram social-media" aria-hidden="true"></i></a>
             </div>
             
           </div>
