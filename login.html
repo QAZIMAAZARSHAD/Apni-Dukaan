@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<title>Sign Up</title>
-<script>
+	<title>Apni Dukaan</title>
+	<link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+	<script>
 		function displayMessageReset()
 		{
 			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
@@ -16,6 +17,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
+}
+div{
+	margin-bottom: 8px;
 }
 	.details{
 		text-align: center;
@@ -49,7 +53,8 @@ button[type=submit], button[type=reset]
 	color:red;
 	background-color: black;
 	margin-left: 10px;
-
+	font-size: 18px;
+	font-weight: bold;
 }
 #signup{
 	color: red;
@@ -62,10 +67,32 @@ button[type=submit], button[type=reset]
 	transform: translateY(250px);
 	margin-left:50px;
 	}
+.fp{
+	border-radius: 100px;
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	color:red;
+	margin-left: 20%;
+	background-color: black;
+	margin-top: 10px;
+	font-size: medium;
+}
+.a{
+	text-align: center;
+	line-height: 20px;
+	color:red;
+	top: 5px;
+	position: relative;
+	text-decoration: none;
+}
+.fp :hover{
+	cursor: hand;
+}	
 form{
 	height: 100px;
 }
-	</style>
+</style>
 </head>
 <body>
 		<div id="signup">SIGN UP</div>
@@ -74,22 +101,24 @@ form{
     <div>
     <input type="text" name="Fname" required placeholder="First Name" required>
     </div>
-	<div>
+	  <div>
     <input type="text" name="Mname" required placeholder="Middle Name" required>
-	</div>
-	<div>
+	  </div>
+	  <div>
 		<input type="text" name="Lname" required placeholder="Last Name" required>
-	</div>
-	<div>
-	<input type="email" name="email" required placeholder="Email" required>
-	</div>
-    <div>
-    <input type="password" name="password" required placeholder="Password" required>
-    </div>
-    <button  type="submit">Sign Up</button>
-    <button type="reset" value="Reset" 
-    onclick="displayMessageReset()" required>Reset</button>
-    </div>
+	  </div>
+	  <div>
+	  <input type="email" name="email" required placeholder="Email" required>
+	  </div>
+	  <div>
+	  <input type="password" name="password" required placeholder="Password" required>
+	  </div>
+     <button  type="submit">Sign Up</button>
+    <button type="reset" value="Reset" onclick="displayMessageReset()" required>Reset</button>
+<div class="fp">
+<a class="a" href="login.html">Forget Password</a>
+</div>
+</div>
 </form>
 </body>
 </html>
