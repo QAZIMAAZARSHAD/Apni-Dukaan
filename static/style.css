@@ -757,3 +757,16 @@ outline: none!important;
 #btnScrollToTop:active {
   background:rgba(51, 51, 59, .2)
 }
+/* TV-appliances */
+.tv-image {
+height: 100%;
+width:100%;
+object-fit: contain;
+}
+.bt {
+  text-align: center;
+  margin-top: 0%;
+}
+.tv-ap {
+  background-color: #b93ea154;
+}
