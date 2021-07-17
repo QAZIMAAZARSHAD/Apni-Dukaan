@@ -245,13 +245,13 @@ marquee{
 
 .carousel{
   width:100%;
-  height:600px;
+  height:500px;
   /* left: 400px; */
 
 }
 
  .carousel-item img{
-  height: 600px;
+  height: 500px;
   width: 300px;
    
  }
@@ -268,8 +268,8 @@ p{
 
 .image{
   padding: 30px 30px 50px 30px;
-  margin-left: 13px;
-  margin-right: 13px;
+  margin-left: 20px;
+  margin-right: 20px;
   position: relative;
   display: inline-block;
   box-shadow: 1rem 1rem 1rem -0.9rem rgb(81, 3, 145);
