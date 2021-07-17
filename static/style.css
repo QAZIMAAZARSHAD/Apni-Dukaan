@@ -770,3 +770,36 @@ object-fit: contain;
 .tv-ap {
   background-color: #b93ea154;
 }
+.menu3{
+  height: 30px;
+  width: 102%;
+  overflow:auto;
+  position: relative;
+  margin-top: 1%;
+}
+.menu3 ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 60px;
+}
+.menu3 li{
+  float:right;
+  line-height: 13px;
+
+}
+.menu3 ul li a{
+  background: #31316b;
+  text-decoration: none;
+  width: 150px;
+  display:block;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.menu3 li a:hover{
+  color:rgb(138, 21, 21);
+  opacity:0.5;
+  font-size: 20px;
+}
