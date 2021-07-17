@@ -8,13 +8,8 @@
 		{
 			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
 		}
-		function displayMessageSuccessfully()
-		{	
-			var x;
-			x=confirm("Do You Want To Sumbit Your Data, Please Fill All Fields");
-			if(x==1)
-{document.write("<b>Thankyou! You Have Successfully Signed Up<b>");}
-}</script>
+		
+</script>
 
 <style>
 	body{
@@ -22,6 +17,9 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
+}
+div{
+	margin-bottom: 8px;
 }
 	.details{
 		text-align: center;
@@ -33,7 +31,7 @@
 		font-size: 25px;
 		font-family: cursive;
 		}
-input[type=text],input[type=radio],input[type=number],input[type=password]{
+input[type=text],input[type=radio],input[type=number],input[type=password],input[type=email]{
 	border-radius: 100px;
 	color: red;
 	width: 250px;
@@ -45,7 +43,7 @@ input[type=text],input[type=radio],input[type=number],input[type=password]{
 	color: black;
 	text-transform: uppercase;
 }
-input[type=submit], input[type=reset]
+button[type=submit], button[type=reset]
 {
 	border-radius: 100px;
 	text-align: center;
@@ -55,6 +53,8 @@ input[type=submit], input[type=reset]
 	color:red;
 	background-color: black;
 	margin-left: 10px;
+	font-size: 18px;
+	font-weight: bold;
 }
 #signup{
 	color: red;
@@ -67,34 +67,57 @@ input[type=submit], input[type=reset]
 	transform: translateY(250px);
 	margin-left:50px;
 	}
+.fp{
+	border-radius: 100px;
+	text-align: center;
+	width: 180px;
+	height: 35px;
+	color:red;
+	margin-left: 20%;
+	background-color: black;
+	margin-top: 10px;
+	font-size: medium;
+}
+.a{
+	text-align: center;
+	line-height: 20px;
+	color:red;
+	top: 5px;
+	position: relative;
+	text-decoration: none;
+}
+.fp :hover{
+	cursor: hand;
+}	
 form{
 	height: 100px;
 }
-	</style>
+</style>
 </head>
 <body>
 		<div id="signup">SIGN UP</div>
-<form >
+<form action="index.html">
 	<div class="details">
-<div>
-<input type="text" name="Fname" required placeholder="First Name">
+    <div>
+    <input type="text" name="Fname" required placeholder="First Name" required>
+    </div>
+	  <div>
+    <input type="text" name="Mname" required placeholder="Middle Name" required>
+	  </div>
+	  <div>
+		<input type="text" name="Lname" required placeholder="Last Name" required>
+	  </div>
+	  <div>
+	  <input type="email" name="email" required placeholder="Email" required>
+	  </div>
+	  <div>
+	  <input type="password" name="password" required placeholder="Password" required>
+	  </div>
+     <button  type="submit">Sign Up</button>
+    <button type="reset" value="Reset" onclick="displayMessageReset()" required>Reset</button>
+<div class="fp">
+<a class="a" href="login.html">Forget Password</a>
 </div>
-	<div>
-<input type="text" name="Mename" required placeholder="Middle Name">
-	</div>
-	<div>
-		<input type="text" name="Lname" required placeholder="Last Name">
-	</div>
-	<div>
-	<input type="text" name="number" required placeholder="Email">
-	</div>
-<div>
-<input type="password" name="password" required placeholder="Password">
-</div>
-<input class="btn" type="submit" value="Sign Up" 
-onclick="displayMessageSuccessfully()" required>
-<input class="btn" type="reset" value="Reset" 
-onclick="displayMessageReset()" required>
 </div>
 </form>
 </body>
