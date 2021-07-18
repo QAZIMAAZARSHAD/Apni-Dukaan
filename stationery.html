@@ -2,251 +2,400 @@
 <html>
 
 <head>
-    <title>Apni Dukaan | Books</title>
-    <meta charset="utf-8">
-    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
-    <link rel="stylesheet" type="text/css" href="./static/style.css">
-    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <title>Apni Dukaan | Stationery</title>
+  <meta charset="utf-8">
+  <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
 
-    <style>
-        .btn {
-            background-color: #000066;
-        }
-        
-        body {
-            background-color: #87CEEB;
-        }
-    </style>
+  <link rel="stylesheet" type="text/css" href="./static/style.css">
+  <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <style>
+    .card {
+      margin: 5px;
+    }
+
+    .menu2 {
+      background: none;
+    }
+
+    .menu2 ul li a {
+      background: #2980b9;
+    }
+
+    .menu2 li a:hover {
+      color: #000000;
+    }
+
+    .card-body .btn {
+      width: 70%;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    h3{
+      padding-left: 0px;
+    }
+  </style>
 </head>
 
 <body>
 
-    <!-- SCROLL TOP BUTTON -->
-    <a class="scrollToTop" href="#"></a>
-    <!-- END SCROLL TOP BUTTON -->
-    <nav class="menu">
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./deals.html">Offers</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./contactus.html">Contact Us</a></li>
-            <li><a href="login.html">Login</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="Partner Stores.html">Partner Stores</a></li>
-        </ul>
-        <form class="search-form">
-            <input type="text" placeholder="Search">
-            <button>Search</button>
-    </nav>
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
 
+  <!-- nav bar-->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35"
+            class="d-inline-block align-text-top mr-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="./deals.html">Offers</a>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="./contactus.html">Contact us</a>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="./about.html">About us</a>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Category
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                  <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                  <li><a class="dropdown-item" href="#">Furniture</a></li>
+                  <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                  <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+
+                  <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                </ul>
+              </li>
+              <li class="nav-item text-capitalize">
+                <a class="nav-link" href="cart.html">My Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- end nav bar-->
+
+  <section>
     <marquee>Welcome To <i>ApniDukaan</i>.com<sup>&reg;</sup></marquee>
     <img src="./Images/ApniDukaanLogo.jpg" class="logo">
     <label class="online">Find Your Best Deal</label>
+
+    <br />
     <nav class="menu2">
-        <ul>
-            <li><a href="mobile.html">Mobile</a></li>
-            <li><a href="books.html">Books</a></li>
-            <li><a href="dummy.html">TV and Appliances</a></li>
-            <li><a href="dummy.html">Clothes</a></li>
-            <li><a href="dummy.html">Baby and Kids</a></li>
-            <li><a href="dummy.html">Furniture</a></li>
-            <li><a href="stationery.html">Stationery</a></li>
-        </ul>
+      <ul>
+        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="dummy.html">Book</a></li>
+        <li><a href="dummy.html">TV / Appliances</a></li>
+        <li><a href="dummy.html">Clothes</a></li>
+        <li><a href="dummy.html">Baby and Kids</a></li>
+        <li><a href="dummy.html">Furniture</a></li>
+        <li><a href="stationery.html">Stationery</a></li>
+      </ul>
     </nav>
+  </section>
 
-    <div font="Times New Roman" class="jumbotron" style="background-color: #87CEEB	;">
-        <div class="col d-flex justify-content-center">
-            <div class="card-deck">
-                <div class="card">
-                    <a href="dummy.html">
-                        <img src="./Images/geometry box.png" class="card-img-top">
-                    </a>
-                    <div class="card-body" align="center">
-                        <h3>Classmate Geometry Box</h3>
-                        <p class="card-text d-inline"><b style="font-weight:600;">₹200</b></p>
-                        <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="dummy.html">
-                        <img src="./Images/Cello Butterflow Blue Ball Pen + Refill (Pack of 10).png" class="card-img-top" height="375" width="250">
-                    </a>
-                    <div class="card-body" align="center">
-                        <h3>Cello Butterflow Blue Ball Pen + Refill (Pack of 10)</h3>
-                        <p class="card-text d-inline"><b style="font-weight:600;"> ₹90</b></p>
-                        <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <a href="dummy.html">
-                        <img src="./Images/Camlin Poster Color.png" class="card-img-top" height="375" width="100">
-                    </a>
-                    <div class="card-body" align="center">
-                        <h3>Camlin Poster Color</h3><br>
-                        <p class="card-text d-inline"><b font="Cambria" style="font-weight:600;">₹175</b></p>
-                        <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                    </div>
-                </div>
 
-            </div>
-        </div>
-
-        <div class="jumbotron" style="background-color: #87CEEB	;">
-            <div class="col d-flex justify-content-center">
-                <div class="card-deck">
-                    <div class="card">
-                        <a href="dummy.html">
-                            <img src="./Images/Camlin Whiteboard marker.png" class="card-img-top">
-                        </a>
-                        <div class="card-body" align="center">
-                            <h3>Camlin Whiteboard Marker(Set of 4) </h3><br>
-                            <p class="card-text d-inline"><b style="font-weight:600;">₹90</b></p>
-                            <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <a href="dummy.html">
-                            <img src="./Images/Classmate Notebook (1 book).png" class="card-img-top" width="480" height="420">
-                        </a>
-                        <div class="card-body" align="center">
-                            <h3>Classmate Notebook (200 pages, 1 book) </h3><br>
-                            <p class="card-text d-inline"><b style="font-weight:600;">₹50</b></p>
-                            <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <a href="dummy.html">
-
-                            <img src="./Images/Punching Machine.png" class="card-img-top" height="430" width="250">
-                        </a>
-                        <div class="card-body" align="center">
-                            <h3>Punching Machine</h3><br>
-                            <p class="card-text d-inline"><b font="Cambria" style="font-weight:600;">₹150</b></p>
-                            <a href="#" class="btn btn-primary btn-sm font-weight-bolder">BUY</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <br>
-            <a href="#" class="btn btn-primary btn-sm font-weight-bolder">VIEW All BRANDS</a>
-        </div>
+  <section>
+    <div class="text-center my-5">
+      <h1 class="display-4">
+        Stationery
+      </h1>
+      <hr class="w-25 mx-auto">
     </div>
+  </section>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-
-    <footer class="bg-dark text-white pt-5 pb-4">
-        <div class="container text-md-left">
-          <div class="row text-md-left">
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">About us</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Careers</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
-              </p>
-            </div>
-            <div class="col mt-3"  style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Payments</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
-                </p>
-                <p>
-                  <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
-                <p>
-                  <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-facebook-square"></i>
-                    Facebook
-                  </a>
-                </p>
-                <p>
-                  <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-twitter-square"></i>
-                    Twitter
-                  </a>
-                </p>
-                <p>
-                  <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-instagram-square"></i>
-                    Instagram
-                  </a>
-                </p>
-            </div>
-          </div>
-          <hr class="mb-4">
-          <div class="row align-items-center ">
-            <div class="text-center">
-              Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
-            </div>
+  <div font="Times New Roman" class="jumbotron" style="background-color: #87CEEB;">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/geometry box.png" class="card-img-top">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Classmate Geometry Box</h3>
+            <p class="card-text d-inline"><b style="font-weight:600;">₹200</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
           </div>
         </div>
-      </footer>
-    <script src="./static/script.js"></script>
 
-    <!-- scroll to top button -->
-    <button id="btnScrollToTop">
-<i class="material-icons">arrow_upward</i>
-</button>
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/Cello Butterflow Blue Ball Pen + Refill (Pack of 10).png" class="card-img-top"
+              height="375" width="250">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Cello Butterflow Blue Ball Pen + Refill (Pack of 10)</h3>
+            <p class="card-text d-inline"><b style="font-weight:600;"> ₹90</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
 
-    <script>
-        const btnScrollToTop = document.querySelector("#btnScrollToTop");
-        btnScrollToTop.addEventListener("click", function() {
-            window.scrollTo(0, 0);
-        });
-    </script>
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/Camlin Poster Color.png" class="card-img-top" height="375" width="100">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Camlin Poster Color</h3><br>
+            <p class="card-text d-inline"><b font="Cambria" style="font-weight:600;">₹175</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/Camlin Whiteboard marker.png" class="card-img-top">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Camlin Whiteboard Marker(Set of 4) </h3><br>
+            <p class="card-text d-inline"><b style="font-weight:600;">₹90</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/Classmate Notebook (1 book).png" class="card-img-top" width="480" height="420">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Classmate Notebook (200 pages, 1 book) </h3><br>
+            <p class="card-text d-inline"><b style="font-weight:600;">₹50</b></p>
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/Punching Machine.png" class="card-img-top" height="430" width="250">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Punching Machine</h3><br>
+            <p class="card-text d-inline"><b font="Cambria" style="font-weight:600;">₹150</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row hidden" id="more">
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/scissor.jpeg" class="card-img-top">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Scissor</h3><br>
+            <p class="card-text d-inline"><b style="font-weight:600;">₹110</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/ruler.jpeg" class="card-img-top" width="480" height="420">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Stainless Steel Ruler</h3><br>
+            <p class="card-text d-inline"><b style="font-weight:600;">₹90</b></p>
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+
+        <div class="card col-md">
+          <a href="dummy.html">
+            <img src="./Images/Stationery/stapler.jpeg" class="card-img-top" height="430" width="250">
+          </a>
+          <div class="card-body d-flex flex-column" align="center">
+            <h3>Stapler</h3><br>
+            <p class="card-text d-inline"><b font="Cambria" style="font-weight:600;">₹250</b></p>
+            <br />
+            <a href="#" class="btn btn-primary font-weight-bolder mt-auto mx-auto">BUY</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-md">
+          <br />
+          <a id="btnViewAll" class="btn btn-primary font-weight-bolder" onclick="showMoreFunction()">VIEW All BRANDS</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">About us</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+          </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+          </p>
+          <p>
+            <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+          </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+          </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+          </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+          <p>
+            <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-facebook-square"></i>
+              Facebook
+            </a>
+          </p>
+          <p>
+            <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-twitter-square"></i>
+              Twitter
+            </a>
+          </p>
+          <p>
+            <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-instagram-square"></i>
+              Instagram
+            </a>
+          </p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center ">
+        <div class="text-center">
+          Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- scroll to top button -->
+  <button id="btnScrollToTop">
+    <i class="material-icons">arrow_upward</i>
+  </button>
+
+  <script>
+    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+    btnScrollToTop.addEventListener("click", function () {
+      window.scrollTo(0, 0);
+    });
+
+    function showMoreFunction() {
+      let moreBrand = document.getElementById("more");
+      let viewAllBtn = document.getElementById("btnViewAll");
+      let isToggle = moreBrand.classList.toggle("hidden");
+      
+      if (isToggle) {
+        viewAllBtn.innerHTML = "View All Brands";
+      }
+      else {
+        viewAllBtn.innerHTML = "View Less";
+      }
+    }
+  </script>
 </body>
 
 </html>
