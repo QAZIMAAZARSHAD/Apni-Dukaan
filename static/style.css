@@ -312,6 +312,53 @@ marquee{
   font-size: 24px;
   margin-top: 0;
 }
+/* Landing Page */
+.home_slider .item{
+  position: relative;
+}
+.home_slider .item img{
+  height: 87vh;
+  min-width: 100%;
+  object-fit: cover; 
+} 
+
+.home_slider .item .content{
+  position: absolute;
+  top:50%; left: 5% !important;
+  transform: translateY(-50%);
+}
+.home_slider .item .content h1{
+  color:#fff;
+  text-shadow: 0 .3rem .5rem #000;
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.home_slider .item .content p{
+  color:#fff;
+  font-size: 1.5rem;
+  padding:1rem 0;
+  max-width: 40rem;
+  text-transform: uppercase;
+}
+.home_slider .item .content .LandingPageButton{
+  position: absolute;
+  background:#2980b9;
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.home_slider .item .content button:hover{
+  background: #003859;
+}
+#owl_carousel .owl-dots{
+  position: absolute;
+  left: 50%;
+}
+
 
 /*About Us Page*/
 
