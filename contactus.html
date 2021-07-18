@@ -14,6 +14,8 @@
         <script src="https://use.fontawesome.com/7ade57373d.js"></script>
         <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
   </head>
   <body>
         <!-- SCROLL TOP BUTTON -->
@@ -45,18 +47,20 @@
                 <form action="https://formspree.io/f/mgerlvrl" method="POST" id="my-form">
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom01">Your Name :</label>
-                    <input type="text" class="form-control contact-inputs-tags" id="validationCustom01" placeholder="Enter your name" name="name">
+                    <input type="text" class="form-control contact-inputs-tags" required id="validationCustom01" placeholder="Enter your name" name="name" onchange="validateFormInput()">
+                    <p class="invalid-feedback">Invalid name entered. Digits and symbols are not allowed.</p>
                   </div>
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom02">Your Email :</label>
-                    <input type="email" class="form-control contact-input-tags" id="validationCustom02" placeholder="Enter your email address" name="email">
+                    <input type="email" class="form-control contact-input-tags" required id="validationCustom02" placeholder="Enter your email address" name="email" onchange="validateFormInput()">
+                    <p class="invalid-feedback">Invalid email entered.</p>
                   </div>
                   <div class="input-container">
                     <label class="contact-inputs" for="validationCustom03">Message :</label>
-                    <textarea type="text" class="form-control contact-input-tags" id="validationCustom03" placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
+                    <textarea type="text" class="form-control contact-input-tags" required id="validationCustom03" placeholder="Enter your message here . . ." rows="4" name="message"></textarea>
                   </div>
                   <div>
-                    <button class="btn btn-md" type="submit">SUBMIT</button>
+                    <button id="submit-btn" class="btn btn-md btn-outline-primary" type="submit">SUBMIT</button>
                   </div>
                 </form>
               </div>
@@ -70,18 +74,18 @@
                 <span class="footer-details"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i></span>
                 <span class="footer-details"><span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span></span>
               </div>
-              
-              <p class="footer-details"><i class="fa fa-envelope mr-5" aria-hidden="true"></i><span>info@apnidukaan.com</span></p>
+              <a href="mailto:info@apnidukaan.com" style="text-decoration: none;">
+                <p class="footer-details"><i class="fa fa-envelope mr-5" aria-hidden="true"></i><span>info@apnidukaan.com</span></p>
+              </a>
               <p class="footer-details"><i class="fa fa-phone mr-5" aria-hidden="true"></i><span>892-207-5023</span></p>
               <p class="footer-details"><i class="fa fa-fax mr-5" aria-hidden="true"></i><span>963-642-8478</span></p>
             </div>
             <div id="social-media-icons">
-              <i class="fa fa-facebook-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-linkedin-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-google-plus-square social-media" aria-hidden="true"></i>
-              <i class="fa fa-twitter social-media" aria-hidden="true"></i>
-              <i class="fa fa-github social-media" aria-hidden="true"></i>
-              <i class="fa fa-instagram social-media" aria-hidden="true"></i>
+              <a href="https://www.facebook.com"><i class="fa fa-facebook-square social-media" aria-hidden="true"></i></a>
+              <a href="https://www.linkedin.com"><i class="fa fa-linkedin-square social-media" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter social-media" aria-hidden="true"></i></a>
+              <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan"><i class="fa fa-github social-media" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com"><i class="fa fa-instagram social-media" aria-hidden="true"></i></a>
             </div>
             
           </div>
@@ -91,62 +95,99 @@
       
 </section>
 
-<table align="center">
-    <footer align="center" class="foot footerMargin">
-       <img src="./Images/ApniDukaanLogo.jpg" class="logo1">
-      
-      <div class="inner">
-              <div class="about">
-              <h3>Get To Know Us</h3>
-              <ul>
-                <li> <a href=#about>About us</a></li>
-                <li> <a href="dummy.html">Careers</a></li>
-                <li> <a href="dummy.html">Press Releases</a></li>
-                <li> <a href="dummy.html">ApniDukaan Cares</a></li>
-              </ul>
-            </div>
-            <div class="help">
-              <h3>Let Us Help You</h3>
-              <ul>
-                <li> <a href="dummy.html">Payments</a></li>
-                <li> <a href="dummy.html">Shipping</a></li>
-                <li> <a href="dummy.html">Cancellation and Returns</a></li>
-                <li> <a href="dummy.html">Report an Issue</a></li>
-              </ul>
-            </div>
-            <div class="policy">
-              <h3>Policy</h3>
-              <ul>
-                <li> <a href="dummy.html">Return Policy</a></li>
-                <li> <a href="dummy.html">Time Of Use</a></li>
-                <li> <a href="dummy.html">Carrers</a></li>
-                <li> <a href="dummy.html">Privacy</a></li>
-              </ul>
-            </div>
-            <div class="about">
-              <h3>Connect With Us</h3>
-              <ul>
-                <li> <a href=#contact> Contact Us</a></li>
-                <li> <a href="dummy.html">Facebook</a></li>
-                <li> <a href="dummy.html">Twitter</a></li>
-                <li> <a href="dummy.html">Instagram</a></li>
-               
-              </ul>
-            </div>
-            <div class="about">
-              <h3>Make Money With Us</h3>
-              <ul>
-                <li> <a href="dummy.html">Sell On ApniDukaan</a></li>
-                <li> <a href="dummy.html">Advertise Your Products</a></li>
-                <li> <a href="dummy.html">Become Our Partner</a></li>
-                <li> <a href="dummy.html">Join Our Mission</a></li>
-              </ul>
-            </div>
-       </div>
-       <p style="padding-bottom: 10px;" class="copyright">Copyright &copy; and &reg; Since 2020
-        Under ApniDukaan.com | Qazi Maaz Arshad</p>
-    </footer>
-    </table>
+<footer class="bg-dark text-white pt-5 pb-4">
+  <div class="container text-md-left">
+    <div class="row text-md-left">
+      <div class="col mt-3" style="color:#808080;">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+        <p>
+          <a href="" class="text-white" style="text-decoration: none;">About us</a>
+        </p>
+        <p>
+          <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+        </p>
+        <p>
+          <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+        </p>
+        <p>
+          <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+        </p>
+      </div>
+      <div class="col mt-3"  style="color:#808080;">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+          </p>
+          <p>
+            <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+          </p>
+      </div>
+      <div class="col mt-3" style="color:#808080;">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+          </p>
+      </div>
+      <div class="col mt-3" style="color:#808080;">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+          </p>
+      </div>
+      <div class="col mt-3" style="color:#808080;">
+        <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+          <p>
+            <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-facebook-square"></i>
+              Facebook
+            </a>
+          </p>
+          <p>
+            <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-twitter-square"></i>
+              Twitter
+            </a>
+          </p>
+          <p>
+            <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+              <i class="fab fa-instagram-square"></i>
+              Instagram
+            </a>
+          </p>
+      </div>
+    </div>
+    <hr class="mb-4">
+    <div class="row align-items-center ">
+      <div class="text-center">
+        Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+      </div>
+    </div>
+  </div>
+</footer>
 
 
     <!-- scroll to top button -->

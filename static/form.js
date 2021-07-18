@@ -48,3 +48,36 @@ function ajax(method, url, data, success, error) {
   };
   xhr.send(data);
 }
+function validateFormInput(){
+  var name = document.getElementById("validationCustom01").value;
+  var email = document.getElementById("validationCustom02").value;
+  var nameErrorMsg = document.getElementById("nameErrorMsg");
+  var emailErrorMsg = document.getElementById("emailErrorMsg");
+  var nameValid = false;
+  var emailValid = false;
+
+  
+  if(/^[a-zA-Z\0 ]*$/.test(name) && name != ""){
+    nameValid = true;
+    document.getElementById("validationCustom01").classList.remove("is-invalid");
+  }else{
+    nameValid = false;
+    document.getElementById("validationCustom01").classList.add("is-invalid");
+  }
+
+  if(/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})$/.test(email) && email != ""){
+    emailValid = true;
+    document.getElementById("validationCustom02").classList.remove("is-invalid");
+  }else{
+    emailValid = false;
+    document.getElementById("validationCustom02").classList.add("is-invalid");
+  }
+  
+  if(nameValid && emailValid){
+    document.getElementById("submit-btn").disabled = false;
+    document.getElementById("submit-btn").classList.remove("btn-outline-dark");
+  }else{
+    document.getElementById("submit-btn").classList.add("btn-outline-dark");
+    document.getElementById("submit-btn").disabled = true;
+  }
+}
