@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apni Dukaan</title>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"> 
+    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+        <link rel="stylesheet" type="text/css" href="./static/style.css">
+        <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>    
+
+</head>
+<style type="text/css">
+    .container{
+        padding: 16px;
+     }
+     
+     input[type=text], input[type=password]
+     {
+        width: 100%;
+        padding:20px;
+        margin:5px 0 22px 0;
+        display: inline-block;
+        border: none;
+
+     }  
+     
+     input[type=text]: focus, input[type=password]:focus{
+        outline: none;
+     }
+     
+       h1{
+        font-size: 50px;
+        text-align: center;
+       
+        }
+</style>
+<body>
+
+    
+ 
+ <section>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+              <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="./deals.html">Offers</a>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="./contactus.html">Contact us</a>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="./about.html">About us</a>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Category
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                    <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                    <li><a class="dropdown-item" href="#">Furniture</a></li>
+                    <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link active" href="cart.html">My Cart</a>
+                </li>
+              </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-dark" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    
+    <h1>Kindly fill in the details</h1>
+    <section class="header-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <label for="Name"><b>NAME</b></label>
+                <input type="text" name="Name" placeholder="Enter your NAME" id="Name">
+
+               <label for="email"><b>EMAIL</b></label>
+               <input type="text" name="email" placeholder="Enter your email" id="email">
+
+              
+
+              <label for="NUMBER"><b>AMOUNT</b></label>
+              <input type="text" name="NUMBER" placeholder="Enter your amount" id="Name">
+              <button  id="rzp-button1">Pay</button>
+              
+              
+            </div>
+        </div>
+    </section>
+
+    <!---FOOTER---->
+    </section>
+      <footer class="bg-dark text-white pt-5 pb-4">
+      <div class="container text-center text-md-left">
+        <div class="row text-center text-md-left">
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">About us</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+              </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+              </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+              <p>
+                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+              </p>
+              <p>
+                <i class="fab fa-facebook-square"></i>
+              </p>
+              <p>
+                <i class="fab fa-twitter-square"></i>
+              </p>
+              <p>
+                <i class="fab fa-instagram-square"></i>
+              </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+              </p>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center ">
+          <div class="text-center">
+            Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+          </div>
+        </div>
+      </div>
+    </footer>
+
+</body>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script>
+var options = {
+    "key": "rzp_test_sQ7stnW0jcu6ab", 
+    "amount": "50000", 
+    "currency": "INR",
+    "name": "Acme Corp",
+    "description": "Test Transaction",
+    "image": "https://example.com/your_logo",
+    
+    "handler": function (response){
+        alert(response.razorpay_payment_id);
+        alert(response.razorpay_order_id);
+        alert(response.razorpay_signature)
+    }
+};
+var rzp1 = new Razorpay(options);
+document.getElementById('rzp-button1').onclick = function(e){
+    rzp1.open();
+    e.preventDefault();
+}
+</script>
+</html>
