@@ -70,7 +70,7 @@ body{
   display:block;
   text-align: center;
   color: whitesmoke;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 0.5px;
 }
 .menu li a:hover{
@@ -157,15 +157,15 @@ marquee{
 .menu2 ul li a{
   background: #000066;
   text-decoration: none;
-  width: 150px;
+  width: 170px;
   display:block;
   text-align: center;
   color: whitesmoke;
-  font-size: 18px;
+  font-size: 17px;
   letter-spacing: 0.5px;
 }
 .menu2 li a:hover{
-  color:red;
+  color:rgb(245, 243, 243);
   opacity:0.5;
   font-size: 20px;
 }
@@ -269,8 +269,8 @@ marquee{
 }
 .deals .inner img {
   border-radius: 50px;
-  width: 250px;
-  height: 250px;
+  width: 240px;
+  height: 240px;
 }
 .deals .inner h3 {
   font-size: 18px;
@@ -278,11 +278,13 @@ marquee{
 }
 .deals a {
   border: 2px solid #000066;
+  border-radius: 5%;
   text-decoration: none;
-  padding: 10px;
+  padding: 1px 60px;
   background-color: #000066;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.4s;
+  margin-left: 80px;
 }
 .deals a:hover {
   background: none;
