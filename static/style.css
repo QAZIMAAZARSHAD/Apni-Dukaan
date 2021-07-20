@@ -996,3 +996,13 @@ outline: none!important;
     margin-left: 20px;
   }
 }
+ 
+#loading{
+  position: fixed;
+  width:100%;
+  height: 100vh; 
+background: #fff
+url('https://media.giphy.com/media/39tQiwWhdeUocUH974/giphy.gif')
+no-repeat center center;
+z-index:99999;
+}

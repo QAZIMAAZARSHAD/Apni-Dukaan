@@ -29,7 +29,10 @@
     <link rel="stylesheet" href="static/style.css">
 </head>
 
-<body>
+<body onload="myFunction()" >
+    <div id ="loading">
+ 
+    </div>
     <section>
         <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
             <div class="container-fluid">
@@ -145,6 +148,12 @@
         integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="static/landingPage.js"></script>
+    <script>
+        var preloader = document.getElementById('loading');
+        function myFunction(){
+              preloader.style.display = 'none';
+            };
+            </script> 
 </body>
 
 </html>
