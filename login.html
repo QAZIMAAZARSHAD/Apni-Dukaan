@@ -1,124 +1,84 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-	<title>Apni Dukaan</title>
-	<link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
-	<script>
-		function displayMessageReset()
-		{
-			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
-		}
-		
-</script>
-
-<style>
-	body{
-	background-image: url("./Images/ApniDukaanLogo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-}
-div{
-	margin-bottom: 8px;
-}
-	.details{
-		text-align: center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		color: red;
-		font-size: 25px;
-		font-family: cursive;
-		}
-input[type=text],input[type=radio],input[type=number],input[type=password],input[type=email]{
-	border-radius: 100px;
-	color: red;
-	width: 250px;
-	height: 25px;
-	margin-left: 10px;
-	text-align: center;
-	line-height: 20px;
-	background-color: white;
-	color: black;
-	text-transform: uppercase;
-}
-button[type=submit], button[type=reset]
-{
-	border-radius: 100px;
-	text-align: center;
-	width:125px;
-	height:30px;
-	line-height: 20px;
-	color:red;
-	background-color: black;
-	margin-left: 10px;
-	font-size: 18px;
-	font-weight: bold;
-}
-#signup{
-	color: red;
-	font-size: 90px;
-	font-family: Arial;
-	font-weight: bold;
-	position: absolute;
-	left:0;
-	top: 0;
-	transform: translateY(250px);
-	margin-left:50px;
-	}
-.fp{
-	border-radius: 100px;
-	text-align: center;
-	width: 180px;
-	height: 35px;
-	color:red;
-	margin-left: 20%;
-	background-color: black;
-	margin-top: 10px;
-	font-size: medium;
-}
-.a{
-	text-align: center;
-	line-height: 20px;
-	color:red;
-	top: 5px;
-	position: relative;
-	text-decoration: none;
-}
-.fp :hover{
-	cursor: hand;
-}	
-form{
-	height: 100px;
-}
-</style>
-</head>
-<body>
-		<div id="signup">SIGN UP</div>
-<form action="home.html">
-	<div class="details">
-    <div>
-    <input type="text" name="Fname" required placeholder="First Name" required>
-    </div>
-	  <div>
-    <input type="text" name="Mname" required placeholder="Middle Name" required>
-	  </div>
-	  <div>
-		<input type="text" name="Lname" required placeholder="Last Name" required>
-	  </div>
-	  <div>
-	  <input type="email" name="email" required placeholder="Email" required>
-	  </div>
-	  <div>
-	  <input type="password" name="password" required placeholder="Password" required>
-	  </div>
-     <button  type="submit">Sign Up</button>
-    <button type="reset" value="Reset" onclick="displayMessageReset()" required>Reset</button>
-<div class="fp">
-<a class="a" href="login.html">Forget Password</a>
-</div>
-</div>
-</form>
-</body>
+﻿<!DOCTYPE  html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Login /Sign Up</title>
+      <link rel="stylesheet" href="login.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <div class="wrapper">
+         <div class="title-text">
+            <div class="title login">
+               Login
+            </div>
+            <div class="title signup">
+               Sign Up 
+            </div>
+         </div>
+         <div class="form-container">
+            <div class="slide-controls">
+               <input type="radio" name="slide" id="login" checked>
+               <input type="radio" name="slide" id="signup">
+               <label for="login" class="slide login">Login</label>
+               <label for="signup" class="slide signup">Signup</label>
+               <div class="slider-tab"></div>
+            </div>
+            <div class="form-inner">
+               <form action="#" class="login">
+                  <div class="field">
+                     <input type="text" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="pass-link">
+                     <a href="#">Forgot password?</a>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Login">
+                  </div>
+                  <div class="signup-link">
+                     Not a member? <a href="">Sign Up Now</a>
+                  </div>
+               </form>
+               <form action="#" class="signup">
+                  <div class="field">
+                     <input type="text" placeholder="Email Address" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Password" required>
+                  </div>
+                  <div class="field">
+                     <input type="password" placeholder="Confirm password" required>
+                  </div>
+                  <div class="field btn">
+                     <div class="btn-layer"></div>
+                     <input type="submit" value="Signup">
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+      <script>
+         const loginText = document.querySelector(".title-text .login");
+         const loginForm = document.querySelector("form.login");
+         const loginBtn = document.querySelector("label.login");
+         const signupBtn = document.querySelector("label.signup");
+         const signupLink = document.querySelector("form .signup-link a");
+         signupBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "-50%";
+           loginText.style.marginLeft = "-50%";
+         });
+         loginBtn.onclick = (()=>{
+           loginForm.style.marginLeft = "0%";
+           loginText.style.marginLeft = "0%";
+         });
+         signupLink.onclick = (()=>{
+           signupBtn.click();
+           return false;
+         });
+      </script>
+   </body>
 </html>
