@@ -70,7 +70,7 @@ body{
   display:block;
   text-align: center;
   color: whitesmoke;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.5px;
 }
 .menu li a:hover{
@@ -157,15 +157,15 @@ marquee{
 .menu2 ul li a{
   background: #000066;
   text-decoration: none;
-  width: 170px;
+  width: 150px;
   display:block;
   text-align: center;
   color: whitesmoke;
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 0.5px;
 }
 .menu2 li a:hover{
-  color:rgb(245, 243, 243);
+  color:red;
   opacity:0.5;
   font-size: 20px;
 }
@@ -278,13 +278,11 @@ marquee{
 }
 .deals a {
   border: 2px solid #000066;
-  border-radius: 20%;
   text-decoration: none;
-  padding: 7px;
+  padding: 10px;
   background-color: #000066;
   color: white;
-  transition: all 0.4s;
-  margin-left: 135px;
+  transition: all 0.5s;
 }
 .deals a:hover {
   background: none;
