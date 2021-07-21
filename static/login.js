@@ -21,7 +21,7 @@ function login()
     }
     else
     {
-        alert('Thank You for Login ');
+        
         window.location = "home.html";
     }
 }
