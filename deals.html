@@ -1,1 +1,460 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <title>Apni Dukaan</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<style>
+  @media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .deals h2{
+      font-size: 30px!important;
+      margin-left: 25px!important;
+    }
+    .deals .inner div {
+      margin: 10px !important;
+      border:1.5px solid #000066!important;
+      width:25%!important;
+    }
+    .deals .inner img {
+      width:70px!important;
+      height:70px!important;
+      border-radius: 10px!important;
+    }
+    .deals .inner h3 {
+      font-size: 10px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 14px!important;
+      
+    }
+    .deals a {
+      font-size: 10px!important;
+      padding: 5px !important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .deals h2{
+      font-size: 23px!important;
+      margin-left: 17px!important;
+    }
+    .deals .inner div {
+      margin: 7px !important;
+      border:1.1px solid #000066!important;
+      width:23%!important;
+    }
+    .deals .inner img {
+      width:60px!important;
+      height:60px!important;
+      border-radius: 8px!important;
+    }
+    .deals .inner h3 {
+      font-size: 8px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 11px!important;
+      
+    }
+    .deals a {
+      font-size: 8px!important;
+      padding: 3px !important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }
+</style>
+<body>
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link active" href="./deals.html">Offers</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="./contactus.html">Contact us</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                                <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                                <li><a class="dropdown-item" href="#">Furniture</a></li>
+                                <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                                <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+          
+                                <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="cart.html">My Cart</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+            </div>
+        </div>
+      </nav>
+</section>
+    <section class="deals" id="deals">
+        <h2>Deals Of The Day</h2>
+        <div class="inner">
+            <div>
+                <img src="./Images/offer4.jpg">
+                <h3>Get Upto 50% Off</h3>
+                <h3>On Shopping Of Rs5000 And Above</h3>
+                <h3>Get Rs200 Off On Your Next Visit</h3>
+                <h4 id="timer1"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer3.jpg">
+                <h3>Super Saver Offer</h3>
+                <h3>Mega Discount On All Electric Appliances</h3>
+                <h3>Ranging From 10% to 75%</h3>
+                <h4 id="timer2"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer5.jpg">
+                <h3>Win A Trip To Disney Land HongKong</h3>
+                <h3>On Shopping of Rs10000 </h3>
+                <h3>Full Family Holiday Package</h3>
+                <h4 id="timer3"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer1.jpg">
+                <h3>Get Upto 75% Off</h3>
+                <h3>On Shopping Of Select Brand Products.</h3>
+                <h3>Limited Time Offer</h3>
+                <h4 id="timer4"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer2.jpg">
+                <h3>Get Flat 30% Cashback Upto Rs200 </h3>
+                <h3>On All Purchases Above Rs699</h3>
+                <h3>When You Pay Using Paytm</h3>
+                <h4 id="timer5"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+            <div>
+                <img src="./Images/offer6.jpg">
+                <h3>Get Flat 30% Off</h3>
+                <h3>On Shopping of Rs500 </h3>
+                <h3>Offer Valid On All Dairy Products</h3>
+                <h4 id="timer6"></h4>
+                <br>
+                <a href="">View Deal</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">About us</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+            </p>
+          </div>
+          <div class="col mt-3"  style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+              </p>
+              <p>
+                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <div>
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+              <p>
+                <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-facebook-square"></i>
+                  Facebook
+                </a>
+              </p>
+              <p>
+                <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-twitter-square"></i>
+                  Twitter
+                </a>
+              </p>
+              <p>
+                <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-instagram-square"></i>
+                  Instagram
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="text-center">
+            Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button id = "btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
+        var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();
+        var countDownDate3 = new Date("August 12, 2021 00:00:00").getTime();
+        var countDownDate4 = new Date("August 2, 2021 00:00:00").getTime();
+        var countDownDate5 = new Date("September 12, 2021 00:00:00").getTime();
+        var countDownDate6 = new Date("October 12, 2021 00:00:00").getTime();
+
+        // Update the count down every 1 second
+        var x = setInterval(function () {
+
+            // Get today's date and time
+            var now = new Date().getTime();
+
+            // Find the time left between now and the count down date
+            var timeleft1 = countDownDate1 - now;
+            var timeleft2 = countDownDate2 - now;
+            var timeleft3 = countDownDate3 - now;
+            var timeleft4 = countDownDate4 - now;
+            var timeleft5 = countDownDate5 - now;
+            var timeleft6 = countDownDate6 - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days1 = Math.floor(timeleft1 / (1000 * 60 * 60 * 24));
+            var hours1 = Math.floor((timeleft1 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes1 = Math.floor((timeleft1 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds1 = Math.floor((timeleft1 % (1000 * 60)) / 1000);
+
+            var days2 = Math.floor(timeleft2 / (1000 * 60 * 60 * 24));
+            var hours2 = Math.floor((timeleft2 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes2 = Math.floor((timeleft2 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds2 = Math.floor((timeleft2 % (1000 * 60)) / 1000);
+
+            var days3 = Math.floor(timeleft3 / (1000 * 60 * 60 * 24));
+            var hours3 = Math.floor((timeleft3 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes3 = Math.floor((timeleft3 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds3 = Math.floor((timeleft3 % (1000 * 60)) / 1000);
+
+            var days4 = Math.floor(timeleft4 / (1000 * 60 * 60 * 24));
+            var hours4 = Math.floor((timeleft4 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes4 = Math.floor((timeleft4 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds4 = Math.floor((timeleft4 % (1000 * 60)) / 1000);
+
+            var days5 = Math.floor(timeleft5 / (1000 * 60 * 60 * 24));
+            var hours5 = Math.floor((timeleft5 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes5 = Math.floor((timeleft5 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds5 = Math.floor((timeleft5 % (1000 * 60)) / 1000);
+
+            var days6 = Math.floor(timeleft6 / (1000 * 60 * 60 * 24));
+            var hours6 = Math.floor((timeleft6 % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes6 = Math.floor((timeleft6 % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds6 = Math.floor((timeleft6 % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("timer1").innerHTML = days1 + "d " + hours1 + "h "
+                + minutes1 + "m " + seconds1 + "s ";
+            document.getElementById("timer2").innerHTML = days2 + "d " + hours2 + "h "
+                + minutes2 + "m " + seconds2 + "s ";
+            document.getElementById("timer3").innerHTML = days3 + "d " + hours3 + "h "
+                + minutes3 + "m " + seconds3 + "s ";
+            document.getElementById("timer4").innerHTML = days4 + "d " + hours4 + "h "
+                + minutes4 + "m " + seconds4 + "s ";
+            document.getElementById("timer5").innerHTML = days5 + "d " + hours5 + "h "
+                + minutes5 + "m " + seconds5 + "s ";
+            document.getElementById("timer6").innerHTML = days6 + "d " + hours6 + "h "
+                + minutes6 + "m " + seconds6 + "s ";
+
+            // If the count down is finished, write some text
+            if (timeleft1 < 0) {
+                clearInterval(x);
+                document.getElementById("timer1").innerHTML = "EXPIRED";
+            }
+            if (timeleft2 < 0) {
+                clearInterval(x);
+                document.getElementById("timer2").innerHTML = "EXPIRED";
+            }
+            if (timeleft3 < 0) {
+                clearInterval(x);
+                document.getElementById("timer3").innerHTML = "EXPIRED";
+            }
+            if (timeleft4 < 0) {
+                clearInterval(x);
+                document.getElementById("timer4").innerHTML = "EXPIRED";
+            }
+            if (timeleft5 < 0) {
+                clearInterval(x);
+                document.getElementById("timer5").innerHTML = "EXPIRED";
+            }
+            if (timeleft6 < 0) {
+                clearInterval(x);
+                document.getElementById("timer6").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        }
+        );
+    </script>
+</body>
+
+</html>
