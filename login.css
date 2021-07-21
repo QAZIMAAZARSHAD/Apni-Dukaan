@@ -1,0 +1,97 @@
+body
+{
+  margin:0px;
+
+color:#f7f7f7; 
+font-family:Arial, Helvetica, sans-serif;
+}
+#main
+{
+  width:600px; 
+  height:500px;
+   margin-left:auto;
+    margin-right:auto;
+    border-radius:15px;
+    padding-left:10px;
+      display: flex;
+      flex-direction: column;
+    border-top:3px double #f1f1f1;
+    border-bottom:3px double #f1f1f1; 
+   padding-top:20px;
+   background-color: white;
+}
+#main table
+{
+  font-family: sans-serif;
+  
+} 
+
+#main .tb
+{
+    height:38px;
+    width:230px;
+    border:1px solid #27a465; 
+    color:#27a465; 
+    border-left:5px solid #f7f7f7;
+    opacity:0.9;
+    margin-top: 20px;
+}
+.box
+{
+    text-align: center;
+}
+.text
+{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.sign
+{
+  font-weight: 600;
+  text-align: center;
+  margin-top: 10px;
+}
+#main .btn
+{
+ width:80px; 
+ height:40px; 
+ outline:none;
+ border-radius: 10px;
+ font-weight:bold; 
+ border:0px solid #27a465; 	
+ border-radius: 2px; 
+ font-weight: 600; 
+ color: white; 
+ margin-top: 10px;
+ background-color: #000066;
+ letter-spacing: 1px;
+  font-size:14px; 
+  -webkit-transition: 1s; 
+  -moz-transition: 1s; 
+  transition: 1s;
+}
+
+#main .btn:hover
+{
+  
+ outline:none;  
+ border-radius: 2px; 
+ color:#f1f1f1; 
+ border:1px solid #f1f1f1;
+}
+.image-para
+{
+    text-align: center;
+}
+.image{
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    
+   
+}
+.h-tag
+{
+    text-align: center;
+   text-decoration: underline;
+}
