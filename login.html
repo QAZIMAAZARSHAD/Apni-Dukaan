@@ -1,124 +1,223 @@
-﻿<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Apni Dukaan</title>
-	<link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
-	<script>
-		function displayMessageReset()
-		{
-			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
-		}
-		
-</script>
-
-<style>
-	body{
-	background-image: url("./Images/ApniDukaanLogo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-}
-div{
-	margin-bottom: 8px;
-}
-	.details{
-		text-align: center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		color: red;
-		font-size: 25px;
-		font-family: cursive;
-		}
-input[type=text],input[type=radio],input[type=number],input[type=password],input[type=email]{
-	border-radius: 100px;
-	color: red;
-	width: 250px;
-	height: 25px;
-	margin-left: 10px;
-	text-align: center;
-	line-height: 20px;
-	background-color: white;
-	color: black;
-	text-transform: uppercase;
-}
-button[type=submit], button[type=reset]
-{
-	border-radius: 100px;
-	text-align: center;
-	width:125px;
-	height:30px;
-	line-height: 20px;
-	color:red;
-	background-color: black;
-	margin-left: 10px;
-	font-size: 18px;
-	font-weight: bold;
-}
-#signup{
-	color: red;
-	font-size: 90px;
-	font-family: Arial;
-	font-weight: bold;
-	position: absolute;
-	left:0;
-	top: 0;
-	transform: translateY(250px);
-	margin-left:50px;
-	}
-.fp{
-	border-radius: 100px;
-	text-align: center;
-	width: 180px;
-	height: 35px;
-	color:red;
-	margin-left: 20%;
-	background-color: black;
-	margin-top: 10px;
-	font-size: medium;
-}
-.a{
-	text-align: center;
-	line-height: 20px;
-	color:red;
-	top: 5px;
-	position: relative;
-	text-decoration: none;
-}
-.fp :hover{
-	cursor: hand;
-}	
-form{
-	height: 100px;
-}
-</style>
-</head>
-<body>
-		<div id="signup">SIGN UP</div>
-<form action="home.html">
-	<div class="details">
-    <div>
-    <input type="text" name="Fname" required placeholder="First Name" required>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apni-Dukaan</title>
+  <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+  crossorigin="anonymous"
+/>
+  <link rel="stylesheet" type="text/css" href="./static/login.css">
+    <script src="./static/login.js"></script>
+  <link rel="stylesheet" type="text/css" href="./static/style.css">
+  <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://use.fontawesome.com/7ade57373d.js"></script>
+        
+      </head>
+        
+<body >
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">
+            <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="./deals.html">Offers</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="./contactus.html">Contact us</a>
+                    </li>
+                    
+                    
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="./about.html">About us</a>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                            <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                            <li><a class="dropdown-item" href="#">Furniture</a></li>
+                            <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                            <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+      
+                            <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item text-capitalize">
+                      <a class="nav-link" href="cart.html">My Cart</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-dark" type="submit">Search</button>
+                </form>
+        </div>
     </div>
-	  <div>
-    <input type="text" name="Mname" required placeholder="Middle Name" required>
-	  </div>
-	  <div>
-		<input type="text" name="Lname" required placeholder="Last Name" required>
-	  </div>
-	  <div>
-	  <input type="email" name="email" required placeholder="Email" required>
-	  </div>
-	  <div>
-	  <input type="password" name="password" required placeholder="Password" required>
-	  </div>
-     <button  type="submit">Sign Up</button>
-    <button type="reset" value="Reset" onclick="displayMessageReset()" required>Reset</button>
-<div class="fp">
-<a class="a" href="login.html">Forget Password</a>
-</div>
-</div>
-</form>
+  </nav>
+	<div id=main>
+    <div class="h-tag">
+      <h2> Account Login</h2>
+      </div>
+      <div class="login">
+        <table cellspacing="2" align="center" cellpadding="8" border="0">
+          <p class="image-para">
+            <img class="image" src="./Images/ApniDukaanLogo.jpg" alt="ApniDukaanLogo">
+          </p>
+        <tr>
+
+         <td class="text">Enter Email :</td> 
+        <td class="box"><input type="text" placeholder="Enter email " id="email" class="tb" /></td>
+        </tr>
+        <tr>
+        <td class="text">Enter Password :</td> 
+        <td class="box"><input type="password" placeholder="Enter Password here" id="pwd1" class="tb" /></td>
+        </tr>
+        <tr>
+        <td></td>
+        <td>
+        <input type="submit" value="Signup" onclick="signup()" class="btn" />
+        <input type="submit" value="Login" class="btn" onClick="login()" /></td>
+        </tr>
+        </table>
+    
+       
+    </div>
+  </div>
+   
+      
+  <footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container text-md-left">
+      <div class="row text-md-left">
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">About us</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+          </p>
+          <p>
+            <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+          </p>
+        </div>
+        <div class="col mt-3"  style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+            </p>
+            <p>
+              <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+            </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+            </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+            </p>
+        </div>
+        <div class="col mt-3" style="color:#808080;">
+          <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+            <p>
+              <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                <i class="fab fa-facebook-square"></i>
+                Facebook
+              </a>
+            </p>
+            <p>
+              <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                <i class="fab fa-twitter-square"></i>
+                Twitter
+              </a>
+            </p>
+            <p>
+              <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                <i class="fab fa-instagram-square"></i>
+                Instagram
+              </a>
+            </p>
+        </div>
+      </div>
+      <hr class="mb-4">
+      <div class="row align-items-center ">
+        <div class="text-center">
+          Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./static/script.js"></script>
+
+        <!-- scroll to top button -->
+      <button id = "btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+         btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0,0); }
+        );
+    </script>
 </body>
 </html>
