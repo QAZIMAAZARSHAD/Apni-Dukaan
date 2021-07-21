@@ -21,14 +21,14 @@ function login()
     }
     else
     {
-alert('Thank You for Login ');
-
-   window.location = "home.html";
-        }
+        alert('Thank You for Login ');
+        window.location = "home.html";
+    }
 }
-//Reset Inputfield code.
-function clearFunc()
+
+function signup()
 {
-    document.getElementById("email").value="";
-    document.getElementById("pwd1").value="";
+    alert('If you are a new member please Signup');
+   window.location = "signup.html";
+   
 }	
