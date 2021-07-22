@@ -1,0 +1,120 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .deals h2{
+      font-size: 30px!important;
+      margin-left: 25px!important;
+    }
+    .deals .inner div {
+      margin: 10px !important;
+      border:1.5px solid #000066!important;
+      width:25%!important;
+    }
+    .deals .inner img {
+      width:70px!important;
+      height:70px!important;
+      border-radius: 10px!important;
+    }
+    .deals .inner h3 {
+      font-size: 10px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 14px!important;
+      
+    }
+    .deals a {
+      font-size: 10px!important;
+      padding: 5px !important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .deals h2{
+      font-size: 23px!important;
+      margin-left: 17px!important;
+    }
+    .deals .inner div {
+      margin: 7px !important;
+      border:1.1px solid #000066!important;
+      width:23%!important;
+    }
+    .deals .inner img {
+      width:60px!important;
+      height:60px!important;
+      border-radius: 8px!important;
+    }
+    .deals .inner h3 {
+      font-size: 8px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 11px!important;
+      
+    }
+    .deals a {
+      font-size: 8px!important;
+      padding: 3px !important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }
