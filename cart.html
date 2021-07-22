@@ -3,22 +3,194 @@
   <head>
     <title>Apni Dukaan</title>
     <meta charset="utf-8">
-        <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
         <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    
 <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>    
 <title>Apni Dukaan</title>
   </head>
+  <style>
+    @media screen and (max-width: 500px) {
+      .nav-link{
+        font-size: 13px!important;
+      }
+      .dropdown-item{
+        font-size: 13px!important;
+      }
+      .line-in{
+        font-size: 13px!important; 
+      }
+      .btn{
+        font-size: 13px!important;
+      }
+      .img-sz{
+        height:70px!important;
+      }
+      .img2-sz{
+        height:60px!important;
+      }
+      .row{
+        margin:5px 5px!important;
+      }
+      .row>*{
+        margin:10px 10px!important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .box-sz{
+        padding:5px 5px!important;
+        margin-left: 5px!important;
+        margin-right:5px!important;
+      }
+      .box1-sz{
+        margin-top: 5px!important;
+        padding: 5px 0px!important;
+        border-top: 1px solid #E2E5DE!important;
+      }
+      .mid2-sz{
+        font-size: 8.8px!important;
+      }
+      .mid3-sz{
+        font-size: 7.6px!important;
+      }
+      .mid1-sz{
+        font-size: 15px!important;
+      }
+      select.form-select.select-ui{
+        width: 25px !important;
+        height: 17px !important;
+      }
+      .form-select{
+        padding:0!important;
+        font-size: 0.5rem!important;
+        background-position: right 0.4rem center !important;;
+        background-size: 8px 6px!important;
+      }
+      .md-sz{
+        font-size: 13px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 13px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 30px !important;
+        height: 30px !important;
+      }
+      .material-icons{
+        font-size: 24px!important;
+      }
+      a.btn{
+        font-size: 9px!important;
+        padding: .15rem .3rem!important;
+      }
+      .df-sz{
+        margin: top 5px !important;
+      }
+    }
+    @media screen and (max-width: 390px) {
+      .nav-link{
+        font-size: 11px!important;
+      }
+      .dropdown-item{
+        font-size: 11px!important;
+      }
+      .line-in{
+        font-size: 11px!important; 
+      }
+      .btn{
+        font-size: 11px!important;
+      }
+      .img-sz{
+        height:60px!important;
+      }
+      .img2-sz{
+        height:50px!important;
+      }
+      .row{
+        margin:5px 5px!important;
+      }
+      .row>*{
+        margin:10px 10px!important;
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+      .box-sz{
+        padding:5px 5px!important;
+        margin-left: 5px!important;
+        margin-right:5px!important;
+      }
+      .box1-sz{
+        margin-top: 5px!important;
+        padding: 5px 0px!important;
+        border-top: 1px solid #E2E5DE!important;
+      }
+      .mid2-sz{
+        font-size: 7.9px!important;
+      }
+      .mid3-sz{
+        font-size: 6.9px!important;
+      }
+      .mid1-sz{
+        font-size: 14px!important;
+      }
+      select.form-select.select-ui{
+        width: 25px !important;
+        height: 17px !important;
+      }
+      .form-select{
+        padding:0!important;
+        font-size: 0.5rem!important;
+        background-position: right 0.4rem center !important;;
+        background-size: 8px 6px!important;
+      }
+      .md-sz{
+        font-size: 11px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 11px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 25px !important;
+        height: 25px !important;
+      }
+      .material-icons{
+        font-size: 15px!important;
+      }
+      a.btn{
+        font-size: 8px!important;
+        padding: .13rem .25rem!important;
+      }
+      .df-sz{
+        margin: top 5px !important;
+      }
+    }
+    
+  </style>
 <body>
 
     <section>
@@ -33,14 +205,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
               <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
-                
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                </li>
                 <li class="nav-item text-capitalize">
                   <a class="nav-link" href="./deals.html">Offers</a>
                 </li>
                 <li class="nav-item text-capitalize">
                   <a class="nav-link" href="./contactus.html">Contact us</a>
                 </li>
-               
+                <li class="nav-item text-capitalize">
+                  <a class="nav-link" href="login.html">Login</a>
+                </li>
                 <li class="nav-item text-capitalize">
                   <a class="nav-link" href="./about.html">About us</a>
                 </li>
@@ -65,7 +241,7 @@
                 </li>
               </ul>
             <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-dark" type="submit">Search</button>
             </form>
           </div>
@@ -74,22 +250,22 @@
     </section>
       <section>
       <div style="margin:20px 20px;" class="row">
-        <div style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-right: 20px;margin-left: 35px" class="col-md-7">
-          <h3 style="font-weight: 450!important;padding: 0px!important">Shopping Cart</h3>
-          <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+        <div style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-right: 20px;margin-left: 35px;width: 58% !important;" class="col-md-7 box-sz">
+          <h3 class="mid1-sz" style="font-weight: 450!important;padding: 0px!important">Shopping Cart</h3>
+          <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
             <div class="row">
-              <div class="col-md-4">
-                <img style="height:200px" src="Images/mobile.jpg">
+              <div style="width: 33% !important;" class="col-md-4">
+                <img class="img-sz" style="height:200px" src="Images/mobile.jpg">
               </div>
-              <div style="padding:10px 0px" class="col-md-6">
-                <h5 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <p style="color:grey;margin:0!important">Eligible for Free Shipping</p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
+              <div style="padding:10px 0px;width:50%!important" class="col-md-6">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <p class="mid3-sz" style="color:grey;margin:0!important">Eligible for Free Shipping</p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
                 <div style="display:flex;justify-content: flex-start;">
-                  <p style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
-                  <select style="width:60px!important;height:40px!important" class="form-select select-ui" aria-label="Disabled select example">
+                  <p class="mid3-sz" style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
+                  <select style="width:60px;height:40px" class="form-select select-ui" aria-label="Disabled select example">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -97,25 +273,25 @@
                   </select>
                 </div>
               </div>
-              <div style="padding:10px 0px" class="col-md-2">
-                <h5 style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
+              <div style="padding:10px 0px;width:17%!important" class="col-md-2">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
               </div>
             </div>
           </div> 
-          <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+          <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
             <div class="row">
-              <div class="col-md-4">
-                <img style="height:200px" src="Images/mobil2.jpg">
+              <div style="width: 33% !important;" class="col-md-4">
+                <img class="img-sz" style="height:200px" src="Images/mobil2.jpg">
               </div>
-              <div style="padding:10px 0px" class="col-md-6">
-                <h5 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <p style="color:grey;margin:0!important">Eligible for Free Shipping</p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
+              <div style="padding:10px 0px;width: 50% !important;" class="col-md-6">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <p class="mid3-sz" style="color:grey;margin:0!important">Eligible for Free Shipping</p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
                 <div style="display:flex;justify-content: flex-start;">
-                  <p style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
-                  <select style="width:60px!important;height:40px!important" class="form-select select-ui" aria-label="Disabled select example">
+                  <p class="mid3-sz" style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
+                  <select style="width:60px;height:40px" class="form-select select-ui" aria-label="Disabled select example">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -123,25 +299,25 @@
                   </select>
                 </div>
               </div>
-              <div style="padding:10px 0px" class="col-md-2">
-                <h5 style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
+              <div style="padding:10px 0px;width: 17% !important;" class="col-md-2">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
               </div>
             </div>
           </div> 
-          <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+          <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
             <div class="row">
-              <div class="col-md-4">
-                <img style="height:200px" src="Images/mobile3.jpg">
+              <div style="width: 33% !important;" class="col-md-4">
+                <img class="img-sz" style="height:200px" src="Images/mobile6.jpg">
               </div>
-              <div style="padding:10px 0px" class="col-md-6">
-                <h5 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <p style="color:grey;margin:0!important">Eligible for Free Shipping</p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
+              <div style="padding:10px 0px;width: 50% !important;" class="col-md-6">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <p class="mid3-sz" style="color:grey;margin:0!important">Eligible for Free Shipping</p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
                 <div style="display:flex;justify-content: flex-start;">
-                  <p style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
-                  <select style="width:60px!important;height:40px!important" class="form-select select-ui" aria-label="Disabled select example">
+                  <p class="mid3-sz" style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
+                  <select style="width:60px;height:40px" class="form-select select-ui" aria-label="Disabled select example">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -149,25 +325,25 @@
                   </select>
                 </div>
               </div>
-              <div style="padding:10px 0px" class="col-md-2">
-                <h5 style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
+              <div style="padding:10px 0px;width: 17% !important;" class="col-md-2">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
               </div>
             </div>
           </div> 
-          <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+          <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
             <div class="row">
-              <div class="col-md-4">
-                <img style="height:200px" src="Images/mobile4.jpg">
+              <div style="width: 33% !important;" class="col-md-4">
+                <img class="img-sz" style="height:200px" src="Images/mobile4.jpg">
               </div>
-              <div style="padding:10px 0px" class="col-md-6">
-                <h5 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <p style="color:grey;margin:0!important">Eligible for Free Shipping</p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
-                <p style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
+              <div style="padding:10px 0px;width: 50% !important;" class="col-md-6">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h5>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <p class="mid3-sz" style="color:grey;margin:0!important">Eligible for Free Shipping</p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Color: </span><span style="color:black">Gold</span></p>
+                <p class="mid3-sz" style="margin:0!important;"><span style="font-weight: 500">Size-name: </span><span style="color:black">4GB RAM, 64GB Storage</span></p>
                 <div style="display:flex;justify-content: flex-start;">
-                  <p style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
-                  <select style="width:60px!important;height:40px!important" class="form-select select-ui" aria-label="Disabled select example">
+                  <p class="mid3-sz" style="margin:0!important;margin-right:10px!important"><span style="font-weight: 500">Qty: </span></p>
+                  <select style="width:60px;height:40px" class="form-select select-ui" aria-label="Disabled select example">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -175,30 +351,30 @@
                   </select>
                 </div>
               </div>
-              <div style="padding:10px 0px" class="col-md-2">
-                <h5 style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
+              <div style="padding:10px 0px;width: 17% !important;" class="col-md-2">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i> <span>10000</span></h5>
               </div>
             </div>
           </div> 
         </div>
-        <div class="col-md-4">
-          <div style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
-            <h3 style="font-weight: 450!important;padding: 0px!important">Total Amount</h3>
-            <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
-              <p style="color:#058552"><i class="fa fa-check-circle" aria-hidden="true"></i> Your order is eligible for FREE Delivery.</p>
+        <div style="width: 36% !important;" class="col-md-4">
+          <div class="box-sz" style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+            <h3 class="mid1-sz" style="font-weight: 450!important;padding: 0px!important">Total Amount</h3>
+            <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+              <p class="mid3-sz" style="color:#058552"><i class="fa fa-check-circle" aria-hidden="true"></i> Your order is eligible for FREE Delivery.</p>
               <div>
-                <h5 style="font-weight: 500!important;margin:0!important;float: left;">Item Total: </h5>
-                <h5 style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span id="total">40000</span></h5>
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: left;">Item Total: </h5>
+                <h5 class="mid2-sz" style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span id="total">40000</span></h5>
               </div>
               <br>
-              <div style="margin-top: 15px">
-                <h5 style="font-weight: 500!important;margin:0!important;float: left;">Taxes & Charges: </h5>
-                <h5 style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span>100</span></h5>
+              <div class="df-sz" style="margin-top: 15px">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: left;">Taxes & Charges: </h5>
+                <h5 class="mid2-sz" style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span>100</span></h5>
               </div>
               <br>
-              <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
-                <h5 style="font-weight: 500!important;margin:0!important;float: left;">To Pay: </h5>
-                <h5 style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span id="totaltopay">41000</span></h5>
+              <div class="box1-sz" style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE">
+                <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;float: left;">To Pay: </h5>
+                <h5 class="mid2-sz" style="font-weight: 400!important;margin:0!important;float: right;"><i class="fa fa-inr" aria-hidden="true"></i>  <span id="totaltopay">41000</span></h5>
               </div>
               <br>
               <div style="display: flex;justify-content: center;">
@@ -206,27 +382,27 @@
               </div>
             </div> 
           </div>
-          <div style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-top: 20px">
-            <h5 style="font-weight: 500!important;margin:0!important;">Sponsored Products related to items in your cart</h5>
-            <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE" class="row">
-              <div class="col-md-5">
-                <img style="height:130px" src="Images/mobile6.jpg">
+          <div class="box-sz" style="padding:20px 30px;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;margin-top: 20px">
+            <h5 class="mid2-sz" style="font-weight: 500!important;margin:0!important;">Sponsored Products related to items in your cart</h5>
+            <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE" class="row box1-sz">
+              <div style="width: 40% !important;" class="col-md-5">
+                <img class="img2-sz" style="height:130px" src="Images/mobile6.jpg">
               </div>
-              <div class="col-md-7">
-                <h6 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h6>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <h6 style="font-weight: 500!important;margin:0!important"><i class="fa fa-inr" aria-hidden="true"></i>  <span>11067</span></h6>
+              <div style="width: 60% !important;" class="col-md-7">
+                <h6 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h6>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <h6 class="mid2-sz" style="font-weight: 500!important;margin:0!important"><i class="fa fa-inr" aria-hidden="true"></i>  <span>11067</span></h6>
                 <a style="margin-top: 8px" class="btn btn-sm btn-primary" href="#" role="button">View More</a>
               </div>
             </div>
-            <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE" class="row">
-              <div class="col-md-5">
-                <img style="height:130px" src="Images/mobile.jpg">
+            <div style="margin-top: 15px;padding: 15px 0px;border-top:1.5px solid #E2E5DE" class="row box1-sz">
+              <div style="width: 40% !important;" class="col-md-5">
+                <img class="img2-sz" style="height:130px" src="Images/mobile6.jpg">
               </div>
-              <div class="col-md-7">
-                <h6 style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h6>
-                <p style="color:#058552;margin:0!important">In Stock</p>
-                <h6 style="font-weight: 500!important;margin:0!important"><i class="fa fa-inr" aria-hidden="true"></i>  <span>12045</span></h6>
+              <div style="width: 60% !important;" class="col-md-7">
+                <h6 class="mid2-sz" style="font-weight: 500!important;margin:0!important">Redmi Y2(Gold, 4GB RAM, 64GB Storage)</h6>
+                <p class="mid3-sz" style="color:#058552;margin:0!important">In Stock</p>
+                <h6 class="mid2-sz" style="font-weight: 500!important;margin:0!important"><i class="fa fa-inr" aria-hidden="true"></i>  <span>12045</span></h6>
                 <a style="margin-top: 8px" class="btn btn-sm btn-primary" href="#" role="button">View More</a>
               </div>
             </div>
@@ -235,11 +411,11 @@
       </div>
       
     </section>
-      <footer class="bg-dark text-white pt-5 pb-4">
-      <div class="container text-center text-md-left">
-        <div class="row text-center text-md-left">
-          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+    <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
             <p>
               <a href="" class="text-white" style="text-decoration: none;">About us</a>
             </p>
@@ -253,8 +429,8 @@
               <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
             </p>
           </div>
-          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+          <div class="col mt-3"  style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
               <p>
                 <a href="" class="text-white" style="text-decoration: none;">Payments</a>
               </p>
@@ -267,9 +443,12 @@
               <p>
                 <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
               </p>
+              <p>
+                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+              </p>
           </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
               <p>
                 <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
               </p>
@@ -280,23 +459,8 @@
                 <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
               </p>
           </div>
-          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
-              <p>
-                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
-              </p>
-              <p>
-                <i class="fab fa-facebook-square"></i>
-              </p>
-              <p>
-                <i class="fab fa-twitter-square"></i>
-              </p>
-              <p>
-                <i class="fab fa-instagram-square"></i>
-              </p>
-          </div>
-          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-            <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
               <p>
                 <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
               </p>
@@ -310,9 +474,32 @@
                 <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
               </p>
           </div>
+          <div class="col mt-3" style="color:#808080;">
+            <div>
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+              <p>
+                <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-facebook-square"></i>
+                  Facebook
+                </a>
+              </p>
+              <p>
+                <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-twitter-square"></i>
+                  Twitter
+                </a>
+              </p>
+              <p>
+                <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-instagram-square"></i>
+                  Instagram
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
         <hr class="mb-4">
-        <div class="row align-items-center ">
+        <div class="row align-items-center">
           <div class="text-center">
             Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
           </div>
@@ -331,6 +518,7 @@
           window.scrollTo(0,0); }
       );
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
   <script>

@@ -3,7 +3,8 @@
   <head>
     <title>Apni Dukaan</title>
     <meta charset="utf-8">
-        <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link
         rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -17,31 +18,237 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
   </head>
+  <style>
+    @media screen and (max-width: 500px) {
+      .nav-link{
+        font-size: 13px!important;
+      }
+      .dropdown-item{
+        font-size: 13px!important;
+      }
+      .line-in{
+        font-size: 13px!important; 
+      }
+      .btn{
+        font-size: 13px!important;
+      }
+      #contact-head{
+        font-size: 25px!important;
+      }
+      #contact-message{
+        font-size: 14px!important;
+        margin:0px 20px!important;
+      }
+      .contact-inputs{
+        font-size: 10px!important;
+      }
+      .contact-table{
+        min-width: 200px!important;
+        padding:6px 12px!important;
+        padding-bottom: 20px!important;
+      }
+      .form-control{
+        font-size: 10px!important;
+      }
+      #submit-btn{
+        font-size: 10px!important;
+      }
+      .input-container{
+        margin:10px 6px !important;
+      }
+      .footer-details{
+        font-size: 10px!important;
+        margin-bottom: 0.7rem!important;
+      }
+      #contactus{
+        padding:10px 20px!important;
+        padding-bottom: 25px!important;
+      }
+      #social-media-icons{
+        padding:0px 15px!important;
+        margin-top: 6px!important;
+      }
+      .box-sz{
+        padding:0px 6px!important;
+        border-bottom: 1.5px solid grey!important;
+      }
+      .social-media{
+        font-size: 14px!important;
+      }
+      .mr-5{
+        margin-right: 0.5rem!important;
+      }
+      .md-sz{
+        font-size: 13px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 13px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 30px !important;
+        height: 30px !important;
+      }
+      .material-icons{
+        font-size: 19px!important;
+      }
+    }
+    @media screen and (max-width: 400px) {
+      .nav-link{
+        font-size: 11px!important;
+      }
+      .dropdown-item{
+        font-size: 11px!important;
+      }
+      .line-in{
+        font-size: 11px!important; 
+      }
+      .btn{
+        font-size: 11px!important;
+      }
+      #contact-head{
+        font-size: 21px!important;
+      }
+      #contact-message{
+        font-size: 12px!important;
+        margin:0px 16px!important;
+      }
+      .contact-inputs{
+        font-size: 8px!important;
+      }
+      .contact-table{
+        min-width: 150px!important;
+        padding:4px 9px!important;
+        padding-bottom: 15px!important;
+      }
+      .form-control{
+        font-size: 8px!important;
+      }
+      #submit-btn{
+        font-size: 8px!important;
+      }
+      .input-container{
+        margin:7px 5px !important;
+      }
+      .footer-details{
+        font-size: 8px!important;
+        margin-bottom: 0.55rem!important;
+      }
+      #contactus{
+        padding:7px 14px!important;
+        padding-bottom: 19px!important;
+      }
+      #social-media-icons{
+        padding:0px 12.5px!important;
+        margin-top: 4px!important;
+      }
+      .box-sz{
+        padding:0px 4.5px!important;
+        border-bottom: 1.1px solid grey!important;
+      }
+      .social-media{
+        font-size: 11px!important;
+      }
+      .mr-5{
+        margin-right: 0.35rem!important;
+      }
+      .md-sz{
+        font-size: 11px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 11px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 25px !important;
+        height: 25px !important;
+      }
+      .material-icons{
+        font-size: 15px!important;
+      }
+    }
+  </style>
   <body>
         <!-- SCROLL TOP BUTTON -->
         <a class="scrollToTop" href="#"></a>
         <!-- END SCROLL TOP BUTTON -->
-        <nav class="menu">
-          <ul>
-            <li><a href="./home.html">Home</a></li>
-            <li><a href="./deals.html">Offers</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./contactus.html">Contact Us</a></li>
-            
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="Partner Stores.html">Partner Stores</a></li>
-          </ul>
-          <form class="search-form">
-            <input type="text" placeholder="Search">
-            <button>Search</button>
-            </form>
-        </nav>
+        <section>
+          <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+              <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html">
+                      <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                          <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                              <li class="nav-item">
+                                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                  <a class="nav-link" href="./deals.html">Offers</a>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                  <a class="nav-link active" href="./contactus.html">Contact us</a>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                  <a class="nav-link" href="login.html">Login</a>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                  <a class="nav-link" href="./about.html">About us</a>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                  <a class="nav-link" href="faq.html">FAQ</a>
+                              </li>
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                    </a>
+                                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                                      <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                                      <li><a class="dropdown-item" href="#">Furniture</a></li>
+                                      <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                                      <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                                      <li>
+                                          <hr class="dropdown-divider">
+                                      </li>
+                
+                                      <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="cart.html">My Cart</a>
+                              </li>
+                          </ul>
+                          <form class="d-flex">
+                              <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-dark" type="submit">Search</button>
+                          </form>
+                  </div>
+              </div>
+            </nav>
+      </section>
   <section id="contactus">
       <p id="contact-head">Contact us</p>
       <p id="contact-message">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
       <div class="container">
         <div id="form-footer" class="row">
-          <div class="col-md-8">
+          <div style="width: 67%!important;" class="col-md-8">
             <div class="center-div">
               <div class="contact-table">
                 <form action="https://formspree.io/f/mgerlvrl" method="POST" id="my-form">
@@ -68,8 +275,8 @@
             </div>
             <div style="margin-top: 20px;" id="status"></div>
           </div>
-          <div id="social-section" class="col-md-4">
-            <div style="padding:0px 20px;padding-bottom: 15px;border-bottom:3.5px solid grey">
+          <div style="width: 33%!important;" id="social-section" class="col-md-4">
+            <div class="box-sz" style="padding:0px 20px;padding-bottom: 15px;border-bottom:3.5px solid grey">
               <div style="display: flex;justify-content: center;margin-bottom: 10px;">
                 <span class="footer-details"><i class="fa fa-map-marker mr-5" aria-hidden="true"></i></span>
                 <span class="footer-details"><span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span></span>
@@ -95,11 +302,11 @@
       
 </section>
 
-<footer class="bg-dark text-white pt-5 pb-4">
+<footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
   <div class="container text-md-left">
     <div class="row text-md-left">
       <div class="col mt-3" style="color:#808080;">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
         <p>
           <a href="" class="text-white" style="text-decoration: none;">About us</a>
         </p>
@@ -114,7 +321,7 @@
         </p>
       </div>
       <div class="col mt-3"  style="color:#808080;">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
           <p>
             <a href="" class="text-white" style="text-decoration: none;">Payments</a>
           </p>
@@ -132,7 +339,7 @@
           </p>
       </div>
       <div class="col mt-3" style="color:#808080;">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
           <p>
             <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
           </p>
@@ -144,7 +351,7 @@
           </p>
       </div>
       <div class="col mt-3" style="color:#808080;">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
           <p>
             <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
           </p>
@@ -159,7 +366,8 @@
           </p>
       </div>
       <div class="col mt-3" style="color:#808080;">
-        <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+        <div>
+          <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
           <p>
             <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
               <i class="fab fa-facebook-square"></i>
@@ -178,10 +386,11 @@
               Instagram
             </a>
           </p>
+        </div>
       </div>
     </div>
     <hr class="mb-4">
-    <div class="row align-items-center ">
+    <div class="row align-items-center">
       <div class="text-center">
         Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
       </div>
@@ -203,6 +412,7 @@
   </script>
   <script src="static/script.js"></script>
      <script src="static/form.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -220,3 +430,4 @@
     ></script>
 </body>
 </html>
+

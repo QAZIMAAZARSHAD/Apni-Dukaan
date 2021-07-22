@@ -4,28 +4,198 @@
 <head>
     <title>Apni Dukaan</title>
     <meta charset="utf-8">
-    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./static/style.css">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
-
+<style>
+  @media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .deals h2{
+      font-size: 30px!important;
+      margin-left: 25px!important;
+    }
+    .deals .inner div {
+      margin: 10px !important;
+      border:1.5px solid #000066!important;
+      width:25%!important;
+    }
+    .deals .inner img {
+      width:70px!important;
+      height:70px!important;
+      border-radius: 10px!important;
+    }
+    .deals .inner h3 {
+      font-size: 10px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 14px!important;
+      
+    }
+    .deals a {
+      font-size: 10px!important;
+      padding: 5px !important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .deals h2{
+      font-size: 23px!important;
+      margin-left: 17px!important;
+    }
+    .deals .inner div {
+      margin: 7px !important;
+      border:1.1px solid #000066!important;
+      width:23%!important;
+    }
+    .deals .inner img {
+      width:60px!important;
+      height:60px!important;
+      border-radius: 8px!important;
+    }
+    .deals .inner h3 {
+      font-size: 8px!important;
+      padding: 2px !important;
+    }
+    .deals .inner h4 {
+      font-size: 11px!important;
+      
+    }
+    .deals a {
+      font-size: 8px!important;
+      padding: 3px !important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }
+</style>
 <body>
-    <nav class="menu">
-        <ul>
-            <li><a href="./home.html">Home</a></li>
-            <li><a href="./deals.html">Offers</a></li>
-            <li><a href="./about.html">About Us</a></li>
-            <li><a href="./contactus.html">Contact Us</a></li>
-            
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="Partner Stores.html">Partner Stores</a></li>
-        </ul>
-        <form class="search-form">
-            <input type="text" placeholder="Search">
-            <button>Search</button>
-    </nav>
+  <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link active" href="./deals.html">Offers</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="./contactus.html">Contact us</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="./about.html">About us</a>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Category
+              </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                                <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                                <li><a class="dropdown-item" href="#">Furniture</a></li>
+                                <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                                <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+          
+                                <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="cart.html">My Cart</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Search</button>
+                    </form>
+            </div>
+        </div>
+      </nav>
+</section>
     <section class="deals" id="deals">
         <h2>Deals Of The Day</h2>
         <div class="inner">
@@ -85,104 +255,106 @@
             </div>
         </div>
     </section>
-    <footer class="bg-dark text-white pt-5 pb-4">
-        <div class="container text-md-left">
-          <div class="row text-md-left">
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">About us</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Careers</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
-              </p>
-              <p>
-                <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
-              </p>
-            </div>
-            <div class="col mt-3"  style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Payments</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
-                </p>
-                <p>
-                  <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
-                </p>
-                <p>
-                  <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
-                </p>
-            </div>
-            <div class="col mt-3" style="color:#808080;">
-              <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
-                <p>
-                  <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-facebook-square"></i>
-                    Facebook
-                  </a>
-                </p>
-                <p>
-                  <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-twitter-square"></i>
-                    Twitter
-                  </a>
-                </p>
-                <p>
-                  <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
-                    <i class="fab fa-instagram-square"></i>
-                    Instagram
-                  </a>
-                </p>
-            </div>
+    <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
+      <div class="container text-md-left">
+        <div class="row text-md-left">
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">About us</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+            </p>
+            <p>
+              <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+            </p>
           </div>
-          <hr class="mb-4">
-          <div class="row align-items-center ">
-            <div class="text-center">
-              Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+          <div class="col mt-3"  style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+              </p>
+              <p>
+                <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+              </p>
+          </div>
+          <div class="col mt-3" style="color:#808080;">
+            <div>
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+              <p>
+                <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-facebook-square"></i>
+                  Facebook
+                </a>
+              </p>
+              <p>
+                <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-twitter-square"></i>
+                  Twitter
+                </a>
+              </p>
+              <p>
+                <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                  <i class="fab fa-instagram-square"></i>
+                  Instagram
+                </a>
+              </p>
             </div>
           </div>
         </div>
-      </footer>
+        <hr class="mb-4">
+        <div class="row align-items-center">
+          <div class="text-center">
+            Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <button id = "btnScrollToTop">
         <i class="material-icons">arrow_upward</i>
     </button>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
         var countDownDate1 = new Date("July 19, 2021 00:00:00").getTime();
         var countDownDate2 = new Date("July 26, 2021 00:00:00").getTime();

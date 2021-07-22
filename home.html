@@ -4,24 +4,167 @@
 <head>
     <title>Apni Dukaan</title>
     <meta charset="utf-8">
-    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./static/style.css">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
     <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
     <title>Apni Dukaan</title>
 </head>
+<style>
+    @media screen and (max-width: 500px) {
+      .nav-link{
+        font-size: 13px!important;
+      }
+      .dropdown-item{
+        font-size: 13px!important;
+      }
+      .line-in{
+        font-size: 13px!important; 
+      }
+      .btn{
+        font-size: 10px!important;
+        padding:0.15rem 0.3rem!important;
+      }
+      .carousel-item img {
+        height: 55vh !important;
+      }
+       .help h3, h3 {
+        padding-left: 0px!important;
+       }
+       .my-5{
+           margin-top: 1.5rem!important;
+           margin-bottom: 1.5rem!important;
+       }
+       .display-4{
+           font-size: 23px!important;
+       }
+       .row>* {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+       }
+       .card-body{
+           padding:0.5rem 0.42rem!important;
 
+       }
+       .card-title{
+           font-size: 10px!important;
+       }
+       .card-text{
+           font-size: 8px!important;
+       }
+       .row{
+           margin:0px 5px!important;
+       }
+       .card-img{
+           height: 90px !important;
+       }
+       .card{
+         width: 5rem !important;
+       }
+      .md-sz{
+        font-size: 13px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 13px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 30px !important;
+        height: 30px !important;
+      }
+      .material-icons{
+        font-size: 19px!important;
+      }
+    }
+    @media screen and (max-width: 425px) {
+      .nav-link{
+        font-size: 11px!important;
+      }
+      .dropdown-item{
+        font-size: 11px!important;
+      }
+      .line-in{
+        font-size: 11px!important; 
+      }
+      .btn{
+        font-size: 11px!important;
+      }
+      .carousel-item img {
+        height: 50vh !important;
+      }
+       .help h3, h3 {
+        padding-left: 0px!important;
+       }
+       .my-5{
+           margin-top: 1.2rem!important;
+           margin-bottom: 1.2rem!important;
+       }
+       .display-4{
+           font-size: 18px!important;
+       }
+       .row>* {
+        padding-left: 5px!important;
+        padding-right: 5px!important;
+       }
+       .card-body{
+           padding:0.38rem 0.3rem!important;
+
+       }
+       .card-title{
+           font-size: 8px!important;
+       }
+       .card-text{
+           font-size:6.5px!important;
+       }
+       .row{
+           margin:0px 5px!important;
+       }
+       .card-img{
+           height: 75px !important;
+       }
+       .card{
+         width: 4rem !important;
+       }
+      .md-sz{
+        font-size: 11px!important;
+        margin: 0 !important;
+      }
+      .text-white{
+        font-size: 11px!important;
+      }
+      footer h5::before{
+        padding-right: 2.5px!important;
+      }
+      .mb-4{
+        margin-bottom: 0.5rem!important;
+      }
+      #btnScrollToTop{
+        width: 25px !important;
+        height: 25px !important;
+      }
+      .material-icons{
+        font-size: 15px!important;
+      }
+    }
+  </style>
 <body>
 
     <section>
@@ -134,22 +277,22 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
+                <div style="width:50%!important" class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
                     <figure>
                         <img src="Images/New Arrival Sale Instagram Video Post.png" alt="offer 1" class="img-fluid content rounded ">
                     </figure>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
+                <div style="width:50%!important" class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
                     <figure>
                         <img src="Images/Flash Sale Facebook Instagram Post.png" alt="offer 1" class="img-fluid content rounded">
                     </figure>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
+                <div style="width:50%!important" class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
                     <figure>
                         <img src="Images/Today Only Big Sale Instagram Video Post.png" alt="offer 1" class="img-fluid content rounded">
                     </figure>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
+                <div style="width:50%!important" class="col-lg-6 col-md-6 col-12  col-xxl-6 grow">
                     <figure>
                         <img src="Images/Back to School Sale Instagram Video Post.png" alt="offer 1" class="img-fluid content rounded">
                     </figure>
@@ -166,8 +309,8 @@
             <hr class="w-25 mx-auto">
         </div>
         <div class="row py-3">
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/VIVO.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Mobile Phones</h5>
@@ -176,8 +319,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/201124-tvs-commerce-2x1-mn-0925.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">TV</h5>
@@ -186,8 +329,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/download.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Applianaces</h5>
@@ -196,8 +339,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images//1592920567-mid-century-double-pop-up-coffee-table-walnut-white-marble-2-c.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Furniture</h5>
@@ -206,8 +349,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/istockphoto-864501328-612x612.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Kids</h5>
@@ -216,8 +359,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/100-years-of-fashion-cover-lapolo.jpg" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Fashion</h5>
@@ -226,8 +369,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/grocery.png" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Grocery</h5>
@@ -236,8 +379,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col md-5">
-                <div class="card mx-auto" style="width: 18rem;">
+            <div class="col md-3">
+                <div class="card mx-auto" style="width:18rem">
                     <img src="Images/deals.png" class="card-img" alt="mobile">
                     <div class="card-body">
                         <h5 class="card-title">Top Deals</h5>
@@ -248,102 +391,107 @@
             </div>
         </div>
     </section>
-    <footer class="bg-dark text-white pt-5 pb-4">
+    <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
         <div class="container text-md-left">
-            <div class="row text-md-left">
-                <div class="col mt-3" style="color:#808080;">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">About us</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Careers</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
-                    </p>
-                </div>
-                <div class="col mt-3" style="color:#808080;">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Payments</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
-                    </p>
-                    <p>
-                        <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
-                    </p>
-                </div>
-                <div class="col mt-3" style="color:#808080;">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
-                    </p>
-                </div>
-                <div class="col mt-3" style="color:#808080;">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
-                    </p>
-                    <p>
-                        <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
-                    </p>
-                </div>
-                <div class="col mt-3" style="color:#808080;">
-                    <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
-                    <p>
-                        <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
-                            <i class="fab fa-facebook-square"></i> Facebook
-                        </a>
-                    </p>
-                    <p>
-                        <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
-                            <i class="fab fa-twitter-square"></i> Twitter
-                        </a>
-                    </p>
-                    <p>
-                        <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
-                            <i class="fab fa-instagram-square"></i> Instagram
-                        </a>
-                    </p>
-                </div>
+          <div class="row text-md-left">
+            <div class="col mt-3" style="color:#808080;">
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">About us</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+              </p>
+              <p>
+                <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+              </p>
             </div>
-            <hr class="mb-4">
-            <div class="row align-items-center">
-                <div class="text-center">
-                    Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
-                </div>
+            <div class="col mt-3"  style="color:#808080;">
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+                </p>
+                <p>
+                  <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+                </p>
             </div>
+            <div class="col mt-3" style="color:#808080;">
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+                </p>
+            </div>
+            <div class="col mt-3" style="color:#808080;">
+              <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+                </p>
+            </div>
+            <div class="col mt-3" style="color:#808080;">
+              <div>
+                <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+                <p>
+                  <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                    <i class="fab fa-facebook-square"></i>
+                    Facebook
+                  </a>
+                </p>
+                <p>
+                  <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                    <i class="fab fa-twitter-square"></i>
+                    Twitter
+                  </a>
+                </p>
+                <p>
+                  <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                    <i class="fab fa-instagram-square"></i>
+                    Instagram
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="row align-items-center">
+            <div class="text-center">
+              Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+            </div>
+          </div>
         </div>
-    </footer>
+      </footer>
 
     <!-- scroll to top button -->
     <button id="btnScrollToTop">
         <i class="material-icons">arrow_upward</i>
     </button>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
         const btnScrollToTop = document.querySelector("#btnScrollToTop");
         btnScrollToTop.addEventListener("click", function() {
