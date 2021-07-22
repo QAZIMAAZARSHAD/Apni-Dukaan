@@ -1,0 +1,257 @@
+/ 4: VISA, 51 -> 55: MasterCard, 36-38-39: DinersClub, 34-37: American Express, 65: Discover, 5019: dankort
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  --card-color: #cacaca;
+  --text-color: #e1e1e1;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.tips{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background: #f1f1f1;
+  line-height: 30px;
+  font-size: 14px;
+  padding: 2px 15px;
+}
+
+.container{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 680px;
+  
+  .col1{
+    perspective: 1000;
+    transform-style: preserve-3d;
+    .card{
+      position: relative;
+      width: 420px;
+      height: 250px;
+      margin-bottom: 85px;
+      margin-right: 10px;
+      border-radius: 17px;
+      box-shadow: 0 5px 20px -5px rgba(0,0,0,0.1);
+      transition: all 1s;
+      transform-style: preserve-3d;
+      .front{
+        position: absolute;
+        background: var(--card-color);
+        border-radius: 17px;
+        padding: 50px;
+        width: 100%;
+        height: 100%;
+        transform: translateZ(1px);
+        -webkit-transform: translateZ(1px);
+        transition: background 0.3s;
+        z-index: 50;
+        background-image: repeating-linear-gradient(45deg, rgba(255, 255, 255, 0) 1px, rgba(255, 255, 255, 0.03) 2px, rgba(255, 255, 255, 0.04) 3px, rgba(255, 255, 255, 0.05) 4px), -webkit-linear-gradient(-245deg, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0.2) 70%, rgba(255, 255, 255, 0) 90%);
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        .type{
+          position: absolute;
+          width: 75px;
+          height: 45px;
+          top: 20px;
+          right: 20px;
+          img{
+            width: 100%;
+            float: right;
+          }
+        }
+        .card_number{
+          position: absolute;
+          font-size: 26px;
+          font-weight: 500;
+          letter-spacing: -1px;
+          top: 110px;
+          color: var(--text-color);
+          word-spacing: 3px;
+          transition: color 0.5s;
+        }
+        .date{
+          position: absolute;
+          bottom: 40px;
+          right: 55px;
+          width: 90px;
+          height: 35px;
+          color: var(--text-color);
+          transition: color 0.5s;
+          .date_value{
+            font-size: 12px;
+            position: absolute;
+            margin-left: 22px;
+            margin-top: 12px;
+            color: var(--text-color);
+            font-weight: 500;
+            transition: color 0.5s;
+          }
+          &:after{
+            content: 'MONTH / YEAR';
+            position: absolute;
+            display: block;
+            font-size: 7px;
+            margin-left: 20px;
+          }
+          &:before{
+            content: 'valid \a thru';
+            position: absolute;
+            display: block;
+            font-size: 8px;
+            white-space: pre;
+            margin-top: 8px;
+          }
+        }
+        .fullname{
+          position: absolute;
+          font-size: 20px;
+          bottom: 40px;
+          color: var(--text-color);
+          transition: color 0.5s;
+        }
+      }    
+      .back{
+        position: absolute;
+        width: 100%;
+        border-radius: 17px;
+        height: 100%;
+        background: var(--card-color);
+        transform: rotateY(180deg);
+        .magnetic{
+          position: absolute;
+          width: 100%;
+          height: 50px;
+          background: rgba(0,0,0,0.7);
+          margin-top: 25px;
+        }
+        
+        .bar{
+          position: absolute;
+          width: 80%;
+          height: 37px;
+          background: rgba(255,255,255,0.7);
+          left: 10px;
+          margin-top: 100px;
+        }
+        
+        .seccode{
+          font-size: 13px;
+          color: var(--text-color);
+          font-weight: 500;
+          position: absolute;
+          top: 100px;
+          right: 40px;
+        }
+        
+        .chip{
+          bottom: 45px;
+          left: 10px;
+        }
+        
+        .disclaimer{
+          position: absolute;
+          width: 65%;
+          left: 80px;
+          color: #f1f1f1;
+          font-size: 8px;
+          bottom: 55px;
+        }
+      }
+    }
+  }
+  
+  .col2{
+    input{
+      display: block;
+      width: 260px;
+      height: 30px;
+      padding-left: 10px;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      margin: 7px;
+      font-size: 17px;
+      border-radius: 20px;
+      background: rgba(0,0,0,0.05);
+      border: none;
+      transition: background 0.5s;
+      &:focus{
+        outline-width: 0;
+        background: rgba(31,134,252, 0.15);
+        transition: background 0.5s;
+      }
+    }
+    
+    label{
+      padding-left: 8px;
+      font-size: 15px;
+      color: #444;
+    }
+    
+    .ccv{
+      width: 40%;
+    }
+    
+    .buy{
+      width: 260px;
+      height: 50px;
+      position: relative;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      border: none;
+      background: #42C2DF;
+      color: white;
+      font-size: 20px;
+      transition: background 0.4s;
+      cursor: pointer;
+      i{
+        font-size: 20px;
+      }
+      &:hover{
+        background: #3594A9;
+        transition: background 0.4s;
+      }
+    }
+  }
+  
+}
+
+.chip{
+  position: absolute;
+  width: 55px;
+  height: 40px;
+  background: #bbb;
+  border-radius: 7px;
+  &:after{
+    content: '';
+    display: block;
+    width: 35px;
+    height: 25px;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #ddd;
+  }
+}
