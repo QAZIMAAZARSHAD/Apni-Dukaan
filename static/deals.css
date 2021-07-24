@@ -1,3 +1,88 @@
+/* DEALS  */
+
+.deals .inner {
+  background-color: skyblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.deals .inner div {
+  text-align: center;
+  margin: 25px;
+  padding: 10px;
+  padding-bottom: 20px;
+  border: 3px solid #000066;
+  box-shadow: #000066 0px 5px 15px;
+  width: 350px;
+}
+
+.deals h2 {
+  font-size: 50px;
+  color: rgb(67, 67, 163);
+  margin-left: 30px;
+}
+
+.deals .inner img {
+  border-radius: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.deals .inner h3 {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.deals a {
+  border: 2px solid #000066;
+  text-decoration: none;
+  padding: 10px;
+  background-color: #000066;
+  color: white;
+  transition: all 0.5s;
+}
+
+.deals a:hover {
+  background: none;
+  color: #000066;
+}
+
+#timer1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#timer2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#timer3 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#timer4 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#timer5 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+#timer6 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+
 @media screen and (max-width: 500px) {
     .nav-link{
       font-size: 13px!important;

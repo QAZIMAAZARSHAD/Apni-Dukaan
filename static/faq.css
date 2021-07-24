@@ -1,3 +1,91 @@
+/* FAQ PAGE  */
+
+.container1 {
+  margin: 0 auto;
+  padding: 64px;
+  width: 768px;
+}
+
+.container1 h2 {
+  color: rgb(67, 67, 163);
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.accordion a {
+  position: relative;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px 48px 16px 16px;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-bottom: 1px solid grey;
+}
+
+.accordion a:hover,
+.accordion a:hover::after {
+  cursor: pointer;
+  color: #000066;
+}
+
+.accordion a:hover::after {
+  transform: scale(1.1);
+}
+
+.accordion a.active {
+  color: #000066;
+  border-bottom: 1px solid #fff;
+}
+
+.accordion a::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f063";
+  font-weight: 900;
+  position: absolute;
+  float: right;
+  right: 16px;
+  font-size: 16px;
+  color: grey;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.accordion a.active::after {
+  font-family: "Font Awesome 5 Free";
+  content: "\f062";
+  color: #000066;
+}
+
+.accordion .content {
+  opacity: 0;
+  padding: 0 16px;
+  max-height: 0;
+  border-bottom: 1px solid #000066;
+  overflow: hidden;
+  clear: both;
+  transition: all 0.2s;
+}
+
+.accordion .content p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.accordion .content.active {
+  opacity: 1;
+  padding: 16px;
+  max-height: 100%;
+  transition: all 0.3s;
+}
+
 @media screen and (max-width: 500px) {
     .nav-link{
       font-size: 13px!important;

@@ -1,3 +1,135 @@
+/* contact us page */
+#contactus {
+  background-color: var(--primary-contact-background);
+  padding: 25px 50px;
+  padding-bottom: 55px;
+}
+
+#contact-head {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-title);
+  font-weight: 650;
+  font-size: 35px;
+  border-bottom: 1.5px solid var(--primary-title);
+  padding-bottom: 4px;
+}
+
+#contact-message {
+  color: var(--primary-title);
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0px 80px;
+}
+
+#form-footer {
+  margin-top: 30px;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-table {
+  padding: 10px 25px;
+  padding-bottom: 30px;
+  min-width: 450px;
+  max-width: 500px;
+  background-color: var(--primary-background);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.input-container {
+  margin: 30px 10px;
+}
+
+.contact-inputs {
+  margin-left: 5px;
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: var(--primary-title);
+}
+
+.btn-md {
+  font-weight: 600;
+  background-color: rgb(67, 67, 163);
+  color: var(--primary-background);
+  width: 100%;
+}
+
+#social-section {
+  padding: 70px 0px;
+}
+
+.footer-details {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.footer-details i {
+  color: rgb(67, 67, 163);
+}
+
+.footer-details span {
+  color: black;
+}
+
+#social-media-icons {
+  margin-top: 20px;
+  padding: 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28px;
+}
+
+.social-media {
+  color: var(--primary-title);
+  transition: color 0.15s ease-in;
+}
+
+.social-media:hover {
+  color: rgb(67, 67, 163);
+}
+
+.contact-input-tags {
+  border: 1.5px solid var(--primary-input-border)!important;
+  background-color: var(--primary-input-background)!important;
+}
+
+.contact-input-tags:focus {
+  border: 1.5px solid var(--primary-input-border)!important;
+  background-color: var(--primary-input-background)!important;
+  outline: none!important;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h3 {
+  color: rgb(67, 67, 163);
+}
+
+.contact a {
+  border: 2px solid #000066;
+  text-decoration: none;
+  padding: 7px;
+  margin-left: 30px;
+  background-color: #000066;
+  color: white;
+  transition: all 0.5s;
+}
+
+.contact a:hover {
+  background: none;
+  color: #000066;
+}
+
 @media screen and (max-width: 500px) {
       .nav-link{
         font-size: 13px!important;
