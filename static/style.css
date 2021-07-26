@@ -7,6 +7,7 @@
     --primary-input-border: #e1e4e8;
     --primary-input-background: #fff;
     --primary-contact-background: skyblue;
+    --primary-faq-background: #5d6a7a;
 }
 
 ::-webkit-scrollbar {
@@ -932,98 +933,72 @@ h3 {
 
 
 /* FAQ PAGE  */
-
+#faq {
+    background-color: var(--primary-faq-background);
+    padding: 25px 50px;
+    padding-bottom: 55px;
+}
 .container1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #5d6a7a;
+    color: white;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: justify;
+  }
+
+  main {
+    max-width: 1000px;
+    padding: 10px;
     margin: 0 auto;
-    padding: 64px;
-    width: 768px;
-}
+  }
 
-.container1 h2 {
-    color: rgb(67, 67, 163);
-    text-decoration: underline;
-    font-size: 28px;
-}
-
-.accordion a {
-    position: relative;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-    width: 100%;
-    padding: 16px 48px 16px 16px;
-    color: #000;
-    font-size: 20px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    border-bottom: 1px solid grey;
-}
-
-.accordion a:hover,
-.accordion a:hover::after {
+  .summary .faq_content{
+    border-radius: 1px;
+    border-color: white;
+  }
+  summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: justify;
     cursor: pointer;
-    color: #000066;
-}
-
-.accordion a:hover::after {
-    transform: scale(1.1);
-}
-
-.accordion a.active {
-    color: #000066;
-    border-bottom: 1px solid #fff;
-}
-
-.accordion a::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f063";
-    font-weight: 900;
+    position: relative;
+  }
+  details[open] summary ~ * {
+    animation: sweep .5s ease-in-out;
+  }
+  @keyframes sweep {
+    0%    {opacity: 0; margin-top: -10px}
+    100%  {opacity: 1; margin-top: 0px}
+  }
+  details > summary::after {
     position: absolute;
-    float: right;
-    right: 16px;
-    font-size: 16px;
-    color: grey;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    text-align: center;
-}
+    content: "+";
+    right: 20px;
+  }
+  details[open] > summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
 
-.accordion a.active::after {
-    font-family: "Font Awesome 5 Free";
-    content: "\f062";
-    color: #000066;
-}
-
-.accordion .content {
-    opacity: 0;
-    padding: 0 16px;
-    max-height: 0;
-    border-bottom: 1px solid #000066;
-    overflow: hidden;
-    clear: both;
-    transition: all 0.2s;
-}
-
-.accordion .content p {
-    font-size: 16px;
-    font-weight: 300;
-}
-
-.accordion .content.active {
-    opacity: 1;
-    padding: 16px;
-    max-height: 100%;
-    transition: all 0.3s;
-}
-
+/*end of FAQ PAGE*/
 #contactus {
     background-color: var(--primary-contact-background);
     padding: 25px 50px;
     padding-bottom: 55px;
-}
+} 
 
 #contact-head {
     text-align: center;
