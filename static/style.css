@@ -994,12 +994,11 @@ h3 {
   }
 
 /*end of FAQ PAGE*/
-
 #contactus {
     background-color: var(--primary-contact-background);
     padding: 25px 50px;
     padding-bottom: 55px;
-}
+} 
 
 #contact-head {
     text-align: center;
