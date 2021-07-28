@@ -1,0 +1,378 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .img-sz{
+      height:150px!important;
+    }
+    .head-sz{
+      font-size: 37px!important;
+    }
+    .mid-sz{
+      font-size: 24px!important;
+    }
+    .mid1-sz{
+      font-size: 15px!important;
+    }
+    .mid2-sz{
+      font-size: 20px!important;
+      padding-top: 45px!important;
+      height:150px!important;
+      width:150px!important;
+      margin-left:6px!important;
+    }
+    .mid3-sz{
+      font-size: 13px!important;
+      margin-top: 38px!important;
+    }
+    .mid4-sz{
+      font-size: 26px!important;
+    }
+    .flip-card{
+      height:92px!important;
+      width:92px!important;
+      margin:10px 10px 30px 10px!important;
+    }
+    .flip-card img{
+      height:35px!important;
+      margin-top: 10px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .img-sz{
+      height:130px!important;
+    }
+    .head-sz{
+      font-size: 30px!important;
+    }
+    .mid-sz{
+      font-size: 19px!important;
+    }
+    .mid1-sz{
+      font-size: 13px!important;
+    }
+    .mid2-sz{
+      font-size: 16px!important;
+      padding-top: 35px!important;
+      height:130px!important;
+      width:130px!important;
+      margin-left:6px!important;
+      margin-right:6px!important;
+    }
+    .mid3-sz{
+      font-size: 11px!important;
+      margin-top: 32px!important;
+    }
+    .mid4-sz{
+      font-size: 21px!important;
+    }
+    .flip-card{
+      height:77px!important;
+      width:77px!important;
+      margin:7.5px 7.5px 24px 7.5px!important;
+    }
+    .flip-card img{
+      height:28px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }
+
+  /* FLIP CARD SECTION */
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+   margin-left: 6%;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background:url(../Images/first.png);
+    color: black;
+    cursor: pointer;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+
+
+
+
+
+.flip-card-f{
+  background:url(../Images/best.png);
+  color: black;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+.flip-card-r{
+  background:url(../Images/audio.png);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+.flip-card-o{
+  background:url(../Images/book.jpg) no-repeat;
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+.flip-card-x{
+  background:url(../Images/the-rudest-book-ever.png);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+
+.flip-card-t{
+  background:url(../Images/htw.jpg);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+
+.flip-card-u{
+  background:url(../Images/book4.png);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+
+.flip-card-v{
+  background:url(../Images/story.png);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+
+
+.flip-card-w{
+  background:url(../Images/auto.jpg);
+  color: black;
+  position: absolute;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border:5.5px solid rgb(67,67,163);
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+h1{
+  
+  font-family: 'Encode Sans SC', sans-serif;
+}
+.text{
+  font-family: 'Zen Tokyo Zoo', cursive;
+}
+.buybutton{
+
+  margin-left: 30%;
+  width:40%;
+  margin-top:20px;
+  text-transform: uppercase;
+}
+
+.buybutton:hover{
+  transform: scale(1.12);
+  transition: 0.5s all ease-in-out;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Cards */
+
+  .first{
+      text-align: center;
+      padding-top: 3%;
+  }
+
+h1{
+  padding-top:20px;
+}
+.best{
+width:800px;
+height:200px;
+}
