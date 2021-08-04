@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="static/cares.css">
+        <link rel="stylesheet" href="./static/style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Apni Dukaan Cares</title>
+    </head>
+    <style>
+    @media screen and (max-width: 500px) {
+        .nav-link{
+            font-size: 13px!important;
+        }
+        .dropdown-item{
+            font-size: 13px!important;
+        }
+        .line-in{
+            font-size: 13px!important; 
+        }
+        .btn{
+            font-size: 13px!important;
+        }
+        footer h5::before{
+            padding-right: 2.5px!important;
+        }
+        .mb-4{
+            margin-bottom: 0.5rem!important;
+        }
+        #btnScrollToTop{
+            width: 30px !important;
+            height: 30px !important;
+        }
+        .material-icons{
+            font-size: 19px!important;
+        }
+    }
+    @media screen and (max-width: 425px) {
+        .nav-link{
+            font-size: 11px!important;
+        }
+        .dropdown-item{
+            font-size: 11px!important;
+        }
+        .line-in{
+            font-size: 11px!important; 
+        }
+        .btn{
+            font-size: 11px!important;
+        }
+        .md-sz{
+            font-size: 11px!important;
+            margin: 0 !important;
+        }
+        .text-white{
+            font-size: 11px!important;
+        }
+        footer h5::before{
+            padding-right: 2.5px!important;
+        }
+        .mb-4{
+            margin-bottom: 0.5rem!important;
+        }
+        #btnScrollToTop{
+            width: 25px !important;
+            height: 25px !important;
+        }
+        .material-icons{
+            font-size: 15px!important;
+        }
+    }
+    </style>
+    <body>
+        <!-- SCROLL TOP BUTTON -->
+        <a class="scrollToTop" href="#"></a>
+        <!-- END SCROLL TOP BUTTON -->
+        <section>
+            <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">
+                        <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                            <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                    <a class="nav-link active" href="./deals.html">Offers</a>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                    <a class="nav-link" href="./contactus.html">Contact us</a>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                    <a class="nav-link" href="login.html">Login</a>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                    <a class="nav-link" href="./about.html">About us</a>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                    <a class="nav-link" href="faq.html">FAQ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Category</a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li>
+                                            <a class="dropdown-item" href="./mobile.html">Mobile</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./">TV/Appliances</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Furniture</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Baby/Kids</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./stationery.html">Stationery</a>
+                                        </li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="./login.html">Login/Signup</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="cart.html">My Cart</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-dark" type="submit">Search</button>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <div class="cares_wrapper">
+            <h1>Apni Dukaan Cares</h1>
+            <div class="our_cares">
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://cdn.dribbble.com/users/1039637/screenshots/4326512/ngo-logo-design.png" alt="our_cares" />
+                    </div>
+                    <h3>Prayas</h3>
+                    <span>For Girl Child</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://live.staticflickr.com/65535/48480031302_90182bfb5e_b.jpg" alt="our_cares" />
+                    </div>
+                    <h3>Smile</h3>
+                    <span>For Old People</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpWpi-rRHE1Pfg69azUj4ANRpTXIKhA8nSrw&usqp=CAU" alt="our_cares" />
+                    </div>
+                    <h3>Disha</h3>
+                    <span>For Skill Development and Livelihood</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://images-platform.99static.com//fx9S6s3lCnSNC_iamdDznc14gCs=/1121x1146:1934x1959/fit-in/500x500/99designs-contests-attachments/88/88813/attachment_88813317" alt="our_cares" />
+                    </div>
+                    <h3>Hope</h3>
+                    <span>For Health</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjI9mr4sCV7CADI89MLd9RhWI9QoEfwN_SUg&usqp=CAU" alt="our_cares" />
+                    </div>
+                    <h3>Sunrise Power</h3>
+                    <span>For Women Empowerment</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://lh3.googleusercontent.com/proxy/v2BQ4BF4AaqjjXbKxNwPau5n3_6_LZmt5gEdJFFO-zyqeH_BfVQDr-fQTPtE-VYq9RmCaPGEh2KsI3ws2fgiJUcYy-ccFJZLJmQ54_GKZJvHd_skskqC" alt="our_cares" />
+                    </div>
+                    <h3>Aakansha</h3>
+                    <span>For Girl Child</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="http://logofaves.com/wp-content/uploads/2011/09/hope_r.jpg?9cf02b" alt="our_cares" />
+                    </div>
+                    <h3>Hope Heroes</h3>
+                    <span>For Differently Abled</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKrREYU18aAfpRvSYHVDbar2g8v0orvWpNKA&usqp=CAU" alt="our_cares" />
+                    </div>
+                    <h3>One Earth One Heart</h3>
+                    <span>For Nature</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+
+                <div class="cares_member">
+                    <div class="member_img">
+                        <img src="https://cdn.logojoy.com/wp-content/uploads/2018/05/30162044/1157.png" alt="our_cares" />
+                    </div>
+                    <h3>Future Care</h3>
+                    <span>For Unprivileged</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
+                        perspiciatis, error deleniti quaerat beatae doloribus incidunt
+                        excepturi.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
+            <div class="container text-md-left">
+                <div class="row text-md-left">
+                    <div class="col mt-3" style="color:#808080;">
+                        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Get to know us</h5>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">About us</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+                        </p>
+                        <p>
+                            <a href="./cares.html" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+                        </p>
+                        <p>
+                            <a href="./Partner Stores.html" class="text-white" style="text-decoration: none;">Our Partners</a>
+                        </p>
+                    </div>
+                    <div class="col mt-3"  style="color:#808080;">
+                        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Let us help you</h5>
+                        <p>
+                            <a href="paypolicy.html" class="text-white" style="text-decoration: none;">Payments</a>
+                        </p>
+                        <p>
+                            <a href="shippolicy.html" class="text-white" style="text-decoration: none;">Shipping</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+                        </p>
+                        <p>
+                            <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+                        </p>
+                    </div>
+                    <div class="col mt-3" style="color:#808080;">
+                        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Policy</h5>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+                        </p>
+                    </div>
+                    <div class="col mt-3" style="color:#808080;">
+                        <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Make money with us</h5>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+                        </p>
+                        <p>
+                            <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+                        </p>
+                    </div>
+                    <div class="col mt-3" style="color:#808080;">
+                        <div>
+                            <h5 class="text-uppercase mb-4 font-weight-bold md-sz">Connect with us</h5>
+                            <p>
+                                <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                                    <i class="fab fa-facebook-square"></i>
+                                    Facebook
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                                    <i class="fab fa-twitter-square"></i>
+                                    Twitter
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                                    <i class="fab fa-instagram-square"></i>
+                                    Instagram
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr class="mb-4">
+                <div class="row align-items-center">
+                    <div class="text-center">
+                        Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
