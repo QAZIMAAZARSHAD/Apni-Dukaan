@@ -1,124 +1,203 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
 	<title>Apni Dukaan</title>
 	<link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
 	<script>
-		function displayMessageReset()
-		{
+		function displayMessageReset() {
 			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
 		}
+	</script>
+
+	<style>
+		body {
+			/* background-image: url("./Images/ApniDukaanLogo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; */
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+
+		section {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			background: linear-gradient(-30deg,
+					#03a9f4 0%,
+					#3a78b7 50%,
+					#262626 50%,
+					#607d8b 100%);
+			filter: hue-rotate(120deg);
+			animation: animate 10s linear infinite;
+		}
+
+		@keyframes animate {
+			0% {
+				filter: hue-rotate(0deg);
+			}
+
+			100% {
+				filter: hue-rotate(360deg);
+			}
+		}
+
+		section .box {
+			position: relative;
+			padding: 40px;
+			width: 360px;
+			height: 480px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background: rgba(255, 255, 255, 0.1);
+			border-radius: 6px;
+			box-shadow: 0 5px 35px rgba(0, 0, 0, 0.2);
+		}
+
+		section .box::after {
+			content: "";
+			position: absolute;
+			top: 5px;
+			left: 5px;
+			right: 5px;
+			bottom: 5px;
+			border-radius: 5px;
+			pointer-events: none;
+			background: linear-gradient(to bottom,
+					rgba(255, 255, 255, 0.3) 0%,
+					rgba(255, 255, 255, 0.1) 15%,
+					transparent 50%,
+					transparent 85%,
+					rgba(255, 255, 255, 0.3) 100%);
+		}
+
+		section .box .form {
+			position: relative;
+			width: 100%;
+		}
+
+		section .box .form .form_logo {
+			text-align: center;
+		}
+
+		section .box .form .form_logo img {
+			height: 120px;
+		}
 		
+		section .box .form h2 {
+			color: #fff;
+			font-weight: 600px;
+			letter-spacing: 2px;
+			margin-bottom: 30px;
+		}
+
+		section .box .form .inputBox {
+			position: relative;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		section .box .form .inputBox input {
+			width: 90%;
+			outline: none;
+			border: 1px solid rgba(255, 255, 255, 0.2);
+			background: transparent;
+			padding: 8px 10px;
+			padding-left: 20px;
+			border-radius: 6px;
+			color: #fff;
+			box-shadow: inset 0 0 25px rgba(0, 0, 0, 0.2);
+		}
+
+		section .box .form .inputBox input::placeholder {
+			color: #fff;
+		}
+
+		section .box .form .inputBox input[type="submit"] {
+			background: #fff;
+			color: #111;
+			max-width: 100px;
+			padding: 8px 10px;
+			box-shadow: none;
+			font-weight: 500;
+			letter-spacing: 1px;
+			cursor: pointer;
+		}
+
+		section .box .form .inputBox input[type="submit"]:hover {
+			transform: scale(1.05);
+
+		}
+
+		section .box .form .inputBox img {
+			position: absolute;
+			top: 8px;
+			left: 5px;
+			transform: scale(0.7);
+			filter: invert(1);
+		}
+
+		section .box .form .remember {
+			position: relative;
+			display: inline-block;
+			color: #fff;
+			font-weight: 300;
+			margin-bottom: 10px;
+			cursor: pointer;
+		}
+
+		section .box .form p {
+			color: #fff;
+			font-weight: 300;
+			font-size: 15px;
+			margin-top: 5px;
+		}
+
+		section .box .form a {
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+	<section>
+		<div class="box">
+			<div class="form">
+				<div class="form_logo"><img src="./Images/ApniDukaanLogo.png"></div>
+				<h2>SignUp</h2>
+				<form onsubmit>
+					<div class="inputBox">
+						<input type="text" placeholder="Username" required pattern="[a-zA-Z0-9]+" title="Only AlphaNumeric Characters Allowed">
+						<img src="./Images/user.png">
+					</div>
+					<div class="inputBox">
+						<input type="email" placeholder="Email Id" required>
+						<img src="./Images/user.png">
+					</div>
+					<div class="inputBox">
+						<input type="password" placeholder="Password" id="pass" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&]).{8,16}"
+						title="Must contain at least one number, one uppercase letter, one lowercase letter, one special character, and length should be minimum 8 and maximum 16 characters">
+						<img src="./Images/lock.png">
+						<span class="show-hide">
+							<i class="fas fa-eye" id="eye" onclick="spl()"></i>
+						</span>
+					</div>
+					<label class="remember"><input type="checkbox">Remember Me</label>
+					<div class="inputBox">
+						<input class="btn" type="submit" value="SignUp">
+					</div>
+				</form>
+				<p>Have an <a href="login.html">Account</a>?</p>
+			</div>
+		</div>
+	</section>
+</body>
+
+<script>
+	
 </script>
 
-<style>
-	body{
-	background-image: url("./Images/ApniDukaanLogo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100%;
-}
-div{
-	margin-bottom: 8px;
-}
-	.details{
-		text-align: center;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		transform: translate(-50%,-50%);
-		color: red;
-		font-size: 25px;
-		font-family: cursive;
-		}
-input[type=text],input[type=radio],input[type=number],input[type=password],input[type=email]{
-	border-radius: 100px;
-	color: red;
-	width: 250px;
-	height: 25px;
-	margin-left: 10px;
-	text-align: center;
-	line-height: 20px;
-	background-color: white;
-	color: black;
-	text-transform: uppercase;
-}
-button[type=submit], button[type=reset]
-{
-	border-radius: 100px;
-	text-align: center;
-	width:125px;
-	height:30px;
-	line-height: 20px;
-	color:red;
-	background-color: black;
-	margin-left: 10px;
-	font-size: 18px;
-	font-weight: bold;
-}
-#signup{
-	color: red;
-	font-size: 90px;
-	font-family: Arial;
-	font-weight: bold;
-	position: absolute;
-	left:0;
-	top: 0;
-	transform: translateY(250px);
-	margin-left:50px;
-	}
-.fp{
-	border-radius: 100px;
-	text-align: center;
-	width: 180px;
-	height: 35px;
-	color:red;
-	margin-left: 20%;
-	background-color: black;
-	margin-top: 10px;
-	font-size: medium;
-}
-.a{
-	text-align: center;
-	line-height: 20px;
-	color:red;
-	top: 5px;
-	position: relative;
-	text-decoration: none;
-}
-.fp :hover{
-	cursor: hand;
-}	
-form{
-	height: 100px;
-}
-</style>
-</head>
-<body>
-		<div id="signup">SIGN UP</div>
-<form action="home.html">
-	<div class="details">
-    <div>
-    <input type="text" name="Fname" required placeholder="First Name" required>
-    </div>
-	  <div>
-    <input type="text" name="Mname" required placeholder="Middle Name" required>
-	  </div>
-	  <div>
-		<input type="text" name="Lname" required placeholder="Last Name" required>
-	  </div>
-	  <div>
-	  <input type="email" name="email" required placeholder="Email" required>
-	  </div>
-	  <div>
-	  <input type="password" name="password" required placeholder="Password" required>
-	  </div>
-     <button  type="submit">Sign Up</button>
-    <button type="reset" value="Reset" onclick="displayMessageReset()" required>Reset</button>
-<div class="fp">
-<a class="a" href="login.html">Forget Password</a>
-</div>
-</div>
-</form>
-</body>
 </html>
