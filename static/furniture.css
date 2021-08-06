@@ -1,0 +1,165 @@
+.card {
+    margin: 1%;
+  }
+  
+  .card-body .btn {
+    width: 70%;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  h3 {
+    padding-left: 0px;
+  }
+  @media screen and (max-width: 500px) {
+  .nav-link{
+      font-size: 13px!important;
+    }
+  .dropdown-item{
+      font-size: 13px!important;
+    }
+  .line-in{
+      font-size: 13px!important; 
+    }
+  .img-sz{
+      height:150px!important;
+    }
+  .head-sz{
+      font-size: 37px!important;
+    }
+  .mid-sz{
+      font-size: 24px!important;
+    }
+  .mid1-sz{
+      font-size: 15px!important;
+    }
+  .mid2-sz{
+      font-size: 20px!important;
+      padding-top: 45px!important;
+      height:150px!important;
+      width:150px!important;
+      margin-left:6px!important;
+    }
+    .mid3-sz{
+      font-size: 13px!important;
+      margin-top: 38px!important;
+    }
+    .mid4-sz{
+      font-size: 26px!important;
+    }
+    .flip-card{
+      height:92px!important;
+      width:92px!important;
+      margin:10px 10px 30px 10px!important;
+    }
+    .flip-card img{
+      height:35px!important;
+      margin-top: 10px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .img-sz{
+      height:130px!important;
+    }
+    .head-sz{
+      font-size: 30px!important;
+    }
+    .mid-sz{
+      font-size: 19px!important;
+    }
+    .mid1-sz{
+      font-size: 13px!important;
+    }
+    .mid2-sz{
+      font-size: 16px!important;
+      padding-top: 35px!important;
+      height:130px!important;
+      width:130px!important;
+      margin-left:6px!important;
+      margin-right:6px!important;
+    }
+    .mid3-sz{
+      font-size: 11px!important;
+      margin-top: 32px!important;
+    }
+    .mid4-sz{
+      font-size: 21px!important;
+    }
+    .flip-card{
+      height:77px!important;
+      width:77px!important;
+      margin:7.5px 7.5px 24px 7.5px!important;
+    }
+    .flip-card img{
+      height:28px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }
+  
