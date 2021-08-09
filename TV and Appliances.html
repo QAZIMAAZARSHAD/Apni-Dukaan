@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Apni Dukaan</title>
+    <meta charset="utf-8">
+    <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
+    <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./static/style.css">
+    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        .tv-image {
+            height: 100%;
+            width: 100%;
+            object-fit: contain;
+        }
+
+        .bt {
+            text-align: center;
+            margin-top: 0%;
+        }
+
+        .tv-ap {
+            background-color: #b93ea154;
+            height: 680px;
+        }
+
+        .menu3 {
+            height: 30px;
+            width: 102%;
+            overflow: auto;
+            position: relative;
+            margin-top: 1%;
+        }
+
+        .menu3 ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            line-height: 60px;
+        }
+
+        .menu3 li {
+            float: right;
+            line-height: 10px;
+
+        }
+
+        .menu3 ul li a {
+            background: #31316b;
+            text-decoration: none;
+            width: 150px;
+            display: block;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+        }
+
+        .menu3 li a:hover {
+            color: rgb(138, 21, 21);
+            opacity: 0.5;
+            font-size: 20px;
+        }
+        .head {
+            margin-top: 3%;
+            margin-bottom: 2%;
+        }
+    </style>
+</head>
+
+<body class="tv-b">
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35"
+                        class="d-inline-block align-text-top mr-2">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="./offers.html">Offers</a>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="./contactus.html">Contact us</a>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="./about.html">About us</a>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="faq.html">FAQ</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                                    <li><a class="dropdown-item" href="TV and Appliances.html">TV/Appliances</a></li>
+                                    <li><a class="dropdown-item" href="#">Furniture</a></li>
+                                    <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                                    <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+    
+                                    <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item text-capitalize">
+                                <a class="nav-link" href="cart.html">My Cart</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-dark" type="submit">Search</button>
+                        </form>
+                </div>
+            </div>
+        </nav>
+    </section>
+        <header>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/TV/TV-SD-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/TV/TV-SD-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Har Din Fastival</h1>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/TV/TV-SD-3.jpg" class="d-block w-100" alt="..."
+                            style="width: 80px;">
+                        <div class="carousel-caption d-md-block">
+                            <h1>Buy Now</h1>
+                            <h3>Discount up-to 20%</h3>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+      </section>
+    <section class="deals">
+        <h2 class="head">
+            <center>TV and Appliances</center>
+        </h2>
+        <div class="inner">
+
+            <div style="height: 630px ;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/TV-1.jpeg">
+
+                <h1>Realme</h1>
+                <h3> 80 cm (32 inch) HD Ready LED Smart Android TV (TV 32)</h3>
+
+                <h3> – 80cm(32) && LED Black Color</h3>
+                <h3>HD & Resolution:HD Ready, 1366 x 768</h3>
+                <h3>Launch Year: 2020</h3>
+                <h3>Rs: 15999</h3>
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 630px ;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/TV-2.jpeg">
+
+                <h1>iFFALCON</h1>
+                <h3>TCL 108 cm (43 inch) Ultra HD (4K) LED Smart Android TV (43K61)</h3>
+                <h3> - LED Black Color</h3>
+                <h3>HD & Resolution: Ultra HD (4K), 3840 x 2160</h3>
+                <h3>Launch Year: 2020</h3>
+                <h3>Rs: 25999</h3>
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 630px ;" class="tv-ap">
+                <img src="./Images/TV/TV-3.jpeg">
+
+                <h1>Mi 4A</h1>
+                <h3>Horizon Edition 100 cm (40 inch) Full HD LED Smart Android TV</h3>
+                <h3> - LED Black Color</h3>
+                <h3>HD & Resolution: Full HD, 1920 x 1080</h3>
+                <h3>Launch Year: 2021</h3>
+                <h3>Rs: 24999</h3>
+
+                <a style="margin-top:5%;" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 630px ;"class="tv-ap">
+                <img src="./Images/TV/TV-4.jpeg">
+
+                <h1>SONY</h1>
+                <h3>108 cm (43 inch) Ultra HD (4K) LED Smart TV (KD-43X7500H)</h3>
+                <h3> - LED Black Color</h3>
+                <h3>HD & Resolution: Ultra HD (4K), 3840 x 2160 pixels</h3>
+                <h3>Launch Year: 2019</h3>
+                <h3>Rs: 50999</h3>
+
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="deals" id="Refregarator">
+        <h2>
+            <center>Refregarator</center>
+        </h2>
+        <div class="inner">
+
+            <div class="tv-ap">
+                <img class="tv-image" src="./Images/TV/RF-1.jpeg">
+
+                <h1>LG 190 L</h1>
+                <h3>Direct Cool Single Door 4 Star Refrigerator (Scarlet Plumeria, GL-B201ASPY</h3>
+
+                <h3> - Type: Single Door - </h3>
+                <h3>Compressor Type: Smart Inverter Compressor</h3>
+                <h3>Launch Year: 2018</h3>
+                <h3>Rs: 16500</h3>
+                <a style="margin-top: 5%;"" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div class="tv-ap">
+                <img class="tv-image" src="./Images/TV/RF-2.jpeg">
+
+                <h1>SAMSUNG 192 L</h1>
+                <h3>Direct Cool Single Door 3 Star Refrigerator with Base Drawer (Saffron Blue, RR20A1Z2YU8/HL)</h3>
+                <h3> Refrigerator Type: Top Freezer Refrigerator</h3>
+                <h3>Compressor Type: Digital Inverter Compressor</h3>
+                <h3>Launch Year: 2021</h3>
+                <h3>Rs: 15090</h3>
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div class="tv-ap">
+                <img class="tv-image" src="./Images/TV/RF-3.jpeg">
+
+                <h1>Godrej 185 L</h1>
+                <h3>Direct Cool Single Door 4 Star Refrigerator (Aqua Blue, RD UNO 1854 PTI AQ BL)</h3>
+                <h3> Refrigerator Type: Top Freezer Refrigerator</h3>
+                <h3>Compressor Type: Intelligent Inverter Compressor</h3>
+                <h3>Launch Year: 2021</h3>
+                <h3>Rs: 13990</h3>
+
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="deals" id="Washing Machine">
+        <h2>
+            <center>Washing Machine</center>
+        </h2>
+        <div class="inner">
+
+            <div style="height: 620px;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/WM-1.jpeg">
+
+                <h1>LG 6.5 kg</h1>
+                <h3>5 Star Inverter Fully Automatic Top Load Silver (T65SKSF4Z)</h3>
+
+                <h3> Function Type: Fully Automatic Top Load</h3>
+                <h3>Washing Method: 3 Smart Motion</h3>
+                <h3>Rs: 15990</h3>
+                <a style="margin-top: 5%;" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 620px;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/WM-2.jpeg">
+
+                <h1>SAMSUNG</h1>
+                <h3>6.5 kg 5 Star Inverter Fully Automatic Top Load Grey (WA65T4262GG/TL)</h3>
+                <h3>Function Type: Fully Automatic Top Load</h3>
+                <h3>Washing Method: Pulsator</h3>
+                <h3>Rs: 16490</h3>
+                <a style="margin-top: 5%;" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 620px;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/WM-3.jpeg">
+
+                <h1>ONIDA</h1>
+                <h3>6.5 kg 5 Star with WaterPlus Technology Fully Automatic Top Load Grey (T65CGN)</h3>
+                <h3> Function Type: Fully Automatic Top Load</h3>
+                <h3>Washing Method: Pulsator</h3>
+                <h3>Rs: 12490</h3>
+
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+        </div>
+    </section>
+    <section class="deals" id="Iron and AC">
+        <h2>
+            <center>Iron and AC</center>
+        </h2>
+        <div class="inner">
+
+            <div style="height: 580px;"class="tv-ap">
+                <img class="tv-image" src="./Images/TV/AC-1.jpeg">
+
+                <h1>Blue Star</h1>
+                <h3> Blue Star 1.5 Ton 4 Star Split Inverter AC - White (IC418FBTU, Copper Condenser</h3>
+
+                <h3>Inverter Compressor,Auto, Cool, Fan, Dry</h3>
+                <h3>Rs: 38,990</h3>
+                <a href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 580px;" class="tv-ap">
+                <img class="tv-image" src="./Images/TV/AC-2.jpeg">
+
+                <h1>ONIDA</h1>
+                <h3>2 Ton 3 Star Split Dual Inverter AC - White (IR243RHO, Copper Condenser)</h3>
+                <h3>3 Star BEE Rating, Dual Rotary</h3>
+                <h3>Rs: 38990</h3>
+                <a style="margin-top: 12%;" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 580px;" class="tv-ap">
+                <img src="./Images/TV/IRON-1.jpeg">
+
+                <h1>Morphy Richards</h1>
+                <h3>Morphy Richards Super Glide 2000 W Steam Iron (Blue)</h3>
+                <h3>Super Glide, Ceramic Coated Soleplate</h3>
+                <h3>Rs: 2090</h3>
+
+                <a style="margin-top: 12%;"  href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+            <div style="height: 580px;" class="tv-ap">
+                <img src="./Images/TV/IRON-2.jpeg">
+
+                <h1>Syska</h1>
+                <h3>Syska SDI-07 1000 W Dry Iron (White, Blue)</h3>
+                <h3>Teflon soleplate</h3>
+                <h3>Rs: 549</h3>
+
+                <a style="margin-top: 12%;" href="product.html" <button class="buybutton">Buy</button></a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container text-md-left">
+            <div class="row text-md-left">
+                <div class="col mt-3" style="color:#808080;">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">About us</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Careers</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+                    </p>
+                </div>
+                <div class="col mt-3" style="color:#808080;">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Payments</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Shipping</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+                    </p>
+                    <p>
+                        <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+                    </p>
+                </div>
+                <div class="col mt-3" style="color:#808080;">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Privacy</a>
+                    </p>
+                </div>
+                <div class="col mt-3" style="color:#808080;">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Become our partner</a>
+                    </p>
+                    <p>
+                        <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+                    </p>
+                </div>
+                <div class="col mt-3" style="color:#808080;">
+                    <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+                    <p>
+                        <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                            <i class="fab fa-facebook-square"></i>
+                            Facebook
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                            <i class="fab fa-twitter-square"></i>
+                            Twitter
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                            <i class="fab fa-instagram-square"></i>
+                            Instagram
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center ">
+                <div class="text-center">
+                    Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./static/script.js"></script>
+
+    <!-- scroll to top button -->
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo(0, 0);
+        }
+        );
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"
+        integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="static/landingPage.js"></script>
+</body>
+
+</html>
