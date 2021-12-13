@@ -91,6 +91,7 @@ label {
 .button .sign {
   color: #fff;
   font-size: 15px;
+  cursor: pointer;
 }
 .fox {
   position: absolute;
@@ -127,6 +128,7 @@ label {
   background: var(--colour-four);
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 h3 {
   font-size: 14px;
