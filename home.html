@@ -9,6 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./static/style.css">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
@@ -20,6 +21,7 @@
     
     <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+    <link rel="stylesheet" href="./static/load.css">
     <title>Apni Dukaan</title>
 </head>
 <style>
@@ -166,6 +168,25 @@
     }
   </style>
 <body>
+  <div class="loader">
+    <div class="loader-inner">
+        <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+            <div class="loader-line"></div>
+        </div>
+    </div>
+</div>
 
     <section>
         <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
@@ -503,6 +524,8 @@
             window.scrollTo(0, 0);
         });
     </script>
+    <script src="./static/load.js"></script>
+   
 
 
 </body>
