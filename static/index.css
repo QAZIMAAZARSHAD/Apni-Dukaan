@@ -1,0 +1,41 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .home_slider .item .content h1 {
+      font-size: 2rem!important;
+    }
+    .home_slider .item .content p {
+      font-size: 1rem!important;
+    }
+    .home_slider .item .content .LandingPageButton {
+      font-size: 0.7rem!important;
+      padding:0.5rem 0.9rem!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .home_slider .item .content h1 {
+      font-size: 2rem!important;
+    }
+  }
