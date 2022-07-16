@@ -173,7 +173,7 @@ git push -u origin <your_branch_name>
 ## Code of Conduct
 <p align="center">
 <a href="https://github.com/QAZIMAAZARSHAD/Apni-Dukaan/blob/master/CODE_OF_CONDUCT.md">
-<img width=65% src="https://i.cdn.talentegg.ca/incubator/wp-content/uploads/2018/07/tenor-1.gif"></p>
+<img width=60% src="https://cdn-media-1.freecodecamp.org/images/1*v4jyaugHQXBSf2O4D66Onw.gif"></p>
 <h5 align="center"><b>Click to read</b></a>
   
 ## License
