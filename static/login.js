@@ -2,15 +2,21 @@ function login() {
   var uname = document.getElementById("email").value;
   var pwd = document.getElementById("pwd1").value;
   var filter =
-    /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+  var filter1=
+  /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,16}$/;
   if (uname == "") {
-    alert("please enter user name.");
+    alert("Please enter user name.");
+    return false;
   } else if (pwd == "") {
-    alert("enter the password");
+    alert("Enter the password");
+    return false;
   } else if (!filter.test(uname)) {
     alert("Enter valid email id.");
-  } else if (pwd.length < 6) {
-    alert("Password min  length is 6.");
+    return false;
+  } else if (!filter1.test(pwd)) {
+    alert("Password must contain at least one number, one uppercase letter, one lowercase letter, one special character, and length should be minimum 8 and maximum 16 characters");
+    return false;
   } else {
     window.location = "home.html";
     return false;
