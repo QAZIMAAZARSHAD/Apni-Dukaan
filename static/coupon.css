@@ -41,8 +41,15 @@
     top:20px;
     margin-left:-10px
 }
+.dl{
+    height:600px;
+}
 
-
+.dl .discount {
+    display: table-cell;
+    vertical-align: middle;
+    height: 220px;
+}
 
 .dl .brand {
     text-transform:uppercase;
