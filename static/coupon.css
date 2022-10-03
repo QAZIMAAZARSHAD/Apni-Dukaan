@@ -46,7 +46,9 @@
 }
 
 .dl .discount {
-    display: table-cell;
+   display: table-cell;
+   width: 100vw;
+   margin-block-end: 0;
     vertical-align: middle;
     height: 220px;
 }
@@ -59,7 +61,6 @@
     text-align: center;
 }
 .dl .discount {
-    min-height:50px;
     position:relative;
     font-size:80px;
     line-height:80px;
