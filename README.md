@@ -24,25 +24,25 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Home Page 
 
 <p>
-<img width=80% src="https://i.postimg.cc/RFxN8c1s/Whats-App-Image-2021-06-26-at-3-51-10-PM-1.jpg">
+<img width=80% src="[![Homepage.jpg](https://i.postimg.cc/nh0fDz9V/Homepage.jpg)](https://postimg.cc/pmhSNPB3)">
 </p>
 
 ### Category Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/mD3tGt8b/Whats-App-Image-2021-06-26-at-3-51-10-PM-2.jpg">
+<img width=80% src="[![Category.jpg](https://i.postimg.cc/tJwYykyf/Category.jpg)](https://postimg.cc/V09YWjJB)">
 </p>
 
 ### Product Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/C5FdMSQb/Whats-App-Image-2021-06-26-at-3-51-10-PM.jpg">
+<img width=80% src="[![Product-Page.jpg](https://i.postimg.cc/3NKPNQr0/Product-Page.jpg)](https://postimg.cc/HchSvKyT)">
 </p>
 
 ### Sign-up Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/tJ2JYwKw/Whats-App-Image-2021-06-26-at-3-57-19-PM.jpg">
+<img width=80% src="[![Sign-Up-Page.jpg](https://i.postimg.cc/mDZwFLM4/Sign-Up-Page.jpg)](https://postimg.cc/WDKrBPXY)">
 </p>
 
 ## About
