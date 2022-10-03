@@ -1,0 +1,128 @@
+.deals {
+    padding:5% 0
+}
+#heading {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 60px;
+    color: #2980b9;
+    text-shadow: 2px 2px 5px #2980b9;
+}
+.alizarin {
+    background:#e74c3c
+}
+.amethyst {
+    background:#9b59b6
+}
+.emerald {
+    background:#2ecc71
+}
+.midnight-blue {
+    background:#2c3e50
+}
+.peter-river {
+    background:#3498db
+}
+.dl {
+    background:#f0f0f0;
+    padding:30px 0;
+    border-radius:20px;
+    position:relative
+}
+.dl:before {
+    content:" ";
+    height:20px;
+    width:20px;
+    background:#ddd;
+    border-radius:20px;
+    position:absolute;
+    left:50%;
+    top:20px;
+    margin-left:-10px
+}
+
+
+
+.dl .brand {
+    text-transform:uppercase;
+    letter-spacing:3px;
+    margin-top:10px;
+    min-height:100px;
+    text-align: center;
+}
+.dl .discount {
+    min-height:50px;
+    position:relative;
+    font-size:80px;
+    line-height:80px;
+    text-align:center;
+    font-weight:700;
+    padding:20px 15px 0;
+    color:#f1c40f
+}
+.dl .discount:after {
+    content:" ";
+    border-right:20px solid transparent;
+    border-left:20px solid transparent;
+    position:absolute;
+    bottom:-20px;
+    left:20%
+}
+.dl .discount.alizarin:after {
+    border-top:20px solid #e74c3c
+}
+.dl .discount.peter-river:after {
+    border-top:20px solid #3498db
+}
+.dl .discount.emerald:after {
+    border-top:20px solid #2ecc71
+}
+.dl .discount.amethyst:after {
+    border-top:20px solid #9b59b6
+}
+.dl .discount .type {
+    font-size:20px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin-top:-30px
+}
+.dl .descr {
+    color:#999;
+    margin-top:10px;
+    padding:20px 15px
+}
+.dl .ends {
+    padding:0 15px;
+    color:#f1c40f;
+    margin-bottom:10px
+}
+.dl .coupon {
+    min-height:50px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:18px;
+    padding:20px 15px
+}
+
+.open-code {
+    margin-top: 50px;
+}
+.dl .coupon a.open-code {
+    color:#16a085
+}
+.dl .coupon .code {
+    letter-spacing:1px;
+    border-radius:4px;
+    margin-top:10px;
+    padding:10px 15px;
+    color:#f1c40f;
+    background:#f0f0f0
+}
+.col-lg-4 {
+    margin-bottom: 3%;
+}
+.row {
+    text-align: center;
+}
