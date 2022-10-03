@@ -40,7 +40,7 @@ body{
 }
 
 .img img{
-	width: 500px;
+	width: 700px;
 }
 
 form{
@@ -67,7 +67,7 @@ form{
     border-bottom: 2px solid #d9d9d9;
 }
 
-.login-content .input-div.one{
+.login-content .wrap{
 	margin-top: 0;
 }
 
@@ -120,7 +120,7 @@ form{
 }
 
 .input-div.focus > div > h5{
-	top: -5px;
+
 	font-size: 15px;
 }
 
@@ -147,7 +147,7 @@ form{
 	margin-bottom: 4px;
 }
 
-a{
+.forget{
 	display: block;
 	text-align: right;
 	text-decoration: none;
@@ -156,8 +156,16 @@ a{
 	transition: .3s;
 }
 
+.signup{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #999;
+	font-size: 0.9rem;
+	transition: .3s;
+}
 a:hover{
-	color: #38d39f;
+	color:#5737cc;
 }
 
 .btn{
