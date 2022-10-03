@@ -24,25 +24,30 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Home Page 
 
 <p>
-<img width=80% src="https://i.postimg.cc/nh0fDz9V/Homepage.jpg">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s1.png">
 </p>
 
 ### Category Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/tJwYykyf/Category.jpg">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s2.png">
 </p>
+<br />
+<p>
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s3.png">
+</p>
+
 
 ### Product Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/3NKPNQr0/Product-Page.jpg">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s4.png">
 </p>
 
 ### Sign-up Page
 
 <p>
-<img width=80% src="https://i.postimg.cc/mDZwFLM4/Sign-Up-Page.jpg">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s5.png">
 </p>
 
 ## About
