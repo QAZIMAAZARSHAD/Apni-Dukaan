@@ -1150,3 +1150,9 @@ details > summary::-webkit-details-marker {
     margin-left: 20px;
   }
 }
+
+
+.navbar a:hover{
+  color: white!important;
+  background-color: #000066;
+}
