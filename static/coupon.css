@@ -98,7 +98,8 @@
     margin-bottom:10px
 }
 .dl .coupon {
-    min-height:50px;
+    height:50%;
+
     text-align:center;
     text-transform:uppercase;
     font-weight:700;
@@ -108,6 +109,7 @@
 
 .open-code {
     margin-top: 50px;
+    margin-left: 33%;
 }
 .dl .coupon a.open-code {
     color:#16a085
@@ -123,3 +125,27 @@
 .col-lg-4 {
     margin-bottom: 3%;
 }
+
+.disc-img {
+    display: block;
+    width: 50vw;
+    margin-left: 25vw;
+  }
+
+@media screen and (max-width: 569px) {
+    .open-code {
+        margin-left: 36%;
+    }
+    .disc-img {
+        width: 90vw;
+        margin-left: 5vw;
+      }
+}
+
+@media screen and (max-width: 850px) {
+    .disc-img {
+        width: 70vw;
+        margin-left: 15vw;
+      }
+}
+
