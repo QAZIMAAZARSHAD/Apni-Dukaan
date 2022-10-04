@@ -105,38 +105,40 @@
             </div>
         </nav>
     </section>
-    <main>
+    <main class="Main">
         <!-- Owl Carousel Section -->
         <section id="owl_carousel">
             <div class="owl-carousel owl-theme home_slider">
                 <div class="item">
-                    <img src="./Images/home_img1.jpg" class="img-fluid d-block w-100">
+                    <div class="homeimg1" >
                     <div class="content">
                         <h1>Heavy Discounts</h1>
                         <p>Get upto 30% OFF on CLOTHING, SHOES, ACCESSORIES</p>
                         <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
                     </div>
+                    </div>
                 </div>
                 <div class="item">
-                    <img src="./Images/home_img2.jpg" class="img-fluid d-block w-100">
+                    <div class = "homeimg2" >
                     <div class="content">
                         <h1>Latest Gadgets</h1>
                         <p>Get the features of the latest gadgets online at low prices.</p>
                         <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
                     </div>
                 </div>
+                </div>
                 <div class="item">
-                    <img src="./Images/home_img3.jpg" class="img-fluid d-block w-100">
+                    <div class = "homeimg3">
                     <div class="content">
                         <h1>Trending Shoes</h1>
                         <p>A sneaker that demands attention by defying convention. </p>
                         <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
                     </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
-
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -146,6 +148,42 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="static/landingPage.js"></script>
     <script src="./static/load.js"></script>
+
+    <style>
+        #owl_carousel{
+            width: 100% !important;
+            position: fixed !important;
+        }
+        .Main
+        {
+           margin:0px ;
+           padding: 0px;
+        }
+        .homeimg1
+        {
+        background-image: url("./Images/home_img1.jpg");
+        height: 100vh;
+        background-position:center;
+        background-size:cover;
+        background-attachment: fixed;
+        }
+        .homeimg2
+        {
+        background-image: url("./Images/home_img2.jpg");
+        height: 100vh;
+        background-position:center;
+        background-size:cover;
+        background-attachment: fixed;
+        }
+        .homeimg3
+        {
+        background-image: url("./Images/home_img3.jpg");
+        height: 100vh;
+        background-position:center;
+        background-size:cover;
+        background-attachment: fixed;
+        }
+    </style>
 </body>
 
 </html>
