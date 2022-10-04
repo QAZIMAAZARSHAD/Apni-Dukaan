@@ -24,13 +24,13 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Home Page 
 
 <p>
-<img width=80% src="[![Homepage.jpg](https://i.postimg.cc/nh0fDz9V/Homepage.jpg)](https://postimg.cc/pmhSNPB3)">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s1.png">
 </p>
 
-### Category Page
+### Category-Page
 
 <p>
-<img width=80% src="[![Category.jpg](https://i.postimg.cc/tJwYykyf/Category.jpg)](https://postimg.cc/V09YWjJB)">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s2.png">
 </p>
 <br />
 <p>
@@ -41,13 +41,33 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Product Page
 
 <p>
-<img width=80% src="[![Product-Page.jpg](https://i.postimg.cc/3NKPNQr0/Product-Page.jpg)](https://postimg.cc/HchSvKyT)">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s4.png">
 </p>
 
 ### Sign-up Page
 
 <p>
-<img width=80% src="[![Sign-Up-Page.jpg](https://i.postimg.cc/mDZwFLM4/Sign-Up-Page.jpg)](https://postimg.cc/WDKrBPXY)">
+<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s5.png">
+</p>
+
+### Offers Page
+<p>
+<img width=80% src="https://i.postimg.cc/C5m0GHc1/Offers-Page.jpg">
+</p>
+
+### My Cart Page
+<p>
+<img width=80% src="https://i.postimg.cc/ydn6jHds/MyCart.jpg">
+</p>
+
+### Contact us page
+<p>
+<img width=80% src="https://i.postimg.cc/tT8SL175/contactus.jpg">
+</p>
+
+### FAQs Page
+<p>
+<img width=80% src="https://i.postimg.cc/SKCfJZKW/faq.jpg">
 </p>
 
 ## About
