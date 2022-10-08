@@ -1,0 +1,266 @@
+.moving-header{
+  color: rgba(1, 52, 146, 0.905);
+}
+.mobile-header{
+  display: flex;
+  justify-content: center;
+  padding-left: 7rem;
+  padding-top: 1rem;
+  font-family: 'strato-roman';
+  font-size: 2.3rem;
+  font-weight:bolder;
+  color: rgba(1, 52, 146, 0.905);
+}
+.mobile-name{
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgba(1, 52, 146, 0.905);
+}
+.mobile-inner{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: rgba(1, 52, 146, 0.905);
+}
+.header-mob{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+
+}
+.online {
+  color: rgb(67, 67, 163);
+  font-size: 5rem;
+  padding: 50px;
+  align-items:center ;
+  font-family: 'strato-roman';
+	}
+	
+	&:after {
+		font-family: 'strato-tonale', sans-serif; //stripe shadow
+		color: $color4;
+		z-index: -1;
+	}
+	
+	&:before {
+		color: $color2;
+    	font-family: 'strato-cesello'; //top section
+		z-index: 3;
+		text-shadow: none;
+	}
+	
+	span:before {
+		color: $color3;
+    	font-family: 'strato-eclisse'; // shadow
+		text-shadow: none;
+		z-index: -1;
+	}
+	
+	span:after {
+		font-family: 'strato-inline';
+		color: $color5;
+		z-index: 6;
+		text-shadow: none;
+	}
+}
+
+
+
+@font-face {
+    font-family: 'strato-tonale';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/strato_tonale-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strato-cesello';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/strato_cesello-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strato-roman';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/strato_roman-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strato-eclisse';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/strato_eclisse-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'strato-inline';
+    src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/209981/strato_inline-webfont.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+$color1: #a2adff;
+$color2: #c9cfff;
+$color3: #7c88e6;
+$color4: #5a66c4;
+$color5: #7d89e7;
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .img-sz{
+      height:150px!important;
+    }
+    .head-sz{
+      font-size: 37px!important;
+    }
+    .mid-sz{
+      font-size: 24px!important;
+    }
+    .mid1-sz{
+      font-size: 15px!important;
+    }
+    .mid2-sz{
+      font-size: 20px!important;
+      padding-top: 45px!important;
+      height:150px!important;
+      width:150px!important;
+      margin-left:6px!important;
+    }
+    .mid3-sz{
+      font-size: 13px!important;
+      margin-top: 38px!important;
+    }
+    .mid4-sz{
+      font-size: 26px!important;
+    }
+    .flip-card{
+      height:92px!important;
+      width:92px!important;
+      margin:10px 10px 30px 10px!important;
+    }
+    .flip-card img{
+      height:35px!important;
+      margin-top: 10px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .img-sz{
+      height:130px!important;
+    }
+    .head-sz{
+      font-size: 30px!important;
+    }
+    .mid-sz{
+      font-size: 19px!important;
+    }
+    .mid1-sz{
+      font-size: 13px!important;
+    }
+    .mid2-sz{
+      font-size: 16px!important;
+      padding-top: 35px!important;
+      height:130px!important;
+      width:130px!important;
+      margin-left:6px!important;
+      margin-right:6px!important;
+    }
+    .mid3-sz{
+      font-size: 11px!important;
+      margin-top: 32px!important;
+    }
+    .mid4-sz{
+      font-size: 21px!important;
+    }
+    .flip-card{
+      height:77px!important;
+      width:77px!important;
+      margin:7.5px 7.5px 24px 7.5px!important;
+    }
+    .flip-card img{
+      height:28px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front p{
+      font-size: 10px!important;
+      margin-top: 8px!important;
+    }
+    .flip-card-front{
+      border:2.5px solid rgb(67,67,163);
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }

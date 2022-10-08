@@ -1,0 +1,169 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .img-sz{
+      height:70px!important;
+    }
+    .img2-sz{
+      height:60px!important;
+    }
+    .row{
+      margin:5px 5px!important;
+    }
+    .row>*{
+      margin:10px 10px!important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .box-sz{
+      padding:5px 5px!important;
+      margin-left: 5px!important;
+      margin-right:5px!important;
+    }
+    .box1-sz{
+      margin-top: 5px!important;
+      padding: 5px 0px!important;
+      border-top: 1px solid #E2E5DE!important;
+    }
+    .mid2-sz{
+      font-size: 8.8px!important;
+    }
+    .mid3-sz{
+      font-size: 7.6px!important;
+    }
+    .mid1-sz{
+      font-size: 15px!important;
+    }
+    select.form-select.select-ui{
+      width: 25px !important;
+      height: 17px !important;
+    }
+    .form-select{
+      padding:0!important;
+      font-size: 0.5rem!important;
+      background-position: right 0.4rem center !important;;
+      background-size: 8px 6px!important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 24px!important;
+    }
+    a.btn{
+      font-size: 9px!important;
+      padding: .15rem .3rem!important;
+    }
+    .df-sz{
+      margin: top 5px !important;
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .img-sz{
+      height:60px!important;
+    }
+    .img2-sz{
+      height:50px!important;
+    }
+    .row{
+      margin:5px 5px!important;
+    }
+    .row>*{
+      margin:10px 10px!important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .box-sz{
+      padding:5px 5px!important;
+      margin-left: 5px!important;
+      margin-right:5px!important;
+    }
+    .box1-sz{
+      margin-top: 5px!important;
+      padding: 5px 0px!important;
+      border-top: 1px solid #E2E5DE!important;
+    }
+    .mid2-sz{
+      font-size: 7.9px!important;
+    }
+    .mid3-sz{
+      font-size: 6.9px!important;
+    }
+    .mid1-sz{
+      font-size: 14px!important;
+    }
+    select.form-select.select-ui{
+      width: 25px !important;
+      height: 17px !important;
+    }
+    .form-select{
+      padding:0!important;
+      font-size: 0.5rem!important;
+      background-position: right 0.4rem center !important;;
+      background-size: 8px 6px!important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+    a.btn{
+      font-size: 8px!important;
+      padding: .13rem .25rem!important;
+    }
+    .df-sz{
+      margin: top 5px !important;
+    }
+  }
+  

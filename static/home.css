@@ -1,0 +1,141 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 10px!important;
+      padding:0.15rem 0.3rem!important;
+    }
+    .carousel-item img {
+      height: 55vh !important;
+    }
+     .help h3, h3 {
+      padding-left: 0px!important;
+     }
+     .my-5{
+         margin-top: 1.5rem!important;
+         margin-bottom: 1.5rem!important;
+     }
+     .display-4{
+         font-size: 23px!important;
+     }
+     .row>* {
+      padding-left: 5px!important;
+      padding-right: 5px!important;
+     }
+     .card-body{
+         padding:0.5rem 0.42rem!important;
+
+     }
+     .card-title{
+         font-size: 10px!important;
+     }
+     .card-text{
+         font-size: 8px!important;
+     }
+     .row{
+         margin:0px 5px!important;
+     }
+     .card-img{
+         height: 90px !important;
+     }
+     .card{
+       width: 5rem !important;
+     }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .carousel-item img {
+      height: 50vh !important;
+    }
+     .help h3, h3 {
+      padding-left: 0px!important;
+     }
+     .my-5{
+         margin-top: 1.2rem!important;
+         margin-bottom: 1.2rem!important;
+     }
+     .display-4{
+         font-size: 18px!important;
+     }
+     .row>* {
+      padding-left: 5px!important;
+      padding-right: 5px!important;
+     }
+     .card-body{
+         padding:0.38rem 0.3rem!important;
+
+     }
+     .card-title{
+         font-size: 8px!important;
+     }
+     .card-text{
+         font-size:6.5px!important;
+     }
+     .row{
+         margin:0px 5px!important;
+     }
+     .card-img{
+         height: 75px !important;
+     }
+     .card{
+       width: 4rem !important;
+     }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }

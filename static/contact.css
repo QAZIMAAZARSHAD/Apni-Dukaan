@@ -1,0 +1,160 @@
+@media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    #contact-head{
+      font-size: 25px!important;
+    }
+    #contact-message{
+      font-size: 14px!important;
+      margin:0px 20px!important;
+    }
+    .contact-inputs{
+      font-size: 10px!important;
+    }
+    .contact-table{
+      min-width: 200px!important;
+      padding:6px 12px!important;
+      padding-bottom: 20px!important;
+    }
+    .form-control{
+      font-size: 10px!important;
+    }
+    #submit-btn{
+      font-size: 10px!important;
+    }
+    .input-container{
+      margin:10px 6px !important;
+    }
+    .footer-details{
+      font-size: 10px!important;
+      margin-bottom: 0.7rem!important;
+    }
+    #contactus{
+      padding:10px 20px!important;
+      padding-bottom: 25px!important;
+    }
+    #social-media-icons{
+      padding:0px 15px!important;
+      margin-top: 6px!important;
+    }
+    .box-sz{
+      padding:0px 6px!important;
+      border-bottom: 1.5px solid grey!important;
+    }
+    .social-media{
+      font-size: 14px!important;
+    }
+    .mr-5{
+      margin-right: 0.5rem!important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    #contact-head{
+      font-size: 21px!important;
+    }
+    #contact-message{
+      font-size: 12px!important;
+      margin:0px 16px!important;
+    }
+    .contact-inputs{
+      font-size: 8px!important;
+    }
+    .contact-table{
+      min-width: 150px!important;
+      padding:4px 9px!important;
+      padding-bottom: 15px!important;
+    }
+    .form-control{
+      font-size: 8px!important;
+    }
+    #submit-btn{
+      font-size: 8px!important;
+    }
+    .input-container{
+      margin:7px 5px !important;
+    }
+    .footer-details{
+      font-size: 8px!important;
+      margin-bottom: 0.55rem!important;
+    }
+    #contactus{
+      padding:7px 14px!important;
+      padding-bottom: 19px!important;
+    }
+    #social-media-icons{
+      padding:0px 12.5px!important;
+      margin-top: 4px!important;
+    }
+    .box-sz{
+      padding:0px 4.5px!important;
+      border-bottom: 1.1px solid grey!important;
+    }
+    .social-media{
+      font-size: 11px!important;
+    }
+    .mr-5{
+      margin-right: 0.35rem!important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }

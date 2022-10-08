@@ -1,163 +1,255 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Apni Dukaan</title>
     <meta charset="utf-8">
         <meta name="vfewport" content="width=device-width initial-scale=1 shrink-to-fit-=no">
         <link rel="stylesheet" type="text/css" href="./static/style.css">
+        <link rel="stylesheet" href="./static/mobile.css">
         <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/60fedd8558.js" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
+    <!-- SCROLL TOP BUTTON -->
+  <a class="scrollToTop" href="#"></a>
+  <!-- END SCROLL TOP BUTTON -->
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+              <img src="Images/Logo/AD.png.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                  <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./offers.html">Offers</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./contactus.html">Contact us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="login.html">Login</a>
+                      </li>        
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./about.html">About us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Category
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                              <li><a class="dropdown-item" href="./books.html">Books</a></li>
+                              <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
+                              <li><a class="dropdown-item" href="./furniture.html">Furniture</a></li>
+                              <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                              <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
 
-     <!-- SCROLL TOP BUTTON -->
-     <a class="scrollToTop" href="#"></a>
-     <!-- END SCROLL TOP BUTTON -->
-
-
-    <nav class="menu">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-         <li> <a href="index.html#deals">Offers</a></li>
-          <li> <a href="index.html#about">About Us</a></li>
-           <li> <a href="index.html#contact">Contact Us</a></li>
-            <li> <a href="login.html">Login</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-      </ul>
-      <form class="search-form">
-        <input type="text" placeholder="Search">
-        <button>Search</button>
-    </nav>
-    <marquee>Welcome To <i>ApniDukaan</i>.com<sup>&reg;</sup></marquee>
-    <img src="./Images/ApniDukaanLogo.jpg" class="logo">
-    <label class="online">Find Your Best Deal</label>
+                              <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="cart.html">My Cart</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Search</button>
+                  </form>
+          </div>
+      </div>
+  </nav>
+</section>
+    <marquee class="moving-header">Welcome To <i>ApniDukaan</i>.com<sup>&reg;</sup></marquee>
+    <div class="header-mob"><div><img src="./Images/ApniDukaanLogo.jpg" class="logo"></div>
+    <h1 class="online">Find Your Best Deal</h1></div>
     <nav class="menu2">
      <ul>
-	         <li><a href="mobile.html">Mobile</a></li>
-          <li><a href="dummy.html">TV and Appliances</a></li>
-          <li><a href="dummy.html">Clothes</a></li>
-          <li><a href="dummy.html">Baby and Kids</a></li>
-          <li><a href="dummy.html">Furniture</a></li>
+      <li><a class="other-header" href="./mobile.html">Mobile</a></li>
+      <li><a class="other-header" href="./books.html">Books</a></li>
+      <li><a class="other-header" href="./">TV/Appliances</a></li>
+      <li><a class="other-header" href="./furniture.html">Furniture</a></li>
+      <li><a class="other-header" href="#">Baby/Kids</a></li>
+      <li><a class="other-header" href="./stationery.html">Stationery</a></li>
+      <li>  <h2 class="mobile-header">Best Mobile Collection</h2></li>
       </ul>
     </nav>
     <section class="deals" >
            <div class="inner">
-        <h2>Best Mobile Collection</h2>
+      
         <div>
              <img src="./Images/mobil2.jpg">
-            <h3><p>Redmi Pro</p>Redmi 8A Dual (Sea Blue, 3GB RAM, 32GB Storage)</h3>
-        <h3> – Dual Cameras & 5,000 mAH Battery</h3>
-        <h3>Rs 9999</h3>
-        <a href="product.html"<button class="buybutton">Buy</button></a>
+            <h3 class="mobile-name"><p>Redmi Pro</p>Redmi 8A Dual (Sea Blue, 3GB RAM, 32GB Storage)</h3>
+        
+        <h3 class="mobile-inner"> – Dual Cameras & 5,000 mAH Battery</h3>
+        <h3 class="mobile-inner">Rs 9999</h3>
+        <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
+        
         </div>
-            <div>
+        <div>
                  <img src="./Images/mobile.jpg">
-            <h3><p>Redmi Y2 (Gold, 4GB RAM, 64GB Storage)</p>Best Phone Available</h3>
-            <h3>Long Battery Life</h3>
-            <h3>Rs 10000</h3>
-            <a href="product.html"<button class="buybutton">Buy</button></a>
+            <h3 class="mobile-name"><p>Redmi Y2 (Gold, 4GB RAM, 64GB Storage)</p>Best Phone Available</h3>
+            <h3 class="mobile-inner">Long Battery Life</h3>
+            <h3 class="mobile-inner">Rs 10000</h3>
+            <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
             </div>
             <div>
                  <img src="./Images/mobile3.jpg">
-            <h3><p>Mi 6 Pro (Gold, 3Gb Ram, 32Gb Storage)</p> High Definition Dual Camera </h3>
-            <h3>Strong Body And Style</h3>
-            <h3>Rs 4999</h3>
-           <a href="product.html"<button class="buybutton">Buy</button></a>
+            <h3 class="mobile-name"><p>Mi 6 Pro (Gold, 3Gb Ram, 32Gb Storage)</p> High Definition Dual Camera </h3>
+            <h3 class="mobile-inner">Strong Body And Style</h3>
+            <h3 class="mobile-inner">Rs 4999</h3>
+           <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
             </div>
                <div>
              <img src="./Images/mobile4.jpg">
-            <h3><p>Get Upto 50% Off</p>On Shopping Of Rs5000 And Above</h3>
-        <h3>Win a Lucky Draw Voucher</h3>
-        <h3>Get Rs200 Off On Your Next Visit</h3>
-        <h3>Hurry</h3>
-        <a href="product.html"<button class="buybutton">Buy</button></a>
+            <h3 class="mobile-name"><p>One Plus</p> One Plus 53(Blue, 4GB RAM, 32GB Storage)</h3>
+        <h3 class="mobile-inner">Win a Lucky Draw Voucher</h3>
+        <h3 class="mobile-inner">Get Rs200 Off On Your Next Visit</h3>
+        <h3 class="mobile-inner">Hurry</h3>
+        <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
         </div>
             <div>
                  <img src="./Images/mobile5.jpg">
-                <h3><p>Honor 7X (Blue, 4GB RAM, 32GB Storage)</p>Best Display Ever</h3>
-            <h3>Free MI Headphones</h3>
-            <h3>Rs 6999</h3>
-            <a href="product.html"<button class="buybutton">Buy</button></a>
+                <h3 class="mobile-name"><p>Honor 7X (Blue, 4GB RAM, 32GB Storage)</p>Best Display Ever</h3>
+            <h3 class="mobile-inner">Free MI Headphones</h3>
+            <h3 class="mobile-inner">Rs 6999</h3>
+            <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
             </div>
             <div>
                  <img src="./Images/mobile6.jpg">
-            <h3><p>Xiaomi Mi Redmi Note 5 Pro Phone (Gold, 64 GB, 4 GB RAM)</p>32 Mega Pixel Front Camera</h3>
-            <h3>Long Lasting Battery</h3>
-            <h3>Rs 12999</h3>
-           <a href="product.html"<button class="buybutton">Buy</button></a>
+            <h3 class="mobile-name"><p>Xiaomi Mi Redmi Note 5 Pro Phone (Gold, 64 GB, 4 GB RAM)</p>32 Mega Pixel Front Camera</h3>
+            <h3 class="mobile-inner">Long Lasting Battery</h3>
+            <h3 class="mobile-inner">Rs 12999</h3>
+           <a href="product.html"<button class="buybutton mobile-inner">Buy</button></a>
             </div>
                </div>
         </section>
-<table align="center">
-<footer align="center" class="foot">
-   <img src="./Images/ApniDukaanLogo.jpg" class="logo1">
-  
-  <div class="inner">
-          <div class="about">
-          <h3>Get To Know Us</h3>
-          <ul>
-            <li> <a href=index.html#about>About us</a></li>
-            <li> <a href="dummy.html">Careers</a></li>
-            <li> <a href="dummy.html">Press Releases</a></li>
-            <li> <a href="dummy.html">ApniDukaan Cares</a></li>
-          </ul>
-        </div>
-        <div class="help">
-          <h3>Let Us Help You</h3>
-          <ul>
-            <li> <a href="dummy.html">Payments</a></li>
-            <li> <a href="dummy.html">Shipping</a></li>
-            <li> <a href="dummy.html">Cancellation and Returns</a></li>
-            <li> <a href="dummy.html">Report an Issue</a></li>
-          </ul>
-        </div>
-        <div class="policy">
-          <h3>Policy</h3>
-          <ul>
-            <li> <a href="dummy.html">Return Policy</a></li>
-            <li> <a href="dummy.html">Time Of Use</a></li>
-            <li> <a href="dummy.html">Carrers</a></li>
-            <li> <a href="dummy.html">Privacy</a></li>
-          </ul>
-        </div>
-        <div class="about">
-          <h3>Connect With Us</h3>
-          <ul>
-            <li> <a href=index.html#contact> Contact Us</a></li>
-            <li> <a href="dummy.html">Facebook</a></li>
-            <li> <a href="dummy.html">Twitter</a></li>
-            <li> <a href="dummy.html">Instagram</a></li>
-           
-          </ul>
-        </div>
-        <div class="about">
-          <h3>Make Money With Us</h3>
-          <ul>
-            <li> <a href="dummy.html">Sell On ApniDukaan</a></li>
-            <li> <a href="dummy.html">Advertise Your Products</a></li>
-            <li> <a href="dummy.html">Become Our Partner</a></li>
-            <li> <a href="dummy.html">Join Our Mission</a></li>
-          </ul>
-        </div>
-   </div>
-   <p class="copyright">Copyright &copy; and &reg; Since 2020
-	Under ApniDukaan.com | Qazi Maaz Arshad</p>
-</footer>
-</table>
- <script src="./static/script.js"></script>
+        <footer class="bg-dark text-white pt-5 pb-4">
+          <div class="container text-md-left">
+            <div class="row text-md-left">
+              <div class="col mt-3" style="color:#808080;">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Get to know us</h5>
+                <p>
+                  <a href="./about.html" class="text-white" style="text-decoration: none;">About us</a>
+                </p>
+                <p>
+                  <a href="./career.html" class="text-white" style="text-decoration: none;">Careers</a>
+                </p>
+                <p>
+                  <a href="" class="text-white" style="text-decoration: none;">Press releases</a>
+                </p>
+                <p>
+                  <a href="./cares.html" class="text-white" style="text-decoration: none;">Apni Dukaan cares</a>
+                </p>
+                <p>
+                  <a href="./Partner Stores.html" class="text-white" style="text-decoration: none;">Our Partners</a>
+                </p>
+              </div>
+              <div class="col mt-3"  style="color:#808080;">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Let us help you</h5>
+                  <p>
+                    <a href="./paypolicy.html" class="text-white" style="text-decoration: none;">Payments</a>
+                  </p>
+                  <p>
+                    <a href="./shippolicy.html" class="text-white" style="text-decoration: none;">Shipping</a>
+                  </p>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Cancellation and Returns</a>
+                  </p>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Report an issue</a>
+                  </p>
+                  <p>
+                    <a href="./contactus.html" class="text-white" style="text-decoration: none;">Contact us</a>
+                  </p>
+              </div>
+              <div class="col mt-3" style="color:#808080;">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Policy</h5>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Return policy</a>
+                  </p>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Time of use</a>
+                  </p>
+                  <p>
+                    <a href="./privacy.html" class="text-white" style="text-decoration: none;">Privacy</a>
+                  </p>
+              </div>
+              <div class="col mt-3" style="color:#808080;">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Make money with us</h5>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Sell on Apni Dukaan</a>
+                  </p>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Advertise your products</a>
+                  </p>
+                  <p>
+                    <a href="./Partner Stores.html" class="text-white" style="text-decoration: none;">Become our partner</a>
+                  </p>
+                  <p>
+                    <a href="" class="text-white" style="text-decoration: none;">Join our mission</a>
+                  </p>
+              </div>
+              <div class="col mt-3" style="color:#808080;">
+                <h5 class="text-uppercase mb-4 font-weight-bold">Connect with us</h5>
+                  <p>
+                    <a href="https://www.facebook.com" class="text-white" style="text-decoration: none;">
+                      <i class="fab fa-facebook-square"></i>
+                      Facebook
+                    </a>
+                  </p>
+                  <p>
+                    <a href="https://twitter.com" class="text-white" style="text-decoration: none;">
+                      <i class="fab fa-twitter-square"></i>
+                      Twitter
+                    </a>
+                  </p>
+                  <p>
+                    <a href="https://instagram.com" class="text-white" style="text-decoration: none;">
+                      <i class="fab fa-instagram-square"></i>
+                      Instagram
+                    </a>
+                  </p>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center ">
+              <div class="text-center">
+                Copyright &copy; and &reg; Since 2020 Under ApniDukaan.com | Qazi Maaz Arshad
+              </div>
+            </div>
+          </div>
+        </footer>
 
-  <!-- scroll to top button -->
-  <button id = "btnScrollToTop">
-    <i class="material-icons">arrow_upward</i>
+<script src="./static/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- scroll to top button -->
+<button id = "btnScrollToTop">
+<i class="material-icons">arrow_upward</i>
 </button>
 
 <script>
-    const btnScrollToTop = document.querySelector("#btnScrollToTop");
-     btnScrollToTop.addEventListener("click", function () {
-        window.scrollTo(0,0); }
-    );
+const btnScrollToTop = document.querySelector("#btnScrollToTop");
+ btnScrollToTop.addEventListener("click", function () {
+    window.scrollTo(0,0); }
+);
 </script>
-
-
   </body>
 </html>
+

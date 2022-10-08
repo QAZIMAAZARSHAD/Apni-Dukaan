@@ -1,0 +1,112 @@
+.faq__content {
+    background-color: #f4f4f4;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: #000;
+  }
+  @media screen and (max-width: 500px) {
+    .nav-link{
+      font-size: 13px!important;
+    }
+    .dropdown-item{
+      font-size: 13px!important;
+    }
+    .line-in{
+      font-size: 13px!important; 
+    }
+    .btn{
+      font-size: 13px!important;
+    }
+    .mid-sz{
+      font-size: 17px!important;
+    }
+    .accordion a{
+      font-size: 12px!important;
+      text-decoration: none !important;;
+    }
+    .accordion .content p{
+      font-size: 10px!important;
+    }
+    .accordion a::after{
+      font-size: 14px!important;
+    }
+    .mid1-sz{
+      font-size: 14px !important;
+    }
+    .mid2-sz{
+      font-size: 11px !important;
+    }
+    .md-sz{
+      font-size: 13px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 13px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 30px !important;
+      height: 30px !important;
+    }
+    .material-icons{
+      font-size: 19px!important;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .nav-link{
+      font-size: 11px!important;
+    }
+    .dropdown-item{
+      font-size: 11px!important;
+    }
+    .line-in{
+      font-size: 11px!important; 
+    }
+    .btn{
+      font-size: 11px!important;
+    }
+    .mid-sz{
+      font-size: 14px!important;
+    }
+    .accordion a{
+      font-size: 10px!important;
+      text-decoration: none !important;;
+    }
+    .accordion .content p{
+      font-size: 8px!important;
+    }
+    .accordion a::after{
+      font-size: 11px!important;
+    }
+    .mid1-sz{
+      font-size: 11px !important;
+    }
+    .mid2-sz{
+      font-size: 9px !important;
+    }
+    .md-sz{
+      font-size: 11px!important;
+      margin: 0 !important;
+    }
+    .text-white{
+      font-size: 11px!important;
+    }
+    footer h5::before{
+      padding-right: 2.5px!important;
+    }
+    .mb-4{
+      margin-bottom: 0.5rem!important;
+    }
+    #btnScrollToTop{
+      width: 25px !important;
+      height: 25px !important;
+    }
+    .material-icons{
+      font-size: 15px!important;
+    }
+  }

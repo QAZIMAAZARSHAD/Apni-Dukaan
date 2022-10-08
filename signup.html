@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Apni Dukaan</title>
+	<link rel="stylesheet" href="./static/signup.css">
+	<link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
+	<script>
+		function displayMessageReset() {
+			alert("Alert! You Have Clicked On Reset Button, Please Fill Your Data Again");
+		}
+	</script>
+</head>
+
+<body>
+	<section>
+		<div class="box">
+			<div class="form">
+				<div class="form_logo"><img src="./Images/Logo/AD.png"></div>
+				<h2>SignUp</h2>
+				<form action="home.html">
+					<div class="inputBox">
+						<input type="text" placeholder="Username" required pattern="[a-zA-Z0-9]+" title="Only AlphaNumeric Characters Allowed">
+						<img src="./Images/user.png">
+					</div>
+					<div class="inputBox">
+						<input type="text" placeholder="Email Id" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+						<img src="./Images/user.png">
+					</div>
+					<div class="inputBox">
+						<input type="password" placeholder="Password" id="pass" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@$!%*#?&]).{8,16}"
+						title="Must contain at least one number, one uppercase letter, one lowercase letter, one special character, and length should be minimum 8 and maximum 16 characters">
+						<img src="./Images/lock.png">
+						<span class="show-hide">
+							<i class="fas fa-eye" id="eye" onclick="spl()"></i>
+						</span>
+					</div>
+					<label class="remember"><input type="checkbox">Remember Me</label>
+					<div class="inputBox">
+						<input class="btn" type="submit" value="SignUp">
+					</div>
+				</form>
+				<p>Have an <a href="login.html">Account</a>?</p>
+			</div>
+		</div>
+	</section>
+</body>
+
+<script>
+	
+</script>
+
+</html>

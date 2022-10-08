@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+:root {
+  --colour-one: #5398c6;
+  --colour-two: #ffffff;
+  --colour-three: #223f77;
+  --colour-four: #223f77;
+  --colour-five: #ffffff;
+  --colour-six: #223f77;
+  --colour-seven: #a69f9c;
+  --colour-eight: #707e8d;
+  --colour-nine: #ffffff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--colour-one);
+}
+.login_form {
+  position: relative;
+  border-bottom: 3px solid var(--colour-four);
+  border-right: 3px solid var(--colour-four);
+  background: var(--colour-one);
+  height: 400px;
+  width: 700px;
+  box-shadow: 10px 10px 6px 2px #315b76;
+  overflow: hidden;
+}
+.details {
+  position: relative;
+  background: var(--colour-two);
+  height: 400px;
+  width: 350px;
+}
+.welcome {
+  position: absolute;
+  color: var(--colour-six);
+  left: 40%;
+  top: 30%;
+  font-weight: 700;
+}
+.wrap:nth-child(1) {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  margin: 12px;
+}
+.wrap:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.wrap:nth-child(3) {
+  position: absolute;
+  top: 68%;
+  left: 20%;
+  font-size: 15px;
+  margin: 12px;
+}
+.input {
+  border: 1px solid var(--colour-three);
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  background: none;
+}
+label {
+  color: var(--colour-eight);
+  display: block;
+}
+.button {
+  background: var(--colour-six);
+  position: absolute;
+  width: 80px;
+  top: 70%;
+  right: 10%;
+  padding: 5px;
+  color: var(--colour-one);
+  border-radius: 10px;
+  border: none;
+}
+.button .sign {
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+.fox {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+  height: 18%;
+}
+.back {
+  position: absolute;
+  top: 44%;
+  left: 56%;
+  font-size: 20px;
+  color: var(--colour-nine);
+}
+.log {
+  position: absolute;
+  top: 52%;
+  left: 56%;
+  font-size: 14px;
+  color: var(--colour-nine);
+}
+.acc {
+  position: absolute;
+  top: 66%;
+  left: 56%;
+  font-size: 15px;
+  color: var(--colour-nine);
+}
+.signup {
+  position: absolute;
+  top: 72%;
+  left: 56%;
+  color: var(--colour-five);
+  background: var(--colour-four);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+h3 {
+  font-size: 14px;
+  color: var(--colour-five);
+  padding: 5px;
+}
