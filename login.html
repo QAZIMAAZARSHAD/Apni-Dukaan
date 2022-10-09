@@ -1,45 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Apni-Dukaan</title>
-  <link rel="stylesheet" type="text/css" href="./static/login.css">
-  <script src="./static/login.js"></script>
-  <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">     
-  </head>    
+  <title>CodePen - login form</title>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css''>
+  <link rel="stylesheet" href="./static/login_style.css">
+  <link rel="stylesheet" href="./static/home.css">
+
+
+</head>
 <body>
-  <div class="login_form">
-    <div class="details">
-      <div class="welcome">Apni Dukaan</div>
+<!-- partial:index.partial.html -->
+
+<!-- <section>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+            </a>
+    </nav>
+</section>
+ -->
+
+
+<div class="container">
+  <div class="image-wapper" style="background-image:
+  url(./Images/login_back_img.jpg)">
+    <h1>Welcome Back</h1>
+  </div>
+  <div class="form-wapper">
+    <div class="form-header">
+      <h2>Login</h2>
+      <p>Welcome back! Please login to your account and continue growing your store.</p>
+    </div>
+    <div class="form-body">
       <form>
-        <div class="wrap">
-          <label>Email</label>
-          <input type="text" class="input" id="email">
-          </div>
-        <div class="wrap">
-          <label>Password</label>
-          <input type="password" class="input" data-type="password" id="pwd1">
-          </div>
-        <div class="wrap">
-          <a href="forgotPassword.html" title="Forgot Password" id="link-reset">Forgot Password?</a>
-          </div>
-        <button class="button" value="Login" onclick="return login()"><h1 class="sign">Sign in!</h1></button>
+        <div class="input-wrapper">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" placeholder="john@example.com"/>
+        </div>
+        <div class="input-wrapper">
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" placeholder="**********"/>
+          <span class="icon show-pass"><i class="fi-rr-eye"></i></span>
+        </div>
+        <div class="input-wrapper more-action">
+          <label>
+            <input id="remember-me" type="checkbox" name="remember_me"/>Remember Me
+          </label><a class="form-link" href="./error.html">Forgot Password?</a>
+        </div>
+        <button type="submit">Sign In</button>
       </form>
     </div>
-    <a href = "./index.html" ><img class="fox" src="https://github.com/shreyshreyansh/video/blob/main/ApniDukaanLogo-removebg-preview.png?raw=true" /> </a>
-    <div class="details-two">
-     <h1 class="back">Welcome back!</h1>
-      <p class="log">Log in and use the opportunities offered by our portal.</p>
-      <h2 class="acc">You don't have an account?</h2>
-      <button class="signup" value="Signup" onclick="signup()"><h3>SignUp!</h3></button></button>    </div>
-    
+    <div class="form-footer">
+      <p>Don't have an account yet? <a class="form-link" href="./signup.html">Sign Up</a></p>
+    </div>
   </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./static/login_script.js"></script>
 
-  <script src="./static/script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
-      
 </body>
 </html>
