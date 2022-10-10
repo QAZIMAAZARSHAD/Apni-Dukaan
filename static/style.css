@@ -121,10 +121,11 @@ marquee {
 }
 
 .logo {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   padding: 1rem;
   float: left;
+  object-fit: fill;
   transform: scale(1);
   transition-property: width;
   transform: translateY(0px);
@@ -133,8 +134,8 @@ marquee {
 }
 
 .logo:hover {
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   transform: translateY(-30px);
 }
 
