@@ -75,7 +75,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 <p>
 <div>
 <div>
-<img src="Images\ApniDukaanLogo.jpg" height = "95" align = "left" padding-bottom = "10px"/>
+<img src="Images\Logo\ApniDukan.png" height = "95" align = "left" padding-bottom = "10px"/>
 <div>
 ApniDukaan.com is a site where everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more. 
 </div>
