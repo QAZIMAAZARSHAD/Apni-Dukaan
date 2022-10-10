@@ -1154,8 +1154,12 @@ details > summary::-webkit-details-marker {
   }
 }
 
+.navbar a:hover {
+  color: white !important;
+}
 
-.navbar a:hover{
-  color: white!important;
-  background-color: #000066;
+.navbar-logo{
+  width: 80px; 
+  height: 60px;
+  object-fit: fill;
 }

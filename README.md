@@ -24,13 +24,13 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Home Page 
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s1.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/194897932-f4c1a211-c6be-4a62-8ba0-c11339e999eb.png">
 </p>
 
 ### Category-Page
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s2.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/194898422-9a5f9b0d-76b0-414c-97e0-6d737d20b75b.png">
 </p>
 <br />
 <p>
@@ -41,7 +41,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Product Page
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s4.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/194899389-395bd18b-bfc0-4769-a047-5af3abc308f8.png">
 </p>
 
 ### Sign-up Page
@@ -57,7 +57,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 
 ### My Cart Page
 <p>
-<img width=80% src="https://i.postimg.cc/ydn6jHds/MyCart.jpg">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/194899542-c02a46bb-d084-44f9-875e-049d8b6f76da.png ">
 </p>
 
 ### Contact us page
@@ -67,7 +67,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 
 ### FAQs Page
 <p>
-<img width=80% src="https://i.postimg.cc/SKCfJZKW/faq.jpg">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/194899680-fe79f28e-335d-4f20-b095-d1ff8304baea.png">
 </p>
 
 ## About
