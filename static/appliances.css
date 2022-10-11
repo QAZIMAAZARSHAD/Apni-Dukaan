@@ -61,11 +61,12 @@ button{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.hero svg{
-  cursor: pointer;
+.bg-2{
+    background-image: url("https://images.unsplash.com/photo-1570222094114-d054a817e56b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1205&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
-
 
 .popular{
   display: grid;
@@ -83,7 +84,7 @@ button{
 }
 
 .item .item-image{
-  width: 300px;
+  width: 90%;
   height: 200px;
   margin-bottom: 10px;
   object-fit: cover;
