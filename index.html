@@ -1,151 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apni Dukaan</title>
-    <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
-
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!-- Owl-carousel CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ====== Favicon ====== -->
+    <link
+      rel="shortcut icon"
+      href="images/favicon.ico"
+      type="image/png"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous"
-        referrerpolicy="no-referrer" />
+    <!-- ====== Boxicons ====== -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- ====== Swiper CSS ====== -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- ====== Custom CSS ====== -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Apni Dukaan</title>
+  </head>
+  <body>
+    <!-- ====== Header ====== -->
+    <header class="header">
+      <!-- ====== Navigation ====== -->
+      <nav class="navbar">
+        <div class="row container d-flex">
+          <div class="logo">
+            <img src="./images/Apni.png" width="100" />
+          </div>
 
+          <div class="nav-list d-flex">
+            <a href="">Home</a>
+            <a href="">Offers</a>
+            <a href="">Contact Us</a>
+            <a href="">About Us</a>
+            <a href="">FAQ</a>
+            <a href="">Login</a>
+            <div class="close">
+              <i class="bx bx-x"></i>
+            </div>
+            <a class="user-link">Login</a>
+          </div>
 
-    <!-- Custom CSS file -->
-    <link rel="stylesheet" href="static/style.css">
-    <link rel="stylesheet" href="./static/load.css">
-    <link rel="stylesheet" href="./static/index.css">
-</head>
-<body>
-    <div class="loader">
-        <div class="loader-inner">
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
+          <div class="icons d-flex">
+            <div class="icon d-flex"><i class="bx bx-search"></i></div>
+            <div class="icon user-icon d-flex">
+              <i class="bx bx-user"></i>
             </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
+            <div class="icon d-flex">
+              <i class="bx bx-bell"></i>
+              <span></span>
             </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
-            <div class="loader-line-wrap">
-                <div class="loader-line"></div>
-            </div>
+          </div>
+
+          <!-- Hamburger -->
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-right"></i>
+          </div>
         </div>
-    </div>
-    <section>
-        <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">
-                    <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
-                        <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
-                            </li>
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="./offers.html">Offers</a>
-                            </li>
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="./contactus.html">Contact us</a>
-                            </li>
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="login.html">Login</a>
-                            </li>        
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="./about.html">About us</a>
-                            </li>
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="faq.html">FAQ</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Category
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
-                                    <li><a class="dropdown-item" href="./books.html">Books</a></li>
-                                    <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
-                                    <li><a class="dropdown-item" href="./furniture.html">Furniture</a></li>
-                                    <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
-                                    <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
+      </nav>
 
-                                    <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item text-capitalize">
-                                <a class="nav-link" href="cart.html">My Cart</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-dark" type="submit">Search</button>
-                        </form>
+      <!-- ====== Hero Area ====== -->
+      <div class="hero">
+        <div class="row container d-flex">
+          <div class="col">
+            <span class="subtitle">Welcome to</span>
+            <a class="title">Apni Dukaan</a>
+            <p>An E-commerce site to buy products of need.</p>
+
+            <button class="btn">Explore Now!</button>
+          </div>
+          <img src="./images/woman-in-cart.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-- ====== Collection ====== -->
+    <section class="section collection">
+      <div class="title">
+        <span>COLLECTION</span>
+        <h2>Our Top Collection</h2>
+      </div>
+      <div class="filters d-flex">
+        <div data-filter="Jewellery">Jewellery</div>
+        <div data-filter="Accessories">Accessories</div>
+        <div data-filter="Dresses">Dresses</div>
+        <div data-filter="Footwear">Footwear</div>
+      </div>
+
+      <div class="products container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper" id="products">
+            <div class="swiper-slide">
+          <div class="product">
+                <div class="top d-flex">
+                  <img src="./images/product-1.png" alt="" />
+                  <div class="icon d-flex">
+                    <i class="bx bxs-heart"></i>
+                  </div>
                 </div>
+                <div class="bottom">
+                  <h4>Nike Air Men’s Hoodie - Imported Hoodie Red</h4>
+                  <div class="d-flex">
+                    <div class="price">$150</div>
+                    <div class="rating">
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                      <i class="bx bxs-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
             </div>
-        </nav>
+          </div>
+        </div>
+        <div class="pagination">
+          <div class="custom-pagination"></div>
+        </div>
+      </div>
     </section>
-    <main>
-        <!-- Owl Carousel Section -->
-        <section id="owl_carousel">
-            <div class="owl-carousel owl-theme home_slider">
-                <div class="item">
-                    <img src="./Images/home_img1.jpg" class="img-fluid d-block w-100">
-                    <div class="content">
-                        <h1>Heavy Discounts</h1>
-                        <p>Get upto 30% OFF on CLOTHING, SHOES, ACCESSORIES</p>
-                        <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="./Images/home_img2.jpg" class="img-fluid d-block w-100">
-                    <div class="content">
-                        <h1>Latest Gadgets</h1>
-                        <p>Get the features of the latest gadgets online at low prices.</p>
-                        <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
-                    </div>
-                </div>
-                <div class="item">
-                    <img src="./Images/home_img3.jpg" class="img-fluid d-block w-100">
-                    <div class="content">
-                        <h1>Trending Shoes</h1>
-                        <p>A sneaker that demands attention by defying convention. </p>
-                        <a href="login.html"><button class="LandingPageButton">Get Started</button></a>
-                    </div>
-                </div>
+
+    <!-- ====== New Arrival ====== -->
+    <section class="section new-arrival">
+      <div class="title">
+        <span>NEW ARRIVAL</span>
+        <h2>Latest Collection</h2>
+      </div>
+
+      <div class="row container">
+        <div class="col col-1">
+          <img src="./images/poster-1.png" alt="" />
+          <h3>
+            Latest Gadgets<br />
+            Get the Features of the latest gadgets <br> online at low price
+          </h3>
+        </div>
+        <div class="col col-2">
+          <img src="./images/poster-2.png" alt="" />
+          <h3>
+            Trending Shoes <br />
+            A Sneaker that demands attention by <br> defying convention
+          </h3>
+        </div>
+        <div class="col col-3">
+          <img src="./images/poster-3.png" alt="" />
+          <h3>
+            Heavy Discounts<br />
+           Get upto 30% OFF on clothing, <br> shoes, Accessories<br />
+        
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== Categories ====== -->
+    <section class="section categories">
+      <div class="title">
+        <span>PRODUCTS</span>
+        <h2>2022 Latest Collection</h2>
+      </div>
+
+      <div class="products container">
+    <div class="product">
+          <div class="top d-flex">
+            <img src="./images/product-1.png" alt="" />
+            <div class="icon d-flex">
+              <i class="bx bxs-heart"></i>
             </div>
-        </section>
-    </main>
+          </div>
+          <div class="bottom">
+            <div class="d-flex">
+              <h4>Infinix X1 Slim i5 Processor</h4>
+              <a href="" class="btn cart-btn">Add to Cart</a>
+            </div>
+            <div class="d-flex">
+              <div class="price">$150</div>
+              <div class="rating">
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
 
+      <div class="button d-flex">
+        <a class="btn loadmore">Load More</a>
+      </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="static/landingPage.js"></script>
-    <script src="./static/load.js"></script>
-</body>
+    <!-- ====== Statistics ====== -->
+    <section class="section statistics">
+      <div class="title">
+        <span>STATS</span>
+        <h2>Our Statistics</h2>
+      </div>
 
+      <div class="row container">
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-check-square"></i>
+          </div>
+          <h3>Easy Order System</h3>
+          <p>Apki Dukaan Gives you easy order system that anyone can order</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>On Time Delievery</h3>
+          <p>We're not like any other company. We always delivers your product at the right time </p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-dollar-circle"></i>
+          </div>
+          <h3>Money Back Gaurantee</h3>
+          <p>Apki Dukaan have 30-Days Money back Gaurantee</p>
+        </div>
+        <div class="col">
+          <div class="icon">
+            <i class="bx bxs-user"></i>
+          </div>
+          <h3>24/7 Customer Support</h3>
+          <p>We are always ready to help you</p>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- ====== Footer ====== -->
+    <footer class="footer">
+      <div class="row container">
+        <div class="col">
+          <div class="logo d-flex">
+            <img src="./images/Apni.png" alt="logo" />
+          </div>
+          <p>
+            An E-commerce site to buy products of need.
+          </p>
+          <div class="icons d-flex">
+            <div class="icon d-flex">
+              <i class="bx bxl-facebook"></i>
+            </div>
+            <div class="icon d-flex"><i class="bx bxl-twitter"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-instagram"></i></div>
+            <div class="icon d-flex"><i class="bx bxl-youtube"></i></div>
+          </div>
+          <p class="color">
+            Copyrights 2022 <br />
+          </p>
+        </div>
+        <div class="col">
+          <div>
+            <h4>Get to Know Us</h4>
+            <a href="">About Us</a>
+            <a href="">Careers</a>
+            <a href="">Press Release</a>
+            <a href="">Apki Dukaan Cares</a>
+            <a href="">Our Partners</a>
+          </div>
+          <div>
+            <h4>Let Us Help You</h4>
+            <a href="">Payments</a>
+            <a href="">Shipping</a>
+            <a href="">Cancellation & Returns</a>
+            <a href="">Report an issue</a>
+            <a href="">Contact Us</a>
+          </div>
+          <div>
+            <h4>Make Money with Us</h4>
+            <a href="">Sell on Apki Dukaan</a>
+            <a href="">Advertise your products</a>
+            <a href="">Become our Partner</a>
+            <a href="">Join our Mission</a>
+          </div>
+          <div>
+            <h4>Contact Us</h4>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-map"></i></div>
+              <span>Bandariya Bagh,Sufipura ,Bahraich(271801),U.P</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-envelope"></i></div>
+              <span>info@apnidukaan.com</span>
+            </div>
+            <div class="d-flex">
+              <div class="icon"><i class="bx bxs-phone"></i></div>
+              <span>892-207-5023</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====== Login and Signup Form ====== -->
+    <div class="user-form">
+      <div class="close-form d-flex"><i class="bx bx-x"></i></div>
+      <div class="form-wrapper container">
+        <div class="user login">
+          <div class="img-box">
+            <img src="./images/login.svg" alt="" />
+          </div>
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Not a member?
+                <span data-id="#ff0066">Register now</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Hello Again!</h2>
+                <p>Welcome back you've been missed.</p>
+                <input type="text" placeholder="Enter Username" />
+                <div>
+                  <input type="password" placeholder="Password" />
+                  <div class="icon form-icon">
+                    <!-- <img src="./images/eye.svg" alt="" /> -->
+                  </div>
+                </div>
+                <span>Recovery Password</span>
+                <input type="Submit" value="Login" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Register -->
+        <div class="user signup">
+          <div class="form-box">
+            <div class="top">
+              <p>
+                Already a member?
+                <span data-id="#1a1aff">Login now</span>
+              </p>
+            </div>
+            <form action="">
+              <div class="form-control">
+                <h2>Welcome Codevo!</h2>
+                <p>It's good to have you.</p>
+                <input type="email" placeholder="Enter Email" />
+                <div>
+                  <input type="password" placeholder="Password" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <div>
+                  <input type="password" placeholder="Confirm Password" />
+                  <div class="icon form-icon">
+                    <img src="./images/eye.svg" alt="" />
+                  </div>
+                </div>
+                <input type="Submit" value="Register" />
+              </div>
+              <div class="form-control">
+                <p>Or continue with</p>
+                <div class="icons">
+                  <div class="icon">
+                    <img src="./images/search.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/apple.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/facebook.svg" alt="" />
+                  </div>
+                  <div class="icon">
+                    <img src="./images/github.svg" alt="" />
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="img-box">
+            <img src="./images/trial.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ====== SwiperJs ====== -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- ====== Custom Script ====== -->
+    <script src="./js/product.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
