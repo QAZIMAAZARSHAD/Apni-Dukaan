@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./static/style.css">
-    <link rel="stylesheet" href="./static/offers.css">
+    <link rel="stylesheet" href="./static/coupon.css">
     <link rel="icon" href="./Images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,121 +20,230 @@
   <!-- END SCROLL TOP BUTTON -->
   <section>
     <nav class="navbar navbar-expand-lg navbar-light" style="background: #2980b9;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">
-                <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
-                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="./home.html">Home</a> <!--linked offers page with home page by rohit rajat-->
-                        </li>
-                        <li class="nav-item text-capitalize">
-                            <a class="nav-link active" href="./deals.html">Offers</a>
-                        </li>
-                        <li class="nav-item text-capitalize">
-                            <a class="nav-link" href="./contactus.html">Contact us</a>
-                        </li>
-                        <li class="nav-item text-capitalize">
-                            <a class="nav-link" href="login.html">Login</a>
-                        </li>
-                        <li class="nav-item text-capitalize">
-                            <a class="nav-link" href="./about.html">About us</a>
-                        </li>
-                        <li class="nav-item text-capitalize">
-                            <a class="nav-link" href="faq.html">FAQ</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Category
-              </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
-                                <li><a class="dropdown-item" href="./">TV/Appliances</a></li>
-                                <li><a class="dropdown-item" href="./furniture.html">Furniture</a></li>
-                                <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
-                                <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-          
-                                <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item text-capitalize">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+              <img src="Images/ApniDukaanLogo.png" alt="logo" width="45" height="35" class="d-inline-block align-text-top mr-2">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-capitalize">
+                  <ul class="navbar-nav mr-auto mb-2 mb-lg-0 text-capitalize">
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./offers.html">Offers</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./contactus.html">Contact us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="login.html">Login</a>
+                      </li>        
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="./about.html">About us</a>
+                      </li>
+                      <li class="nav-item text-capitalize">
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Category
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="./mobile.html">Mobile</a></li>
+                              <li><a class="dropdown-item" href="./books.html">Books</a></li>
+                              <li><a class="dropdown-item" href="./tvAndAppliances.html">TV/Appliances</a></li>
+                              <li><a class="dropdown-item" href="./furniture.html">Furniture</a></li>
+                              <li><a class="dropdown-item" href="#">Baby/Kids</a></li>
+                              <li><a class="dropdown-item" href="./stationery.html">Stationery</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+
+                              <li><a class="dropdown-item" href="./login.html">Login/Signup</a></li>
+                          </ul>
+                      </li>
+                      <li class="nav-item text-capitalize">
                           <a class="nav-link" href="cart.html">My Cart</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control line-in me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-dark" type="submit">Search</button>
-                    </form>
-            </div>
-        </div>
-      </nav>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Search</button>
+                  </form>
+          </div>
+      </div>
+  </nav>
 </section>
+
     <section class="deals" id="deals">
-        <h2>Deals Of The Day</h2>
-        <div class="inner">
-            <div>
-                <img src="./Images/offer4.jpg">
-                <h3>Get Upto 50% Off</h3>
-                <h3>On Shopping Of Rs5000 And Above</h3>
-                <h3>Get Rs200 Off On Your Next Visit</h3>
-                <h4 id="timer1"></h4>
-                <br>
-                <a href="">View Deal</a>
+        <h2 id="heading">Deals Of The Day</h2>
+        <img class= "disc-img" src="images/discount.png"/>
+        
+        <section id="labels" class="deals">
+          
+          <div class="container">
+          
+          <div class="row">
+                <div class="col-sm-6 col-lg-4">
+                  <div class="dl">
+                    <div class="brand">
+                        <h2>SHOP</h2>
+                       
+                    </div>
+                    <div class="discount alizarin">upto 50%
+                        <div class="type">off</div>
+                    </div>
+                    <div class="descr">
+                        <strong>Get Upto 50% off.</strong> 
+                        On Shopping of Rs. 5000 and above!
+                    </div>
+                    <div class="ends">
+                        <small>* Conditions and restrictions apply.</small>
+                    </div>
+                   
+                        <a data-toggle="collapse" href="#code-1" class="open-code">Avail Now!</a>
+                        <div id="code-1" class="collapse code">LV5MAY14</div>
+                    
+                  </div>
+                </div>
+               
+                <div class="col-sm-6 col-lg-4">
+                  <div  class="dl">
+                    <div class="brand">
+                        <h2>Esaver</h2>
+                    </div>
+                    <div class="discount emerald">
+                        upto 75%
+                        <div class="type">
+                            off
+                        </div>
+                    </div>
+                    <div class="descr">
+                        <strong>
+                          Ranging From 10% to 75%
+                        </strong> 
+                        Mega discount on all Electronic Appliances.
+                    </div>
+                    <div class="ends">
+                        <small>
+                           * Conditions and restrictions apply.
+                        </small>
+                    </div>
+                    
+                        <a data-toggle="collapse" href="#code-2" class="open-code">Avail Now!</a>
+                        <div id="code-2" class="collapse in code">
+                            MNO123ST
+                        </div>
+                  
+                  </div>
+                </div>
+               
+                <div class="col-sm-6 col-lg-4">
+                  <div  class="dl">
+                    <div class="brand">
+                        <h2>
+                            DISNEY
+                        </h2>
+                    </div>
+                    <div class="discount peter-river">
+                        PAID TRIP
+                        <div class="type">
+                            To DisneyLand
+                        </div>
+                    </div>
+                    <div class="descr">
+                        <strong>
+                          Win A Trip To Disney Land HongKong!
+                        </strong> 
+                        On Shopping of Rs. 10000
+                        
+                    </div>
+                    <div class="ends">
+                        <small>
+                           * Conditions and restrictions apply.
+                        </small>
+                    </div>
+                    
+                        <a data-toggle="collapse" href="#code-3" class="open-code">Avail Now!</a>
+                        <div id="code-3" class="collapse code">
+                            OLV4SY3R
+                        </div>
+                  </div>
+                </div>
+                
+          
+        
+            
+            <div class="col-sm-6 col-lg-4">
+              <div  class="dl">
+                <div class="brand">
+                    <h2>
+                        BRAND
+                    </h2>
+                </div>
+                <div class="discount amethyst">
+                    upto 75%
+                    <div class="type">
+                        off
+                    </div>
+                </div>
+                <div class="descr">
+                    <strong>
+                      Get Upto 75% Off 
+                    </strong> 
+                    On Shopping products from Selected Brands! 
+                </div>
+                <div class="ends">
+                    <small>
+                       * Conditions and restrictions apply.
+                    </small>
+                </div>
+               
+                    <a data-toggle="collapse" href="#code-4" class="open-code">Avail Now!</a>
+                    <div id="code-4" class="collapse code">
+                        ZUY4OPLQ
+                    </div>
+              </div>
             </div>
-            <div>
-                <img src="./Images/offer3.jpg">
-                <h3>Super Saver Offer</h3>
-                <h3>Mega Discount On All Electric Appliances</h3>
-                <h3>Ranging From 10% to 75%</h3>
-                <h4 id="timer2"></h4>
-                <br>
-                <a href="">View Deal</a>
+           
+            <div class="col-sm-6 col-lg-4">
+              <div  class="dl">
+                <div class="brand">
+                    <h2>
+                        DAIRY
+                    </h2>
+                </div>
+                <div class="discount peter-river">
+                Flat 30%
+                    <div class="type">
+                        off
+                    </div>
+                </div>
+                <div class="descr">
+                    <strong>
+                         Get Flat 30% off!
+                    </strong> 
+                    On shopping of all dairy products above Rs. 500!
+                </div>
+                <div class="ends">
+                    <small>
+                       * Conditions and restrictions apply.
+                    </small>
+                </div>
+                
+                    <a data-toggle="collapse" href="#code-3" class="open-code">Avail Now!</a>
+                    <div id="code-3" class="collapse code">
+                        OLV4SY3R
+                    </div>
+              </div>
             </div>
-            <div>
-                <img src="./Images/offer5.jpg">
-                <h3>Win A Trip To Disney Land HongKong</h3>
-                <h3>On Shopping of Rs10000 </h3>
-                <h3>Full Family Holiday Package</h3>
-                <h4 id="timer3"></h4>
-                <br>
-                <a href="">View Deal</a>
-            </div>
-            <div>
-                <img src="./Images/offer1.jpg">
-                <h3>Get Upto 75% Off</h3>
-                <h3>On Shopping Of Select Brand Products.</h3>
-                <h3>Limited Time Offer</h3>
-                <h4 id="timer4"></h4>
-                <br>
-                <a href="">View Deal</a>
-            </div>
-            <div>
-                <img src="./Images/offer2.jpg">
-                <h3>Get Flat 30% Cashback Upto Rs200 </h3>
-                <h3>On All Purchases Above Rs699</h3>
-                <h3>When You Pay Using Paytm</h3>
-                <h4 id="timer5"></h4>
-                <br>
-                <a href="">View Deal</a>
-            </div>
-            <div>
-                <img src="./Images/offer6.jpg">
-                <h3>Get Flat 30% Off</h3>
-                <h3>On Shopping of Rs500 </h3>
-                <h3>Offer Valid On All Dairy Products</h3>
-                <h4 id="timer6"></h4>
-                <br>
-                <a href="">View Deal</a>
-            </div>
-        </div>
+          </div>
+          </div>
+        </section>
     </section>
     <footer class="bg-dark text-white pt-5 pb-4" style="font-size: 18px;">
       <div class="container text-md-left">
@@ -339,6 +448,7 @@
         }
         );
     </script>
+    
 </body>
 
 </html>

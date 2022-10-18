@@ -52,7 +52,7 @@
 /* update ends here */
 
 body {
-  background: skyblue;
+  background: rgb(249, 250, 251);
   margin: 0;
   overflow-x: hidden;
 }
@@ -121,9 +121,9 @@ marquee {
 }
 
 .logo {
-  width: 200px;
-  height: 100px;
-  padding: 20px;
+  width: 8rem;
+  height: 8rem;
+  padding: 1rem;
   float: left;
   transform: scale(1);
   transition-property: width;
@@ -133,7 +133,8 @@ marquee {
 }
 
 .logo:hover {
-  width: 300px;
+  width: 10rem;
+  height: 10rem;
   transform: translateY(-30px);
 }
 
@@ -160,7 +161,8 @@ marquee {
   color: rgb(67, 67, 163);
   font-size: 50px;
   padding: 50px;
-  float: center;
+  display: flex;
+  justify-content: center;
 }
 
 .menu2 {
@@ -178,7 +180,7 @@ marquee {
 }
 
 .menu2 li {
-  float: right;
+  float: left;
 }
 
 .menu2 ul li a {
@@ -749,7 +751,7 @@ marquee {
 }
 
 .buybutton {
-  float: left;
+  float: center;
   background: rgb(67, 67, 163);
   color: white;
   border-radius: 5px 5px 5px 5px;
@@ -1149,4 +1151,10 @@ details > summary::-webkit-details-marker {
     width: 180px;
     margin-left: 20px;
   }
+}
+
+
+.navbar a:hover{
+  color: white!important;
+  background-color: #000066;
 }
