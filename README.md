@@ -24,13 +24,13 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Home Page 
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s1.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/196968571-95b302c6-67ca-4df4-bd9c-4bafe5e281c4.png">
 </p>
 
 ### Category-Page
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s2.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/196969081-473f6d49-b292-48bf-85e0-fd631a39a2bf.png">
 </p>
 <br />
 <p>
@@ -41,7 +41,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 ### Product Page
 
 <p>
-<img width=80% src="https://github.com/anupammaurya6767/Apni-Dukaan/blob/master/Images/s4.png">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/196969851-e19cacd5-fd48-44df-aa42-681b07936b7c.png">
 </p>
 
 ### Sign-up Page
@@ -57,7 +57,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 
 ### My Cart Page
 <p>
-<img width=80% src="https://i.postimg.cc/ydn6jHds/MyCart.jpg">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/196970051-776c3d20-65cb-4891-a304-3a9af05b628b.png">
 </p>
 
 ### Contact us page
@@ -67,7 +67,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 
 ### FAQs Page
 <p>
-<img width=80% src="https://i.postimg.cc/SKCfJZKW/faq.jpg">
+<img width=80% src="https://user-images.githubusercontent.com/98693953/196970369-3a478dcf-9fc6-4829-812d-bca571b632a9.png">
 </p>
 
 ## About
@@ -75,7 +75,7 @@ Take a chill pill because [Apni Dukaan](https://qazimaazarshad.github.io/Apni-Du
 <p>
 <div>
 <div>
-<img src="Images\ApniDukaanLogo.jpg" height = "95" align = "left" padding-bottom = "10px"/>
+<img src="Images\Logo\ApniDukan.png" height = "95" align = "left" padding-bottom = "10px"/>
 <div>
 ApniDukaan.com is a site where everyone gets everything they need. ApniDukaan.com allows users to buy items of their choice from a wide range of products such as clothes, electronic gadgets, toys, electric appliances, cosmetics, household products, stationery, books, and many more. 
 </div>

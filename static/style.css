@@ -125,6 +125,7 @@ marquee {
   height: 8rem;
   padding: 1rem;
   float: left;
+  object-fit: fill;
   transform: scale(1);
   transition-property: width;
   transform: translateY(0px);
@@ -133,8 +134,8 @@ marquee {
 }
 
 .logo:hover {
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 11rem;
   transform: translateY(-30px);
 }
 
@@ -1153,8 +1154,20 @@ details > summary::-webkit-details-marker {
   }
 }
 
+.container-fluid{
+  padding: 0em 1.7em;
+}
 
-.navbar a:hover{
-  color: white!important;
-  background-color: #000066;
+.navbar{
+  padding: 0em;
+}
+
+.navbar a:hover {
+  color: white !important;
+}
+
+.navbar-logo{
+  width: 70px; 
+  height: 52px;
+  object-fit: fill;
 }
