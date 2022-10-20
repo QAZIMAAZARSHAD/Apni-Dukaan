@@ -121,8 +121,8 @@ marquee {
 }
 
 .logo {
-  width: 10rem;
-  height: 10rem;
+  width: 8rem;
+  height: 8rem;
   padding: 1rem;
   float: left;
   object-fit: fill;
@@ -1154,12 +1154,20 @@ details > summary::-webkit-details-marker {
   }
 }
 
+.container-fluid{
+  padding: 0em 1.7em;
+}
+
+.navbar{
+  padding: 0em;
+}
+
 .navbar a:hover {
   color: white !important;
 }
 
 .navbar-logo{
-  width: 80px; 
-  height: 60px;
+  width: 70px; 
+  height: 52px;
   object-fit: fill;
 }
