@@ -1,137 +1,116 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
-* {
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
 }
-:root {
-  --colour-one: #5398c6;
-  --colour-two: #ffffff;
-  --colour-three: #223f77;
-  --colour-four: #223f77;
-  --colour-five: #ffffff;
-  --colour-six: #223f77;
-  --colour-seven: #a69f9c;
-  --colour-eight: #707e8d;
-  --colour-nine: #ffffff;
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    background: url('bg.webp')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
 }
 
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: var(--colour-one);
+.forget label input{
+    margin-right: 3px;
+    
 }
-.login_form {
-  position: relative;
-  border-bottom: 3px solid var(--colour-four);
-  border-right: 3px solid var(--colour-four);
-  background: var(--colour-one);
-  height: 400px;
-  width: 700px;
-  box-shadow: 10px 10px 6px 2px #315b76;
-  overflow: hidden;
+.forget label a{
+    color: #fff;
+    text-decoration: none;
 }
-.details {
-  position: relative;
-  background: var(--colour-two);
-  height: 400px;
-  width: 350px;
+.forget label a:hover{
+    text-decoration: underline;
 }
-.welcome {
-  position: absolute;
-  color: var(--colour-six);
-  left: 40%;
-  top: 30%;
-  font-weight: 700;
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
 }
-.wrap:nth-child(1) {
-  position: absolute;
-  top: 35%;
-  left: 20%;
-  margin: 12px;
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
 }
-.wrap:nth-child(2) {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-  font-size: 15px;
-  margin: 12px;
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
-.wrap:nth-child(3) {
-  position: absolute;
-  top: 68%;
-  left: 20%;
-  font-size: 15px;
-  margin: 12px;
-}
-.input {
-  border: 1px solid var(--colour-three);
-  padding: 5px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  background: none;
-}
-label {
-  color: var(--colour-eight);
-  display: block;
-}
-.button {
-  background: var(--colour-six);
-  position: absolute;
-  width: 80px;
-  top: 70%;
-  right: 10%;
-  padding: 5px;
-  color: var(--colour-one);
-  border-radius: 10px;
-  border: none;
-}
-.button .sign {
-  color: #fff;
-  font-size: 15px;
-  cursor: pointer;
-}
-.fox {
-  position: absolute;
-  top: 25%;
-  left: 55%;
-  height: 18%;
-}
-.back {
-  position: absolute;
-  top: 44%;
-  left: 56%;
-  font-size: 20px;
-  color: var(--colour-nine);
-}
-.log {
-  position: absolute;
-  top: 52%;
-  left: 56%;
-  font-size: 14px;
-  color: var(--colour-nine);
-}
-.acc {
-  position: absolute;
-  top: 66%;
-  left: 56%;
-  font-size: 15px;
-  color: var(--colour-nine);
-}
-.signup {
-  position: absolute;
-  top: 72%;
-  left: 56%;
-  color: var(--colour-five);
-  background: var(--colour-four);
-  border-radius: 5px;
-  border: none;
-  cursor: pointer;
-}
-h3 {
-  font-size: 14px;
-  color: var(--colour-five);
-  padding: 5px;
+.register p a:hover{
+    text-decoration: underline;
 }
